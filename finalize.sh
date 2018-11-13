@@ -32,7 +32,7 @@ do
 			feat="gene"
 			;;
 		mRNA)
-			echo $line |  sed "s/ID=${code}\.[0-9]\+/ID=mRNA${mRNA_count}/" | sed "s/gene=\w\+-\?\w*;\?/Parent=gene$((gene_count-1));/" | sed "s/$/gene=${name}/" >> $output
+			echo $line |  sed "s/ID=${code}\.[0-9]\+/ID=mRNA${mRNA_count}/" | sed "s/gene=\w\+-\?\w*;\?/Parent=gene$((gene_count-1));/" | sed "s/$/gene=${name}/" | sed 's/\t[0-2]\tID/\t\.\tID/' >> $output
 			mRNA_count=$((mRNA_count+1))
 			feat="mRNA"
 			;;
@@ -65,13 +65,13 @@ do
 		CDS)
 			case $feat in
 				mRNA) 
-					echo $line |  sed "s/ID=${code}\.[0-9]\+/Parent=mRNA$((mRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' |  sed "s/$/ID=CDS-${name}/" >> $output
+					echo $line |  sed "s/ID=${code}\.[0-9]\+/Parent=mRNA$((mRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' |  sed "s/$/Name=CDS-${name}/" >> $output
 					;;
 				tRNA)
-					echo $line | sed "s/ID=${code}\.[0-9]\+/Parent=tRNA$((tRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' | sed "s/$/ID=CDS-${name}/"  >> $output
+					echo $line | sed "s/ID=${code}\.[0-9]\+/Parent=tRNA$((tRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' | sed "s/$/Name=CDS-${name}/"  >> $output
 					;;
 				rRNA)
-					echo $line | sed "s/ID=${code}\.[0-9]\+/Parent=rRNA$((rRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' | sed "s/$/ID=CDS-${name}/"  >> $output
+					echo $line | sed "s/ID=${code}\.[0-9]\+/Parent=rRNA$((rRNA_count-1))/" | sed 's/gene=\w\+-\?\w*;\?//' | sed "s/$/gene=${name}/" | sed 's/$/;/' | sed "s/$/Name=CDS-${name}/"  >> $output
 					;;
 				*)
 					;;
@@ -93,6 +93,7 @@ do
 			esac
 			;;
 		*)
+			echo $line >> $output
 			;;
 esac
 done

@@ -1,0 +1,41 @@
+#Please note (due to the simulation of a circular input sequence by GeSeq)
+#tRNA predictions outside the range of the submitted sequence might be displayed.
+#For details please refer to our Documentation.
+#
+Sequence                                                 		tRNA  	Bounds	tRNA	Anti	Intron Bounds	Inf	      
+Name                                                     	tRNA #	Begin 	End   	Type	Codon	Begin	End	Score	Note
+--------                                                 	------	----- 	------	----	-----	-----	----	------	------
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	1	12549 	12622 	Pro	TGG	0	0	65.6	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	2	12790 	12863 	Trp	CCA	0	0	69.8	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	3	29980 	30053 	His	GTG	0	0	56.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	4	31775 	31862 	Ser	GCT	0	0	76.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	5	32376 	32451 	Glu	TTC	0	0	50.4	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	6	32521 	32604 	Tyr	GTA	0	0	73.6	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	7	32864 	32937 	Asp	GTC	0	0	55.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	8	70740 	70812 	Thr	TGT	0	0	67.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	9	80403 	80474 	Met	CAT	0	0	62.1	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	10	81392 	81478 	Ser	TGA	0	0	79.4	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	11	87702 	87789 	Ile	GAT	87738	87753	15.2	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	12	88819 	88923 	Ala	TGC	88856	88895	15.1	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	13	93411 	93484 	Arg	ACG	0	0	57.7	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	14	108760	108833	Pro	GGG	0	0	55.3	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	15	115613	115693	Leu	CAA	0	0	67.0	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	16	123319	123392	Met	CAT	0	0	64.6	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	17	131567	131480	Ser	GCT	0	0	76.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	18	130268	130197	Gln	TTG	0	0	61.6	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	19	123018	122945	His	GTG	0	0	61.7	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	20	111353	111282	Val	GAC	0	0	60.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	21	108603	108524	Leu	TAG	0	0	59.0	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	22	94291 	94220 	Asn	GTT	0	0	71.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	23	85503 	85432 	Thr	GGT	0	0	44.3	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	24	80682 	80612 	Gly	GCC	0	0	65.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	25	72062 	71976 	Ser	GGA	0	0	72.2	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	26	69371 	69299 	Phe	GAA	0	0	74.7	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	27	67457 	67384 	Met	CAT	0	0	64.6	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	28	51797 	51726 	Arg	TCT	0	0	63.7	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	29	35337 	35267 	Cys	GCA	0	0	63.9	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	30	30248 	30177 	Thr	GGT	0	0	64.3	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	31	26882 	26810 	Met	CAT	0	0	59.4	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	32	22341 	22268 	Arg	CCG	0	0	67.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	33	8025  	7938  	Ser	GCT	0	0	76.5	
+Se404-851-Picea-engelmannii-chloroplast,-complete-genome 	34	6726  	6655  	Gln	TTG	0	0	61.6	

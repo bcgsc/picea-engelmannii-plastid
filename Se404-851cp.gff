@@ -27,7 +27,7 @@ Se404-851cp	EMBL	CDS	7083	7262	.	+	0	Parent=mRNA4;translation=MPVMLNIFLDDAFIYSNN
 Se404-851cp	EMBL	gene	7751	7861	.	+	.	ID=gene7;gene=psbI;note=blatX_hit psbI_NC_032367.1%3B position 1 - 111%3B coverage 100.00%25%3B match 100.00%25;Name=psbI
 Se404-851cp	manual	mRNA	7751	7861	.	+	.	ID=mRNA5;Parent=gene7;gene=psbI
 Se404-851cp	manual	exon	7751	7861	.	+	.	Parent=mRNA5;gene=psbI
-Se404-851cp	EMBL	CDS	7751	7861	.	+	0	Parent=mRNA5;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;gene=psbI;Name=CDS-psbI;photosystem II protein I
+Se404-851cp	EMBL	CDS	7751	7861	.	+	0	Parent=mRNA5;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;gene=psbI;Name=CDS-psbI;product=photosystem II protein I
 Se404-851cp	EMBL	gene	7938	8025	.	-	.	ID=gene8;gene=trnS-GCU;note=blatN_hit trnS-GCU_NC_032367.1%3B position 1 - 88%3B coverage 100.00%25%3B match 100.00%25;Name=trnS-GCU
 Se404-851cp	EMBL	tRNA	7938	8025	.	-	.	ID=tRNA3;Parent=gene8;gene=trnS-GCU;product=tRNA-Ser
 Se404-851cp	manual	exon	7938	8025	.	-	.	Parent=tRNA3;gene=trnS-GCU
@@ -39,7 +39,7 @@ Se404-851cp	EMBL	gene	8994	9584	.	+	.	ID=gene10;gene=clpP;note=blatX_hit clpP_NC
 Se404-851cp	manual	mRNA	8994	9584	.	+	.	ID=mRNA7;Parent=gene10;gene=clpP
 Se404-851cp	manual	exon	8994	9584	.	+	.	Parent=mRNA7;gene=clpP
 Se404-851cp	EMBL	CDS	8994	9584	.	+	0	Parent=mRNA7;translation=MPVGVPKVPFRAPGDEDANWVDLYNRLYRERLLFLAQDINHEIANQLMGLMVYLSAEDANKDMFSFLNCPGGSVIPGVGLFDIMQIIVPDVHTICMGIAASMGSFILIGGEITKRIALPHARVMIHQPASSYYDGPAADFHTESKHVTMLRDYITKCYIERTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG;gene=clpP;Name=CDS-clpP;product=ATP-dependent Clp protease proteolytic subunit
-Se404-851cp	manual	gene	9752	9865	.	+	.	ID=gene11;gene=rps12;note=blatX_hit rps12_NC_032367.1%3B position 1 - 372%3B coverage 100.00%25%3B match 99.73%25;Name=rps12
+Se404-851cp	manual	gene	9752	9865	.	+	.	ID=gene11;gene=rps12;note=blatX_hit rps12_NC_032367.1%3B position 1 - 372%3B coverage 100.00%25%3B match 99.73%25;Name=rps12;exception=trans-splicing;part=1/2;transl_table=11
 Se404-851cp	EMBL	gene	10575	10934	.	+	.	ID=gene13;gene=rpl20;note=blatX_hit rpl20_NC_032367.1%3B position 1 - 360%3B coverage 100.00%25%3B match 100.00%25;Name=rpl20
 Se404-851cp	manual	mRNA	10575	10934	.	+	.	ID=mRNA9;Parent=gene13;gene=rpl20
 Se404-851cp	manual	exon	10575	10934	.	+	.	Parent=mRNA9;gene=rpl20
@@ -145,7 +145,7 @@ Se404-851cp	EMBL	tRNA	31775	31862	.	+	.	ID=tRNA11;Parent=gene39;gene=trnS-GCU;pr
 Se404-851cp	EMBL	gene	31939	32049	.	-	.	ID=gene40;gene=psbI;note=blatX_hit psbI_NC_032367.1%3B position 1 - 111%3B coverage 100.00%25%3B match 100.00%25;Name=psbI
 Se404-851cp	manual	mRNA	31939	32049	.	-	.	ID=mRNA28;Parent=gene40;gene=psbI
 Se404-851cp	manual	exon	31939	32049	.	-	.	Parent=mRNA28;gene=psbI
-Se404-851cp	EMBL	CDS	31939	32049	.	-	0	Parent=mRNA28;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;gene=psbI;Name=CDS-psbI;photosystem II protein I
+Se404-851cp	EMBL	CDS	31939	32049	.	-	0	Parent=mRNA28;translation=MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE;gene=psbI;Name=CDS-psbI;product=photosystem II protein I
 Se404-851cp	EMBL	gene	32376	32448	.	+	.	ID=gene41;gene=trnE-UUC;note=blatN_hit trnE-UUC_NC_032367.1%3B position 1 - 73%3B coverage 100.00%25%3B match 100.00%25;Name=trnE-UUC
 Se404-851cp	EMBL	tRNA	32376	32448	.	+	.	ID=tRNA12;Parent=gene41;gene=trnE-UUC;product=tRNA-Glu
 Se404-851cp	manual	exon	32376	32448	.	+	.	Parent=tRNA12;gene=trnE-UUC
@@ -166,17 +166,16 @@ Se404-851cp	EMBL	CDS	34857	34946	.	-	0	Parent=mRNA30;translation=MDIVGITWAALMVVF
 Se404-851cp	EMBL	gene	35267	35337	.	-	.	ID=gene46;gene=trnC-GCA;note=blatN_hit trnC-GCA_NC_032367.1%3B position 1 - 71%3B coverage 100.00%25%3B match 100.00%25;Name=trnC-GCA
 Se404-851cp	EMBL	tRNA	35267	35337	.	-	.	ID=tRNA15;Parent=gene46;gene=trnC-GCA;product=tRNA-Cys
 Se404-851cp	manual	exon	35267	35337	.	-	.	Parent=tRNA15;gene=trnC-GCA
-Se404-851cp	manual	exon	35267	35337	.	-	.	Parent=tRNA15;gene=trnC-GCA
 Se404-851cp	EMBL	gene	35757	38987	.	+	.	ID=gene47;gene=rpoB;note=blatX_hit rpoB_NC_028594.1%3B position 1 - 3231%3B coverage 100.00%25%3B match 99.94%25;Name=rpoB
 Se404-851cp	manual	mRNA	35757	38987	.	+	.	ID=mRNA31;Parent=gene47;gene=rpoB
 Se404-851cp	manual	exon	35757	38987	.	+	.	Parent=mRNA31;gene=rpoB
 Se404-851cp	EMBL	CDS	35757	38987	.	+	0	Parent=mRNA31;translation=MRLDENEGAFTIPEFGKIQFEGFCRFIDQGLMEELHNFPKIEDTDKEIESRLFGNEYELAEPFIKERDAVYQSLTYYSELYVPARSIRRNSSKIQKQTVFLGNIPLMNSHGTFVVNGIYRIVVNQILISPGIYYRSELDHNRINYIYTGTLISDWGRRLKLEIDVGERIWARVSRKRKISIPVLLSAMGLNLEEILDNTRYPEKFFFLLKKKKGRWEREEYIWSKEKAILEFYKKLYCVSGDLVFSESLCKELQEKFFRQRCELGKIGRRNPNQKLNLDIPENEIFSLPQDVLAAVDYLIGVKFGMGTLDDIDHLRNRRIRSVADLLQNQFRLALGRLEDAVRRTIHRATKRRSTPQNLVTSTLLKNTFQDFFGSHPLSQFLDQTNPLTEIAHGRKLSHLGPGGLTGRTASFRTRDIHPSYYGRICPIDTSEGMNAGLVASLSIHAKIGQCGSLQSPFYKISERSREEHMVYLLPGEDEDEYYRIATGNSLALNQGIQEEQITPARYRQEFIVIAWEQIHFRSIFPFQYFSVGVSLIPFLEHNDANRALMGSNMQRQAVPLFQPEKCIAGTGLEGQAALDSGSVAIATQEGRIEYIDAVNITSSVNGDTVRTELVIYQRSNTNTCTHQKPQVRQGECVKKGQILADGAATVGGELSLGKNVLVAYMPWEGYNFEDAILISERLVYEDIYTSFHIVRYRIEICMTSQGPERITREIPHLDAHSLRHLDENGLVMLGSWIETGDVLVGKLTPQTTEESLCAPEGRLLQTIFGIEVSTARENCLRTPIGGRGRVIDVRWINRVDDSGDNAETVHVYISQKRKIQVGDKVAGRHGNKGIISIVLPRQDMPYLQNGIPVDMVLNPLGVPSRMNVGQIFECLPGLAGNPMKKHYRITPFDERYEREASRKLVFPELYKASEQTANPWVFEPDHPGKHRLIDGRTGDVFEQPVTIGKAYMSKLSHQVDDKIHARSSGPYARVTQQPLRGKSKRGGQRIGEMEVWALEGFGVAYILQEMLTLKSDHIRTRNEVLGAIITGGPIPKPDTAPESFRLLIRELRSLALELNHAIISEKDFQIDREEV;gene=rpoB;Name=CDS-rpoB;product=RNA polymerase beta subunit
 Se404-851cp	EMBL	exon	39010	39439	.	+	.	Parent=mRNA32;gene=rpoC1
-Se404-851cp	EMBL	CDS	39010	39439	.	+	0	Parent=mRNA32;gene=rpoC1;Name=CDS-rpoC1
+Se404-851cp	EMBL	CDS	39010	39439	.	+	0	Parent=mRNA32;gene=rpoC1;Name=CDS-rpoC1;product=RNA polymerase beta subunit-1
 Se404-851cp	EMBL	gene	39010	41781	.	+	.	ID=gene48;gene=rpoC1;note=blatX_hit rpoC1_NC_028594.1%3B position 1 - 2091%3B coverage 100.00%25%3B match 99.95%25;Name=rpoC1
 Se404-851cp	EMBL	mRNA	39010	41781	.	+	.	ID=mRNA32;Parent=gene48;translation=MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLHYETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRYRMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRSRGTFNYEIQSWRDIIPHYLSARSHYLFARGSGTFQEREIATGGDAIREQLTGLDLQIIIDRSHMEWKNLVELKWNRLEEDQESTVDGWEDETIRRRKDFLVGRMKLAKHFLRTNIEPKWMVLCLLPVLPPEPRPIVQLGEGGLITSSDLNELYRRVINRNNTLTNLLARSGSESFVICQKKLIQEAVDALLDNGICGQPMRDSHDRPYKSFSDVIEGKEGRSRENLLGKRVDYSGRSVIVVGPFLSLYQCGLPSEIAIELFQAFVIRSLIGRHIAPNLRAAKSMIRDKGPIVWEVLQEVMQGHPVLLNRAPTLHRLGIQAFQPILVEGRAIRSHPSVCGGFNADFDGDQMAVHVPLSLEARAEARLLMFSETNLLSPAIGDPISIPTQDMLLGLYISTVGNSQGIYGNRYHPYHSEKKSFSCKKPSFYSYDDVLRAYRQKRIDLYSPLWLRWGEVDLRIITSVNQEAPIEVQYESLGTFHEIHEHYRIRKGRMGEILNIYIRTTVGRTRFNREMEEAIQGFARSEHPKKSLPALRI;gene=rpoC1
 Se404-851cp	EMBL	intron	39440	40120	.	+	.	Parent=mRNA32;gene=rpoC1
-Se404-851cp	EMBL	CDS	40121	41781	.	+	2	Parent=mRNA32;gene=rpoC1;Name=CDS-rpoC1;RNA polymerase beta subunit-1
+Se404-851cp	EMBL	CDS	40121	41781	.	+	2	Parent=mRNA32;gene=rpoC1;Name=CDS-rpoC1;product=RNA polymerase beta subunit-1
 Se404-851cp	EMBL	exon	40121	41781	.	+	.	Parent=mRNA32;gene=rpoC1
 Se404-851cp	EMBL	gene	41875	45531	.	+	.	ID=gene49;gene=rpoC2;note=blatX_hit rpoC2_NC_021456.1%3B position 1 - 3657%3B coverage 100.00%25%3B match 99.97%25;Name=rpoC2
 Se404-851cp	manual	mRNA	41875	45531	.	+	.	ID=mRNA33;Parent=gene49;gene=rpoC2
@@ -199,7 +198,7 @@ Se404-851cp	EMBL	CDS	48742	48885	.	+	0	Parent=mRNA37;gene=atpF;Name=CDS-atpF;pro
 Se404-851cp	EMBL	gene	48742	50061	.	+	.	ID=gene53;gene=atpF;note=blatX_hit atpF_NC_028594.1%3B position 1 - 555%3B coverage 100.00%25%3B match 100.00%25;Name=atpF
 Se404-851cp	EMBL	mRNA	48742	50061	.	+	0	ID=mRNA37;Parent=gene53;translation=MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYFGKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQIEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRLNTELHLRTIDHNIGLLRTMMNTSD;gene=atpF
 Se404-851cp	EMBL	intron	48886	49650	.	+	.	Parent=mRNA37;gene=atpF
-Se404-851cp	EMBL	CDS	49651	50061	.	+	0	Parent=mRNA37;gene=atpF;Name=CDS-atpF
+Se404-851cp	EMBL	CDS	49651	50061	.	+	0	Parent=mRNA37;gene=atpF;Name=CDS-atpF;product=ATP synthase CF0 subunit I
 Se404-851cp	EMBL	exon	49651	50061	.	+	.	Parent=mRNA37;gene=atpF
 Se404-851cp	EMBL	gene	50105	51628	.	+	.	ID=gene54;gene=atpA;note=blatX_hit atpA_NC_032367.1%3B position 1 - 1524%3B coverage 100.00%25%3B match 100.00%25;Name=atpA
 Se404-851cp	manual	mRNA	50105	51628	.	+	.	ID=mRNA38;Parent=gene54;gene=atpA
@@ -233,13 +232,20 @@ Se404-851cp	EMBL	gene	55903	56130	.	+	.	ID=gene61;gene=psbH;note=blatX_hit psbH_
 Se404-851cp	manual	mRNA	55903	56130	.	+	.	ID=mRNA43;Parent=gene61;gene=psbH
 Se404-851cp	manual	exon	55903	56130	.	+	.	Parent=mRNA43;gene=psbH
 Se404-851cp	EMBL	CDS	55903	56130	.	+	0	Parent=mRNA43;translation=MATQTIDDTSKTTPRATGVGTSLKPLNSEYGKVAPGWGTTPLMGLTMALFAVFLSIILEIYNSSVLLDGIPVSWG;gene=psbH;Name=CDS-psbH;product=photosystem II 10 kDa phosphoprotein
-Se404-851cp	EMBL	gene	57079	57722	.	+	.	ID=gene62;gene=petB;note=blatX_hit petB_NC_028594.1%3B position 5 - 648%3B coverage 99.38%25%3B match 99.23%25;Name=petB
-Se404-851cp	manual	mRNA	57079	57722	.	+	.	ID=mRNA44;Parent=gene62;gene=petB
+Se404-851cp	EMBL	gene	56285	57722	.	+	.	ID=gene62;gene=petB;note=blatX_hit petB_NC_028594.1%3B position 5 - 648%3B coverage 99.38%25%3B match 99.23%25;Name=petB
+Se404-851cp	manual	mRNA	56285	57722	.	+	.	ID=mRNA44;Parent=gene62;gene=petB
+Se404-851cp	manual	exon	56285	56290	.	+	.	Parent=mRNA44;gene=petB
+Se404-851cp	manual	CDS	56285	56290	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;product=cytochrome b6
 Se404-851cp	manual	exon	57079	57722	.	+	.	Parent=mRNA44;gene=petB
-Se404-851cp	EMBL	CDS	57079	57722	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;cytochrome b6
-Se404-851cp	EMBL	gene	58639	59171	.	+	.	ID=gene63;gene=petD;note=blatX_hit petD_NC_028594.1%3B position 5 - 537%3B coverage 99.26%25%3B match 98.70%25;Name=petD
-Se404-851cp	manual	mRNA	58639	59171	.	+	.	ID=mRNA45;Parent=gene63;gene=petD
-Se404-851cp	EMBL	CDS	58639	59171	.	+	0	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
+Se404-851cp	EMBL	CDS	57079	57722	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;product=cytochrome b6
+Se404-851cp	manual	intron	56291	57078	.	+	.	Parent=mRNA44;gene=petB
+Se404-851cp	EMBL	gene	57932	59171	.	+	.	ID=gene63;gene=petD;note=blatX_hit petD_NC_028594.1%3B position 5 - 537%3B coverage 99.26%25%3B match 98.70%25;Name=petD
+Se404-851cp	manual	mRNA	57932	59171	.	+	.	ID=mRNA45;Parent=gene63;gene=petD
+Se404-851cp	manual	exon	57932	57939	.	+	.	Parent=mRNA45;gene=petD
+Se404-851cp	manual	exon	58639	59171	.	+	.	Parent=mRNA45;gene=petD
+Se404-851cp	manual	CDS	57932	57939	.	+	0	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
+Se404-851cp	EMBL	CDS	58639	59171	.	+	1	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
+Se404-851cp	manual	intron	57940	58638	.	+	.	Parent=mRNA45;gene=petD
 Se404-851cp	EMBL	gene	59280	60290	.	-	.	ID=gene64;gene=rpoA;note=blatX_hit rpoA_NC_032367.1%3B position 1 - 1011%3B coverage 100.00%25%3B match 100.00%25;Name=rpoA
 Se404-851cp	manual	mRNA	59280	60290	.	-	.	ID=mRNA46;Parent=gene64;gene=rpoA
 Se404-851cp	manual	exon	59280	60290	.	-	.	Parent=mRNA46;gene=rpoA
@@ -264,8 +270,11 @@ Se404-851cp	EMBL	gene	61959	62327	.	-	.	ID=gene69;gene=rpl14;note=blatX_hit rpl1
 Se404-851cp	manual	mRNA	61959	62327	.	-	.	ID=mRNA51;Parent=gene69;gene=rpl14
 Se404-851cp	manual	exon	61959	62327	.	-	.	Parent=mRNA51;gene=rpl14
 Se404-851cp	EMBL	CDS	61959	62327	.	-	0	Parent=mRNA51;translation=MIQSQTYLNIADNSGARKIMCIRVLGASNRKCAHIGDVIIAIIKEAVPNMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPVAQELRQLNFTKIVSLAPEVL;gene=rpl14;Name=CDS-rpl14;product=ribosomal protein L14
-Se404-851cp	EMBL	gene	62444	62843	.	-	.	ID=gene70;gene=rpl16;note=blatX_hit rpl16_NC_032367.1%3B position 6 - 405%3B coverage 98.77%25%3B match 98.27%25;Name=rpl16
-Se404-851cp	manual	mRNA	62444	62843	.	-	.	ID=mRNA52;Parent=gene70;gene=rpl16
+Se404-851cp	EMBL	gene	62444	63715	.	-	.	ID=gene70;gene=rpl16;note=blatX_hit rpl16_NC_032367.1%3B position 6 - 405%3B coverage 98.77%25%3B match 98.27%25;Name=rpl16
+Se404-851cp	manual	mRNA	62444	63715	.	-	.	ID=mRNA52;Parent=gene70;gene=rpl16
+Se404-851cp	manual	exon	63707	63715	.	-	.	Parent=mRNA52;gene=rpl16
+Se404-851cp	manual	CDS	63707	63715	.	-	0	Parent=mRNA52;Name=CDS-rpl16;product=ribosomal protein L16
+Se404-851cp	manual	intron	62844	63706	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	manual	exon	62444	62843	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	EMBL	CDS	62444	62843	.	-	0	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16
 Se404-851cp	manual	mRNA	63809	64465	.	-	.	ID=mRNA53;Parent=gene71;gene=rps3
@@ -282,7 +291,7 @@ Se404-851cp	manual	mRNA	64909	65187	.	-	.	ID=mRNA55;Parent=gene73;gene=rps19
 Se404-851cp	manual	exon	64909	65187	.	-	.	Parent=mRNA55;gene=rps19
 Se404-851cp	EMBL	CDS	64909	65187	.	-	0	Parent=mRNA55;translation=MARSLKKNPFVANHSLRKIKNLNIKEEKKIIVTWSRASVIVPAMIGHTIAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR;gene=rps19;Name=CDS-rps19;product=ribosomal protein S19
 Se404-851cp	EMBL	exon	65238	65669	.	-	.	Parent=mRNA56;gene=rpl2
-Se404-851cp	EMBL	CDS	65238	65669	.	-	0	Parent=mRNA56;gene=rpl2;Name=CDS-rpl2
+Se404-851cp	EMBL	CDS	65238	65669	.	-	0	Parent=mRNA56;gene=rpl2;Name=CDS-rpl2;product=ribosomal protein L2
 Se404-851cp	EMBL	gene	65238	66745	.	-	.	ID=gene74;gene=rpl2;note=blatX_hit rpl2_NC_032367.1%3B position 1 - 834%3B coverage 100.00%25%3B match 100.00%25;Name=rpl2
 Se404-851cp	EMBL	mRNA	65238	66745	.	-	.	ID=mRNA56;Parent=gene74;translation=MAIRSYRILTPDTRNRSVSGFDGRVQLDPQKKLTSGQHHCGKGRNGRGIITARHRGGGHKRLYRQIDFRRDKEHISGKIVTIEYDPNRSAYICKVHYKNGDKMYILHPRGVMIGDTILSGPKAPISIGNALPLSTNMPLGTAIHNIEITLGKGGQLARAAGAVAELIAKEDRSATLRLPSGEVRLISENCSATIGQVGNITANNRSFGKAGAKRWLGKRSEVRGVAMNPVDHPHGGGEGRTPIGRKKPVTPWGYSALGKKSRKRNRYSDASILRRRE;gene=rpl2
 Se404-851cp	EMBL	intron	65670	66343	.	-	.	Parent=mRNA56;gene=rpl2
@@ -315,7 +324,7 @@ Se404-851cp	EMBL	gene	71976	72062	.	+	.	ID=gene81;gene=trnS-GGA;note=blatN_hit t
 Se404-851cp	EMBL	tRNA	71976	72062	.	+	.	ID=tRNA22;Parent=gene81;gene=trnS-GGA;product=tRNA-Ser
 Se404-851cp	manual	exon	71976	72062	.	+	.	Parent=tRNA22;gene=trnS-GGA
 Se404-851cp	EMBL	exon	72785	72915	.	+	.	Parent=mRNA59;gene=ycf3
-Se404-851cp	EMBL	CDS	72785	72915	.	+	0	Parent=mRNA59;gene=ycf3;Name=CDS-ycf3;photosystem I assembly protein Ycf3
+Se404-851cp	EMBL	CDS	72785	72915	.	+	0	Parent=mRNA59;gene=ycf3;Name=CDS-ycf3;product=photosystem I assembly protein Ycf3
 Se404-851cp	EMBL	gene	72785	74722	.	+	.	ID=gene82;gene=ycf3;note=blatX_hit ycf3_NC_032367.1%3B position 1 - 513%3B coverage 100.00%25%3B match 100.00%25;Name=ycf3
 Se404-851cp	EMBL	mRNA	72785	74722	.	+	.	ID=mRNA59;Parent=gene82;translation=MPRSQRNDNFIDKTFTIVADILLRIIPMAPEEKEAFTYYRDGVMSAQSEGEYAEALQNYYEAMRLETDPYDRSYILYNIGLVHTSNGEHTKALEYYFQALERNPSLPQALNNTALICHYRGEQAIRQGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQNWLKITGRFGE;gene=ycf3
 Se404-851cp	EMBL	intron	72916	73629	.	+	.	Parent=mRNA59;gene=ycf3
@@ -342,10 +351,10 @@ Se404-851cp	manual	exon	80402	80475	.	+	.	Parent=tRNA23;gene=trnfM-CAU
 Se404-851cp	EMBL	gene	80612	80682	.	-	.	ID=gene87;gene=trnG-UCC;note=blatN_hit trnG-UCC_NC_032367.1%3B position 1 - 71%3B coverage 100.00%25%3B match 100.00%25;Name=trnG-UCC
 Se404-851cp	EMBL	tRNA	80612	80682	.	-	.	ID=tRNA24;Parent=gene87;gene=trnG-UCC;product=tRNA-Gly
 Se404-851cp	manual	exon	80612	80682	.	-	.	Parent=tRNA24;gene=trnG-UCC
-Se404-851cp	EMBL	gene	80914	81102	.	-	.	ID=gene88;gene=psbZ;note=blatX_hit psbZ_NC_021456.1%3B position 1 - 189%3B coverage 100.00%25%3B match 100.00%25;Name=psbZ
-Se404-851cp	manual	mRNA	80914	81102	.	-	.	ID=mRNA63;Parent=gene88;gene=psbZ
-Se404-851cp	manual	exon	80914	81102	.	-	.	Parent=mRNA63;gene=psbZ
-Se404-851cp	EMBL	CDS	80914	81102	.	-	0	Parent=mRNA63;translation=MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGVSLWIGSVLFVGILNSFISQ;gene=psbZ;Name=CDS-psbZ;product=photosystem II protein Z
+Se404-851cp	EMBL	gene	80857	81102	.	-	.	ID=gene88;gene=psbZ;note=blatX_hit psbZ_NC_021456.1%3B position 1 - 189%3B coverage 100.00%25%3B match 100.00%25;Name=psbZ
+Se404-851cp	manual	mRNA	80857	81102	.	-	.	ID=mRNA63;Parent=gene88;gene=psbZ
+Se404-851cp	manual	exon	80857	81102	.	-	.	Parent=mRNA63;gene=psbZ
+Se404-851cp	EMBL	CDS	80857	81102	.	-	0	Parent=mRNA63;translation=MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGVSLWIGSVLFVGILNSFISQ;gene=psbZ;Name=CDS-psbZ;product=photosystem II protein Z
 Se404-851cp	EMBL	gene	81392	81478	.	+	.	ID=gene89;gene=trnS-UGA;note=blatN_hit trnS-UGA_NC_032367.1%3B position 1 - 87%3B coverage 100.00%25%3B match 100.00%25;Name=trnS-UGA
 Se404-851cp	EMBL	tRNA	81392	81478	.	+	.	ID=tRNA25;Parent=gene89;gene=trnS-UGA;product=tRNA-Ser
 Se404-851cp	manual	exon	81392	81478	.	+	.	Parent=tRNA25;gene=trnS-UGA
@@ -367,9 +376,7 @@ Se404-851cp	manual	exon	85829	87319	.	+	.	Parent=rRNA1;gene=rrn16
 Se404-851cp	EMBL	exon	87702	87743	.	+	.	Parent=tRNA27;gene=trnI-GAU
 Se404-851cp	EMBL	gene	87702	88746	.	+	.	ID=gene94;gene=trnI-GAU;note=blatN_hit trnI-GAU_NC_032367.1%3B position 1 - 77%3B coverage 100.00%25%3B match 100.00%25;Name=trnI-GAU
 Se404-851cp	EMBL	tRNA	87702	88746	.	+	.	ID=tRNA27;gene=trnI-GAU;product=tRNA-Glu
-Se404-851cp	EMBL	intron	87739	88711	.	+	.	Parent=tRNA27;gene=trnI-GAU
 Se404-851cp	EMBL	intron	87744	88711	.	+	.	Parent=tRNA27;gene=trnI-GAU
-Se404-851cp	EMBL	exon	88712	88746	.	+	.	Parent=tRNA27;gene=trnI-GAU
 Se404-851cp	EMBL	exon	88712	88746	.	+	.	Parent=tRNA27;gene=trnI-GAU
 ###
 Se404-851cp	EMBL	exon	88819	88856	.	+	.	Parent=tRNA28;gene=trnA-UGC
@@ -432,14 +439,13 @@ Se404-851cp	EMBL	tRNA	111282	111353	.	-	.	ID=tRNA33;Parent=gene110;gene=trnV-GAC
 Se404-851cp	manual	exon	111282	111353	.	-	.	Parent=tRNA33;gene=trnV-GAC
 Se404-851cp	EMBL	CDS	9752	9865	.	+	0	Parent=mRNA8;gene=rps12;Name=CDS-rps12;product=ribosomal protein S12
 Se404-851cp	EMBL	exon	9752	9865	.	+	.	Parent=mRNA8;gene=rps12
-Se404-851cp	EMBL	mRNA	9752	113520	.	+	.	ID=mRNA8;Parent=gene12;translation=MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVYTITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK;gene=rps12
-Se404-851cp	EMBL	intron	9866	112720	.	+	.	Parent=mRNA8;gene=rps12
-Se404-851cp	EMBL	exon	112721	112953	.	+	.	Parent=mRNA8;gene=rps12
-Se404-851cp	EMBL	CDS	112721	112953	.	+	0	Parent=mRNA8;gene=rps12;Name=CDS-rps12;product=ribosomal protein S12
-Se404-851cp	manual	gene	112721	113520	.	+	.	ID=gene11;gene=rps12;Name=rps12
-Se404-851cp	EMBL	intron	112954	113495	.	+	.	Parent=mRNA8;gene=rps12
-Se404-851cp	EMBL	CDS	113496	113520	.	+	1	Parent=mRNA8;gene=rps12;Name=CDS-rps12;product=ribosomal protein S12
-Se404-851cp	EMBL	exon	113496	113520	.	+	.	Parent=mRNA8;gene=rps12
+Se404-851cp	EMBL	mRNA	9752	113520	.	+	.	ID=mRNA8;Parent=gene11;translation=MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVYTITPKKPNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAAEVKDRQQGRSRYGVKKPK;gene=rps12
+Se404-851cp	EMBL	exon	112721	112952	.	+	.	Parent=mRNA8;gene=rps12
+Se404-851cp	EMBL	CDS	112721	112952	.	+	0	Parent=mRNA8;gene=rps12;Name=CDS-rps12;product=ribosomal protein S12
+Se404-851cp	manual	gene	112721	113520	.	+	.	ID=gene11;gene=rps12;Name=rps12;exception=trans-splicing;part=2/2;transl_table=11
+Se404-851cp	EMBL	intron	112953	113494	.	+	.	Parent=mRNA8;gene=rps12
+Se404-851cp	EMBL	CDS	113495	113520	.	+	2	Parent=mRNA8;gene=rps12;Name=CDS-rps12;product=ribosomal protein S12
+Se404-851cp	EMBL	exon	113495	113520	.	+	.	Parent=mRNA8;gene=rps12
 Se404-851cp	EMBL	gene	113569	114036	.	+	.	ID=gene111;gene=rps7;note=blatX_hit rps7_NC_028594.1%3B position 1 - 468%3B coverage 100.00%25%3B match 100.00%25;Name=rps7
 Se404-851cp	manual	mRNA	113569	114036	.	+	.	ID=mRNA73;Parent=gene111;gene=rps7
 Se404-851cp	manual	exon	113569	114036	.	+	.	Parent=mRNA73;gene=rps7

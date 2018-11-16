@@ -150,7 +150,7 @@ Se404-851cp	manual	exon	31470	31559	.	+	.	Parent=mRNA27;gene=psaM
 Se404-851cp	EMBL	CDS	31470	31559	.	+	0	Parent=mRNA27;gene=psaM;Name=CDS-psaM;product=photosystem I protein M
 Se404-851cp	EMBL	gene	31775	31862	.	+	.	ID=gene39;gene=trnS-GCU;note=blatN_hit trnS-GCU_NC_032367.1%3B position 1 - 88%3B coverage 100.00%25%3B match 100.00%25;Name=trnS-GCU
 Se404-851cp	EMBL	tRNA	31775	31862	.	+	.	ID=tRNA11;Parent=gene39;gene=trnS-GCU;product=tRNA-Ser
-Se404-851cp	manual	exon	31175	31862	.	+	.	Parent=tRNA11;gene=trnS-GCU
+Se404-851cp	manual	exon	31775	31862	.	+	.	Parent=tRNA11;gene=trnS-GCU
 Se404-851cp	EMBL	gene	31939	32049	.	-	.	ID=gene40;gene=psbI;note=blatX_hit psbI_NC_032367.1%3B position 1 - 111%3B coverage 100.00%25%3B match 100.00%25;Name=psbI
 Se404-851cp	manual	mRNA	31939	32049	.	-	.	ID=mRNA28;Parent=gene40;gene=psbI
 Se404-851cp	manual	exon	31939	32049	.	-	.	Parent=mRNA28;gene=psbI

@@ -1,0 +1,12 @@
+Warning: valid [SEQ_FEAT.rRNADoesNotHaveProduct] rRNA has no name FEATURE: rRNA: rRNA <249>  [lcl|Se404-851cp:85829-87319] [lcl|Se404-851cp: raw, dna len= 123542]
+Warning: valid [SEQ_FEAT.rRNADoesNotHaveProduct] rRNA has no name FEATURE: rRNA: rRNA <255>  [lcl|Se404-851cp:89823-92629] [lcl|Se404-851cp: raw, dna len= 123542]
+Warning: valid [SEQ_FEAT.rRNADoesNotHaveProduct] rRNA has no name FEATURE: rRNA: rRNA <257>  [lcl|Se404-851cp:92733-92835] [lcl|Se404-851cp: raw, dna len= 123542]
+Warning: valid [SEQ_FEAT.rRNADoesNotHaveProduct] rRNA has no name FEATURE: rRNA: rRNA <259>  [lcl|Se404-851cp:93082-93202] [lcl|Se404-851cp: raw, dna len= 123542]
+Error: valid [SEQ_INST.StopInProtein] [25] termination symbols in protein sequence (petB - cytochrome b6) BIOSEQ: gnl|Se404-851cp|cds.mRNA44: raw, aa len= 216
+Error: valid [SEQ_INST.StopInProtein] [12] termination symbols in protein sequence (petD - cytochrome b6/f complex subunit IV) BIOSEQ: gnl|Se404-851cp|cds.mRNA45: raw, aa len= 180
+Error: valid [SEQ_INST.StopInProtein] [9] termination symbols in protein sequence (rpl16 - ribosomal protein L16) BIOSEQ: gnl|Se404-851cp|cds.mRNA52: raw, aa len= 136
+Error: valid [SEQ_FEAT.InternalStop] 25 internal stops. Genetic code [11] FEATURE: CDS: cytochrome b6 <166>  [(lcl|Se404-851cp:56285-56290, 57079-57722)] [lcl|Se404-851cp: raw, dna len= 123542] -> [gnl|Se404-851cp|cds.mRNA44]
+Error: valid [SEQ_FEAT.InternalStop] 12 internal stops. Genetic code [11] FEATURE: CDS: cytochrome b6/f complex subunit IV <169>  [(lcl|Se404-851cp:57932-57939, 58639-59171)] [lcl|Se404-851cp: raw, dna len= 123542] -> [gnl|Se404-851cp|cds.mRNA45]
+Error: valid [SEQ_FEAT.InternalStop] 9 internal stops. Genetic code [11] FEATURE: CDS: ribosomal protein L16 <190>  [(lcl|Se404-851cp:c63715-63707, c62843-62444)] [lcl|Se404-851cp: raw, dna len= 123542] -> [gnl|Se404-851cp|cds.mRNA52]
+Error: valid [SEQ_DESCR.NoPubFound] No publications anywhere on this entire record. BIOSEQ-SET: nuc-prot: lcl|Se404-851cp
+Info: valid [GENERIC.MissingPubRequirement] No submission citation anywhere on this entire record. BIOSEQ-SET: nuc-prot: lcl|Se404-851cp

@@ -1,0 +1,158 @@
+Discrepancy Report Results
+
+Summary
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+FATAL: BAD_LOCUS_TAG_FORMAT: 114 locus tags are incorrectly formatted.
+SOURCE_QUALS: isolate (all present, all unique)
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 74 present
+FEATURE_COUNT: gene: 114 present
+FEATURE_COUNT: mRNA: 74 present
+FEATURE_COUNT: rRNA: 4 present
+FEATURE_COUNT: tRNA: 36 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+FATAL: BAD_LOCUS_TAG_FORMAT: 114 locus tags are incorrectly formatted.
+RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
+ALL_SEQS_CIRCULAR: All (1) sequences are circular
+
+Detailed Report
+
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+Se404-851cp-final.fasta:Se404-851cp (length 123542)
+SOURCE_QUALS: isolate (all present, all unique)
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 74 present
+FEATURE_COUNT: gene: 114 present
+FEATURE_COUNT: mRNA: 74 present
+FEATURE_COUNT: rRNA: 4 present
+FEATURE_COUNT: tRNA: 36 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
+SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
+Se404-851cp-final.fasta:CDS	photosystem I P700 apoprotein A1	lcl|Se404-851cp:75341-77593	Se404-851cp_000082
+Se404-851cp-final.fasta:CDS	photosystem I P700 apoprotein A2	lcl|Se404-851cp:77619-79823	Se404-851cp_000083
+FATAL: BAD_LOCUS_TAG_FORMAT: 114 locus tags are incorrectly formatted.
+Se404-851cp-final.fasta:Gene	psbA	lcl|Se404-851cp:c1062-1	Se404-851cp_000001
+Se404-851cp-final.fasta:Gene	trnK-UUU	lcl|Se404-851cp:c4115-1534	Se404-851cp_000002
+Se404-851cp-final.fasta:Gene	matK	lcl|Se404-851cp:c3297-1750	Se404-851cp_000003
+Se404-851cp-final.fasta:Gene	chlB	lcl|Se404-851cp:c6450-4909	Se404-851cp_000004
+Se404-851cp-final.fasta:Gene	trnQ-UUG	lcl|Se404-851cp:c6726-6655	Se404-851cp_000005
+Se404-851cp-final.fasta:Gene	psbK	lcl|Se404-851cp:7083-7262	Se404-851cp_000006
+Se404-851cp-final.fasta:Gene	psbI	lcl|Se404-851cp:7751-7861	Se404-851cp_000007
+Se404-851cp-final.fasta:Gene	trnS-GCU	lcl|Se404-851cp:c8025-7938	Se404-851cp_000008
+Se404-851cp-final.fasta:Gene	ycf12	lcl|Se404-851cp:8473-8574	Se404-851cp_000009
+Se404-851cp-final.fasta:Gene	clpP	lcl|Se404-851cp:8994-9584	Se404-851cp_000010
+Se404-851cp-final.fasta:Gene	rps12	[lcl|Se404-851cp:9752-9865, 112721-113520]	Se404-851cp_000011
+Se404-851cp-final.fasta:Gene	rpl20	lcl|Se404-851cp:10575-10934	Se404-851cp_000012
+Se404-851cp-final.fasta:Gene	rps18	lcl|Se404-851cp:c11475-11194	Se404-851cp_000013
+Se404-851cp-final.fasta:Gene	rpl33	lcl|Se404-851cp:c11805-11599	Se404-851cp_000014
+Se404-851cp-final.fasta:Gene	psaJ	lcl|Se404-851cp:c12251-12123	Se404-851cp_000015
+Se404-851cp-final.fasta:Gene	trnP-UGG	lcl|Se404-851cp:12549-12622	Se404-851cp_000016
+Se404-851cp-final.fasta:Gene	trnW-CCA	lcl|Se404-851cp:12790-12863	Se404-851cp_000017
+Se404-851cp-final.fasta:Gene	petG	lcl|Se404-851cp:c13099-12986	Se404-851cp_000018
+Se404-851cp-final.fasta:Gene	petL	lcl|Se404-851cp:c13392-13204	Se404-851cp_000019
+Se404-851cp-final.fasta:Gene	psbE	lcl|Se404-851cp:14633-14884	Se404-851cp_000020
+Se404-851cp-final.fasta:Gene	psbF	lcl|Se404-851cp:14894-15013	Se404-851cp_000021
+Se404-851cp-final.fasta:Gene	psbL	lcl|Se404-851cp:15047-15163	Se404-851cp_000022
+Se404-851cp-final.fasta:Gene	psbJ	lcl|Se404-851cp:15282-15404	Se404-851cp_000023
+Se404-851cp-final.fasta:Gene	petA	lcl|Se404-851cp:c17398-16403	Se404-851cp_000024
+Se404-851cp-final.fasta:Gene	cemA	lcl|Se404-851cp:c18409-17624	Se404-851cp_000025
+Se404-851cp-final.fasta:Gene	ycf4	lcl|Se404-851cp:c19817-19263	Se404-851cp_000026
+Se404-851cp-final.fasta:Gene	psaI	lcl|Se404-851cp:c20494-20384	Se404-851cp_000027
+Se404-851cp-final.fasta:Gene	accD	lcl|Se404-851cp:c22012-21032	Se404-851cp_000028
+Se404-851cp-final.fasta:Gene	trnR-CCG	lcl|Se404-851cp:c22341-22268	Se404-851cp_000029
+Se404-851cp-final.fasta:Gene	rbcL	lcl|Se404-851cp:c24092-22665	Se404-851cp_000030
+Se404-851cp-final.fasta:Gene	atpB	lcl|Se404-851cp:24801-26279	Se404-851cp_000031
+Se404-851cp-final.fasta:Gene	atpE	lcl|Se404-851cp:26288-26701	Se404-851cp_000032
+Se404-851cp-final.fasta:Gene	trnM-CAU	lcl|Se404-851cp:c26882-26810	Se404-851cp_000033
+Se404-851cp-final.fasta:Gene	trnV-UAC	lcl|Se404-851cp:27072-27690	Se404-851cp_000034
+Se404-851cp-final.fasta:Gene	trnH-GUG	lcl|Se404-851cp:29979-30053	Se404-851cp_000035
+Se404-851cp-final.fasta:Gene	trnT-GGU	lcl|Se404-851cp:c30248-30177	Se404-851cp_000036
+Se404-851cp-final.fasta:Gene	psaM	lcl|Se404-851cp:31470-31559	Se404-851cp_000037
+Se404-851cp-final.fasta:Gene	trnS-GCU	lcl|Se404-851cp:31775-31862	Se404-851cp_000038
+Se404-851cp-final.fasta:Gene	psbI	lcl|Se404-851cp:c32049-31939	Se404-851cp_000039
+Se404-851cp-final.fasta:Gene	trnE-UUC	lcl|Se404-851cp:32376-32448	Se404-851cp_000040
+Se404-851cp-final.fasta:Gene	trnY-GUA	lcl|Se404-851cp:32521-32604	Se404-851cp_000041
+Se404-851cp-final.fasta:Gene	trnD-GUC	lcl|Se404-851cp:32864-32937	Se404-851cp_000042
+Se404-851cp-final.fasta:Gene	psbM	lcl|Se404-851cp:33851-33964	Se404-851cp_000043
+Se404-851cp-final.fasta:Gene	petN	lcl|Se404-851cp:c34946-34857	Se404-851cp_000044
+Se404-851cp-final.fasta:Gene	trnC-GCA	lcl|Se404-851cp:c35337-35267	Se404-851cp_000045
+Se404-851cp-final.fasta:Gene	rpoB	lcl|Se404-851cp:35757-38987	Se404-851cp_000046
+Se404-851cp-final.fasta:Gene	rpoC1	lcl|Se404-851cp:39010-41781	Se404-851cp_000047
+Se404-851cp-final.fasta:Gene	rpoC2	lcl|Se404-851cp:41875-45531	Se404-851cp_000048
+Se404-851cp-final.fasta:Gene	rps2	lcl|Se404-851cp:45734-46438	Se404-851cp_000049
+Se404-851cp-final.fasta:Gene	atpI	lcl|Se404-851cp:46731-47477	Se404-851cp_000050
+Se404-851cp-final.fasta:Gene	atpH	lcl|Se404-851cp:48167-48412	Se404-851cp_000051
+Se404-851cp-final.fasta:Gene	atpF	lcl|Se404-851cp:48742-50061	Se404-851cp_000052
+Se404-851cp-final.fasta:Gene	atpA	lcl|Se404-851cp:50105-51628	Se404-851cp_000053
+Se404-851cp-final.fasta:Gene	trnR-UCU	lcl|Se404-851cp:c51797-51728	Se404-851cp_000054
+Se404-851cp-final.fasta:Gene	trnG-GCC	lcl|Se404-851cp:c52859-52019	Se404-851cp_000055
+Se404-851cp-final.fasta:Gene	ycf12	lcl|Se404-851cp:c53146-53045	Se404-851cp_000056
+Se404-851cp-final.fasta:Gene	psbB	lcl|Se404-851cp:53902-55428	Se404-851cp_000057
+Se404-851cp-final.fasta:Gene	psbT	lcl|Se404-851cp:55503-55610	Se404-851cp_000058
+Se404-851cp-final.fasta:Gene	psbN	lcl|Se404-851cp:c55823-55692	Se404-851cp_000059
+Se404-851cp-final.fasta:Gene	psbH	lcl|Se404-851cp:55903-56130	Se404-851cp_000060
+Se404-851cp-final.fasta:Gene	petB	lcl|Se404-851cp:56285-57722	Se404-851cp_000061
+Se404-851cp-final.fasta:Gene	petD	lcl|Se404-851cp:57932-59171	Se404-851cp_000062
+Se404-851cp-final.fasta:Gene	rpoA	lcl|Se404-851cp:c60290-59280	Se404-851cp_000063
+Se404-851cp-final.fasta:Gene	rps11	lcl|Se404-851cp:c60742-60350	Se404-851cp_000064
+Se404-851cp-final.fasta:Gene	rpl36	lcl|Se404-851cp:c60938-60825	Se404-851cp_000065
+Se404-851cp-final.fasta:Gene	infA	lcl|Se404-851cp:c61277-61041	Se404-851cp_000066
+Se404-851cp-final.fasta:Gene	rps8	lcl|Se404-851cp:c61813-61415	Se404-851cp_000067
+Se404-851cp-final.fasta:Gene	rpl14	lcl|Se404-851cp:c62327-61959	Se404-851cp_000068
+Se404-851cp-final.fasta:Gene	rpl16	lcl|Se404-851cp:c63715-62444	Se404-851cp_000069
+Se404-851cp-final.fasta:Gene	rps3	lcl|Se404-851cp:c64465-63809	Se404-851cp_000070
+Se404-851cp-final.fasta:Gene	rpl22	lcl|Se404-851cp:c64878-64450	Se404-851cp_000071
+Se404-851cp-final.fasta:Gene	rps19	lcl|Se404-851cp:c65187-64909	Se404-851cp_000072
+Se404-851cp-final.fasta:Gene	rpl2	lcl|Se404-851cp:c66745-65238	Se404-851cp_000073
+Se404-851cp-final.fasta:Gene	rpl23	lcl|Se404-851cp:c67048-66773	Se404-851cp_000074
+Se404-851cp-final.fasta:Gene	trnI-CAU	lcl|Se404-851cp:c67457-67384	Se404-851cp_000075
+Se404-851cp-final.fasta:Gene	trnF-GAA	lcl|Se404-851cp:c69371-69299	Se404-851cp_000076
+Se404-851cp-final.fasta:Gene	trnL-UAA	lcl|Se404-851cp:c70324-69752	Se404-851cp_000077
+Se404-851cp-final.fasta:Gene	trnT-UGU	lcl|Se404-851cp:70740-70812	Se404-851cp_000078
+Se404-851cp-final.fasta:Gene	rps4	lcl|Se404-851cp:71070-71675	Se404-851cp_000079
+Se404-851cp-final.fasta:Gene	trnS-GGA	lcl|Se404-851cp:71976-72062	Se404-851cp_000080
+Se404-851cp-final.fasta:Gene	ycf3	lcl|Se404-851cp:72785-74722	Se404-851cp_000081
+Se404-851cp-final.fasta:Gene	psaA	lcl|Se404-851cp:75341-77593	Se404-851cp_000082
+Se404-851cp-final.fasta:Gene	psaB	lcl|Se404-851cp:77619-79823	Se404-851cp_000083
+Se404-851cp-final.fasta:Gene	rps14	lcl|Se404-851cp:79973-80272	Se404-851cp_000084
+Se404-851cp-final.fasta:Gene	trnfM-CAU	lcl|Se404-851cp:80402-80475	Se404-851cp_000085
+Se404-851cp-final.fasta:Gene	trnG-UCC	lcl|Se404-851cp:c80682-80612	Se404-851cp_000086
+Se404-851cp-final.fasta:Gene	psbZ	lcl|Se404-851cp:c81102-80857	Se404-851cp_000087
+Se404-851cp-final.fasta:Gene	trnS-UGA	lcl|Se404-851cp:81392-81478	Se404-851cp_000088
+Se404-851cp-final.fasta:Gene	psbC	lcl|Se404-851cp:c83094-81673	Se404-851cp_000089
+Se404-851cp-final.fasta:Gene	psbD	lcl|Se404-851cp:c84103-83042	Se404-851cp_000090
+Se404-851cp-final.fasta:Gene	trnT-GGU	lcl|Se404-851cp:c85502-85432	Se404-851cp_000091
+Se404-851cp-final.fasta:Gene	rrn16	lcl|Se404-851cp:85829-87319	Se404-851cp_000092
+Se404-851cp-final.fasta:Gene	trnI-GAU	lcl|Se404-851cp:87702-88746	Se404-851cp_000093
+Se404-851cp-final.fasta:Gene	trnA-UGC	lcl|Se404-851cp:88819-89675	Se404-851cp_000094
+Se404-851cp-final.fasta:Gene	rrn23	lcl|Se404-851cp:89823-92629	Se404-851cp_000095
+Se404-851cp-final.fasta:Gene	rrn4.5	lcl|Se404-851cp:92733-92835	Se404-851cp_000096
+Se404-851cp-final.fasta:Gene	rrn5	lcl|Se404-851cp:93082-93202	Se404-851cp_000097
+Se404-851cp-final.fasta:Gene	trnR-ACG	lcl|Se404-851cp:93411-93484	Se404-851cp_000098
+Se404-851cp-final.fasta:Gene	trnN-GUU	lcl|Se404-851cp:c94291-94220	Se404-851cp_000099
+Se404-851cp-final.fasta:Gene	chlL	lcl|Se404-851cp:94577-95452	Se404-851cp_000100
+Se404-851cp-final.fasta:Gene	chlN	lcl|Se404-851cp:95569-96975	Se404-851cp_000101
+Se404-851cp-final.fasta:Gene	ycf1	lcl|Se404-851cp:97953-103277	Se404-851cp_000102
+Se404-851cp-final.fasta:Gene	rps15	lcl|Se404-851cp:103612-103878	Se404-851cp_000103
+Se404-851cp-final.fasta:Gene	psaC	lcl|Se404-851cp:105241-105486	Se404-851cp_000104
+Se404-851cp-final.fasta:Gene	ccsA	lcl|Se404-851cp:c108387-107425	Se404-851cp_000105
+Se404-851cp-final.fasta:Gene	trnL-UAG	lcl|Se404-851cp:c108603-108526	Se404-851cp_000106
+Se404-851cp-final.fasta:Gene	trnP-GGG	lcl|Se404-851cp:108760-108833	Se404-851cp_000107
+Se404-851cp-final.fasta:Gene	rpl32	lcl|Se404-851cp:c110153-109941	Se404-851cp_000108
+Se404-851cp-final.fasta:Gene	trnV-GAC	lcl|Se404-851cp:c111353-111282	Se404-851cp_000109
+Se404-851cp-final.fasta:Gene	rps7	lcl|Se404-851cp:113569-114036	Se404-851cp_000110
+Se404-851cp-final.fasta:Gene	trnL-CAA	lcl|Se404-851cp:115613-115693	Se404-851cp_000111
+Se404-851cp-final.fasta:Gene	ycf2	lcl|Se404-851cp:c122763-116383	Se404-851cp_000112
+Se404-851cp-final.fasta:Gene	trnH-GUG	lcl|Se404-851cp:c123019-122945	Se404-851cp_000113
+Se404-851cp-final.fasta:Gene	trnI-CAU	lcl|Se404-851cp:123319-123392	Se404-851cp_000114
+RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
+Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:85829-87319	Se404-851cp_000092
+Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:89823-92629	Se404-851cp_000095
+Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:92733-92835	Se404-851cp_000096
+Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:93082-93202	Se404-851cp_000097
+ALL_SEQS_CIRCULAR: All (1) sequences are circular

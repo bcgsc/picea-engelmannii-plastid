@@ -3339,7 +3339,7 @@ F43C243118C10D4D22DFC0'H
                   id local str "Se404-851cp"
                 },
                 int {
-                  from 57078,
+                  from 57080,
                   to 57721,
                   strand plus,
                   id local str "Se404-851cp"
@@ -3391,7 +3391,7 @@ F43C243118C10D4D22DFC0'H
                   id local str "Se404-851cp"
                 },
                 int {
-                  from 58638,
+                  from 58642,
                   to 59170,
                   strand plus,
                   id local str "Se404-851cp"
@@ -3708,7 +3708,7 @@ F43C243118C10D4D22DFC0'H
                 },
                 int {
                   from 62443,
-                  to 62842,
+                  to 62838,
                   strand minus,
                   id local str "Se404-851cp"
                 }
@@ -4612,7 +4612,8 @@ F43C243118C10D4D22DFC0'H
             {
               id local id 249,
               data rna {
-                type rRNA
+                type rRNA,
+                ext name "16S ribosomal RNA"
               },
               location int {
                 from 85828,
@@ -4715,7 +4716,8 @@ F43C243118C10D4D22DFC0'H
             {
               id local id 255,
               data rna {
-                type rRNA
+                type rRNA,
+                ext name "23S ribosomal RNA"
               },
               location int {
                 from 89822,
@@ -4742,7 +4744,8 @@ F43C243118C10D4D22DFC0'H
             {
               id local id 257,
               data rna {
-                type rRNA
+                type rRNA,
+                ext name "4.5S ribosomal RNA"
               },
               location int {
                 from 92732,
@@ -4769,7 +4772,8 @@ F43C243118C10D4D22DFC0'H
             {
               id local id 259,
               data rna {
-                type rRNA
+                type rRNA,
+                ext name "5S ribosomal RNA"
               },
               location int {
                 from 93081,
@@ -7368,11 +7372,11 @@ FLSIILEIYNSSVLLDGIPVSWG"
       inst {
         repr raw,
         mol aa,
-        length 216,
-        seq-data ncbieaa "MGIKYTIGSKSVSRFRRLRMI*PVNMFLLMSIYFIV*GGSHLPLF*YK*LLV
-LL*LFTIVRPLQKLLPLFNT**PK*TLVG*SDPSIDGRQV*WF***SCTYSVFISQVDSKNPVN*LGSRV*FWVC*PY
-LSV*LVILCPGIKLVIGQ*KL*LVCLRLFL**DLLW*SYYAEVLAWVNLP*PVFIVYTLSYYPFLLLYLCQCTF**SV
-SRVFQVLY"
+        length 215,
+        seq-data iupacaa "MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSFLVQVATGS
+AMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVFRVYLTGGFKKPRELTWVTGVILGVLTVS
+FGVTGYSLPWDQIGYWAVKIVTGVPEAIPVIGSPLVELLRGSVSVGQSTLTRFYSLHTFILPLLTAVFMPMHFLMIRK
+QGIPGPL"
       },
       annot {
         {
@@ -7385,7 +7389,7 @@ SRVFQVLY"
               },
               location int {
                 from 0,
-                to 215,
+                to 214,
                 id general {
                   db "Se404-851cp",
                   tag str "cds.mRNA44"
@@ -7414,10 +7418,10 @@ SRVFQVLY"
       inst {
         repr raw,
         mol aa,
-        length 180,
-        seq-data ncbieaa "MGVNNKET*PE*SCVKG*IS*RYGT*LLWRARLAQ*SFIYFSSSNFRYYCMY
-SRFSGSRTINDW*TSKSICNSFGDITRMVSFPCIPNTSYST*QIIRCPFNGLSTRGIIDSAFSRECESISESISSSSS
-YNSILDRYCSSPLVRHWGSVTY**IFNFRSFPI*SNCRI*KSFNFLFIYL"
+        length 178,
+        seq-data iupacaa "MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVILGTIACTV
+GLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMASVPAGSLTVPFLENVNQFQNPFRRPVAT
+TVSLIGTAVALWLGIGAALPIDESLTLGLFQFDPTVEYKNLSIFYSYI"
       },
       annot {
         {
@@ -7430,7 +7434,7 @@ YNSILDRYCSSPLVRHWGSVTY**IFNFRSFPI*SNCRI*KSFNFLFIYL"
               },
               location int {
                 from 0,
-                to 179,
+                to 177,
                 id general {
                   db "Se404-851cp",
                   tag str "cds.mRNA45"
@@ -7720,10 +7724,10 @@ EKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPVAQELRQLNFTKIVSLAPEVL"
       inst {
         repr raw,
         mol aa,
-        length 136,
-        seq-data ncbieaa "MLS*PKKNKIS*TT*GKNERSILSRQSHLFR*IRSSST*TCLDHIWADRSRT
-KNDYSLCPSWRKNMGTYISRQTYYNETCRNTYGFRERISRILGIRHQTRSNTL*NGWSI*NRR*SSC*NSCIQNAYTY
-SICYYL"
+        length 134,
+        seq-data iupacaa "MLSPKRTKFRKQHRGRMKGVSYRGNRICFGRFALQALEPAWITSGQIEAGRR
+TITRYARRGGKIWVRIFPDKPITMRPAETRMGSGKGSPEYWVSVIRPGRILYEMGGVSETVARAAARIAAYKMPIRTQ
+FVTT"
       },
       annot {
         {
@@ -7736,7 +7740,7 @@ SICYYL"
               },
               location int {
                 from 0,
-                to 135,
+                to 133,
                 id general {
                   db "Se404-851cp",
                   tag str "cds.mRNA52"
@@ -10005,7 +10009,7 @@ NLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFDISRDNL"
               id local str "Se404-851cp"
             },
             int {
-              from 57078,
+              from 57080,
               to 57721,
               strand plus,
               id local str "Se404-851cp"
@@ -10040,7 +10044,7 @@ NLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFDISRDNL"
               id local str "Se404-851cp"
             },
             int {
-              from 58638,
+              from 58642,
               to 59170,
               strand plus,
               id local str "Se404-851cp"
@@ -10238,7 +10242,7 @@ NLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFDISRDNL"
             },
             int {
               from 62443,
-              to 62842,
+              to 62838,
               strand minus,
               id local str "Se404-851cp"
             }

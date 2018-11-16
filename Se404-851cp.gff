@@ -244,17 +244,17 @@ Se404-851cp	EMBL	CDS	55903	56130	.	+	0	Parent=mRNA43;translation=MATQTIDDTSKTTPR
 Se404-851cp	EMBL	gene	56285	57722	.	+	.	ID=gene62;gene=petB;note=blatX_hit petB_NC_028594.1%3B position 5 - 648%3B coverage 99.38%25%3B match 99.23%25;Name=petB
 Se404-851cp	manual	mRNA	56285	57722	.	+	.	ID=mRNA44;Parent=gene62;gene=petB
 Se404-851cp	manual	exon	56285	56290	.	+	.	Parent=mRNA44;gene=petB
-Se404-851cp	manual	exon	57079	57722	.	+	.	Parent=mRNA44;gene=petB
-Se404-851cp	manual	intron	56291	57078	.	+	.	Parent=mRNA44;gene=petB
+Se404-851cp	manual	exon	57081	57722	.	+	.	Parent=mRNA44;gene=petB
+Se404-851cp	manual	intron	56291	57080	.	+	.	Parent=mRNA44;gene=petB
 Se404-851cp	manual	CDS	56285	56290	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;product=cytochrome b6
-Se404-851cp	EMBL	CDS	57079	57722	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;product=cytochrome b6
+Se404-851cp	EMBL	CDS	57081	57722	.	+	0	Parent=mRNA44;gene=petB;Name=CDS-petB;product=cytochrome b6
 Se404-851cp	EMBL	gene	57932	59171	.	+	.	ID=gene63;gene=petD;note=blatX_hit petD_NC_028594.1%3B position 5 - 537%3B coverage 99.26%25%3B match 98.70%25;Name=petD
 Se404-851cp	manual	mRNA	57932	59171	.	+	.	ID=mRNA45;Parent=gene63;gene=petD
 Se404-851cp	manual	exon	57932	57939	.	+	.	Parent=mRNA45;gene=petD
 Se404-851cp	manual	CDS	57932	57939	.	+	0	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
-Se404-851cp	manual	intron	57940	58638	.	+	.	Parent=mRNA45;gene=petD
-Se404-851cp	manual	exon	58639	59171	.	+	.	Parent=mRNA45;gene=petD
-Se404-851cp	EMBL	CDS	58639	59171	.	+	1	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
+Se404-851cp	manual	intron	57940	58642	.	+	.	Parent=mRNA45;gene=petD
+Se404-851cp	manual	exon	58643	59171	.	+	.	Parent=mRNA45;gene=petD
+Se404-851cp	EMBL	CDS	58643	59171	.	+	1	Parent=mRNA45;gene=petD;Name=CDS-petD;product=cytochrome b6/f complex subunit IV
 Se404-851cp	EMBL	gene	59280	60290	.	-	.	ID=gene64;gene=rpoA;note=blatX_hit rpoA_NC_032367.1%3B position 1 - 1011%3B coverage 100.00%25%3B match 100.00%25;Name=rpoA
 Se404-851cp	manual	mRNA	59280	60290	.	-	.	ID=mRNA46;Parent=gene64;gene=rpoA
 Se404-851cp	manual	exon	59280	60290	.	-	.	Parent=mRNA46;gene=rpoA
@@ -281,10 +281,12 @@ Se404-851cp	manual	exon	61959	62327	.	-	.	Parent=mRNA51;gene=rpl14
 Se404-851cp	EMBL	CDS	61959	62327	.	-	0	Parent=mRNA51;translation=MIQSQTYLNIADNSGARKIMCIRVLGASNRKCAHIGDVIIAIIKEAVPNMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPVAQELRQLNFTKIVSLAPEVL;gene=rpl14;Name=CDS-rpl14;product=ribosomal protein L14
 Se404-851cp	EMBL	gene	62444	63715	.	-	.	ID=gene70;gene=rpl16;note=blatX_hit rpl16_NC_032367.1%3B position 6 - 405%3B coverage 98.77%25%3B match 98.27%25;Name=rpl16
 Se404-851cp	manual	mRNA	62444	63715	.	-	.	ID=mRNA52;Parent=gene70;gene=rpl16
-Se404-851cp	manual	exon	62444	62843	.	-	.	Parent=mRNA52;gene=rpl16
-Se404-851cp	EMBL	CDS	62444	62843	.	-	0	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16
+Se404-851cp	manual	exon	62444	62839	.	-	.	Parent=mRNA52;gene=rpl16
+Se404-851cp	EMBL	CDS	62444	62839	.	-	0	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16
+Se404-851cp	manual	intron	62840	63707	.	-	.	Parent=mRNA52;gene=rpl16
+Se404-851cp	manual	exon	63708	63715	.	-	.	Parent=mRNA52;gene=rpl16
+Se404-851cp	manual	CDS	63708	63715	.	-	1	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16	
 Se404-851cp	EMBL	gene	63809	64465	.	-	.	ID=gene71;gene=rps3;note=blatX_hit rps3_NC_028594.1%3B position 1 - 657%3B coverage 100.00%25%3B match 100.00%25;Name=rps3
-Se404-851cp	manual	intron	62844	63706	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	manual	exon	63707	63715	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	manual	CDS	63707	63715	.	-	0	Parent=mRNA52;Name=CDS-rpl16;product=ribosomal protein L16
 Se404-851cp	manual	mRNA	63809	64465	.	-	.	ID=mRNA53;Parent=gene71;gene=rps3
@@ -377,7 +379,7 @@ Se404-851cp	EMBL	gene	85432	85502	.	-	.	ID=gene92;gene=trnT-GGU;note=blatN_hit t
 Se404-851cp	EMBL	tRNA	85432	85502	.	-	.	ID=tRNA26;Parent=gene92;gene=trnT-GGU;product=tRNA-Thr
 Se404-851cp	manual	exon	85432	85502	.	-	.	Parent=tRNA26;gene=trnT-GGU
 Se404-851cp	EMBL	gene	85829	87319	.	+	.	ID=gene93;gene=rrn16;note=blatN_hit rrn16_NC_032367.1%3B position 1 - 1491%3B coverage 100.00%25%3B match 100.00%25;Name=rrn16
-Se404-851cp	EMBL	rRNA	85829	87319	.	+	.	ID=rRNA1;Parent=gene93;gene=rrn16
+Se404-851cp	EMBL	rRNA	85829	87319	.	+	.	ID=rRNA1;Parent=gene93;gene=rrn16;product=16S ribosomal RNA
 Se404-851cp	manual	exon	85829	87319	.	+	.	Parent=rRNA1;gene=rrn16
 Se404-851cp	EMBL	gene	87702	88746	.	+	.	ID=gene94;gene=trnI-GAU;note=blatN_hit trnI-GAU_NC_032367.1%3B position 1 - 77%3B coverage 100.00%25%3B match 100.00%25;Name=trnI-GAU
 Se404-851cp	EMBL	tRNA	87702	88746	.	+	.	ID=tRNA27;gene=trnI-GAU;product=tRNA-Glu
@@ -390,13 +392,13 @@ Se404-851cp	EMBL	exon	88819	88856	.	+	.	Parent=tRNA28;gene=trnA-UGC
 Se404-851cp	EMBL	intron	88857	89640	.	+	.	Parent=tRNA28;gene=trnA-UGC
 Se404-851cp	EMBL	exon	89641	89675	.	+	.	Parent=tRNA28;gene=trnA-UGC
 Se404-851cp	EMBL	gene	89823	92629	.	+	.	ID=gene96;gene=rrn23;note=blatN_hit rrn23_NC_028594.1%3B position 1 - 2807%3B coverage 100.00%25%3B match 100.00%25;Name=rrn23
-Se404-851cp	EMBL	rRNA	89823	92629	.	+	.	ID=rRNA2;Parent=gene96;gene=rrn23
+Se404-851cp	EMBL	rRNA	89823	92629	.	+	.	ID=rRNA2;Parent=gene96;gene=rrn23;product=23S ribosomal RNA
 Se404-851cp	manual	exon	89823	92629	.	+	.	Parent=rRNA2;gene=rrn23
 Se404-851cp	EMBL	gene	92733	92835	.	+	.	ID=gene97;gene=rrn4.5;note=blatN_hit rrn4.5_NC_032367.1%3B position 1 - 103%3B coverage 100.00%25%3B match 100.00%25;Name=rrn4.5
-Se404-851cp	EMBL	rRNA	92733	92835	.	+	.	ID=rRNA3;Parent=gene97;gene=rrn4.5
+Se404-851cp	EMBL	rRNA	92733	92835	.	+	.	ID=rRNA3;Parent=gene97;gene=rrn4.5;product=4.5S ribosomal RNA
 Se404-851cp	manual	exon	92733	92835	.	+	.	Parent=rRNA3;gene=rrn4.5
 Se404-851cp	EMBL	gene	93082	93202	.	+	.	ID=gene98;gene=rrn5;note=blatN_hit rrn5_NC_032367.1%3B position 1 - 121%3B coverage 100.00%25%3B match 100.00%25;Name=rrn5
-Se404-851cp	EMBL	rRNA	93082	93202	.	+	.	ID=rRNA4;Parent=gene98;gene=rrn5
+Se404-851cp	EMBL	rRNA	93082	93202	.	+	.	ID=rRNA4;Parent=gene98;gene=rrn5;product=5S ribosomal RNA
 Se404-851cp	manual	exon	93082	93202	.	+	.	Parent=rRNA4;gene=rrn5
 Se404-851cp	EMBL	gene	93411	93484	.	+	.	ID=gene99;gene=trnR-ACG;note=blatN_hit trnR-ACG_NC_032367.1%3B position 1 - 74%3B coverage 100.00%25%3B match 100.00%25;Name=trnR-ACG
 Se404-851cp	EMBL	tRNA	93411	93484	.	+	.	ID=tRNA29;Parent=gene99;gene=trnR-ACG;product=tRNA-Arg

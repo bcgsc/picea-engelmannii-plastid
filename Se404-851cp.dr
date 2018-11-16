@@ -15,7 +15,6 @@ SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
 	May contain database identifier more appropriate in note; remove from product name
 		2 features contains three or more numbers together that may be identifiers more appropriate in note
 FATAL: BAD_LOCUS_TAG_FORMAT: 114 locus tags are incorrectly formatted.
-RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
 ALL_SEQS_CIRCULAR: All (1) sequences are circular
 
 Detailed Report
@@ -150,9 +149,4 @@ Se404-851cp-final.fasta:Gene	trnL-CAA	lcl|Se404-851cp:115613-115693	Se404-851cp_
 Se404-851cp-final.fasta:Gene	ycf2	lcl|Se404-851cp:c122763-116383	Se404-851cp_000112
 Se404-851cp-final.fasta:Gene	trnH-GUG	lcl|Se404-851cp:c123019-122945	Se404-851cp_000113
 Se404-851cp-final.fasta:Gene	trnI-CAU	lcl|Se404-851cp:123319-123392	Se404-851cp_000114
-RNA_NO_PRODUCT: 4 RNA features have no product and are not pseudo
-Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:85829-87319	Se404-851cp_000092
-Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:89823-92629	Se404-851cp_000095
-Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:92733-92835	Se404-851cp_000096
-Se404-851cp-final.fasta:rRNA	rRNA	lcl|Se404-851cp:93082-93202	Se404-851cp_000097
 ALL_SEQS_CIRCULAR: All (1) sequences are circular

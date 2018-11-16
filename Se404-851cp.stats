@@ -1,4 +1,4 @@
-Total messages:		12
+Total messages:		2
 
 =================================================================
 1 INFO-level messages exist
@@ -6,15 +6,8 @@ Total messages:		12
 GENERIC.MissingPubRequirement:	1
 
 =================================================================
-4 WARNING-level messages exist
+1 ERROR-level messages exist
 
-SEQ_FEAT.rRNADoesNotHaveProduct:	4
-
-=================================================================
-7 ERROR-level messages exist
-
-SEQ_INST.StopInProtein:	3
 SEQ_DESCR.NoPubFound:	1
-SEQ_FEAT.InternalStop:	3
 
 =================================================================

@@ -1056,41 +1056,41 @@ FEATURES             Location/Qualifiers
                      /locus_tag="Se404-851cp_000061"
                      /note="blatX_hit petB_NC_028594.1; position 5 - 648;
                      coverage 99.38%; match 99.23%"
-     mRNA            join(56285..56290,57079..57722)
+     mRNA            join(56285..56290,57081..57722)
                      /gene="petB"
                      /locus_tag="Se404-851cp_000061"
                      /product="cytochrome b6"
-     CDS             join(56285..56290,57079..57722)
+     CDS             join(56285..56290,57081..57722)
                      /gene="petB"
                      /locus_tag="Se404-851cp_000061"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6"
                      /protein_id="Se404-851cp:cds.mRNA44"
-                     /translation="MGIKYTIGSKSVSRFRRLRMI*PVNMFLLMSIYFIV*GGSHLPL
-                     F*YK*LLVLL*LFTIVRPLQKLLPLFNT**PK*TLVG*SDPSIDGRQV*WF***SCTY
-                     SVFISQVDSKNPVN*LGSRV*FWVC*PYLSV*LVILCPGIKLVIGQ*KL*LVCLRLFL
-                     **DLLW*SYYAEVLAWVNLP*PVFIVYTLSYYPFLLLYLCQCTF**SVSRVFQVLY"
+                     /translation="MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSF
+                     LVQVATGSAMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVF
+                     RVYLTGGFKKPRELTWVTGVILGVLTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPV
+                     IGSPLVELLRGSVSVGQSTLTRFYSLHTFILPLLTAVFMPMHFLMIRKQGIPGPL"
      gene            57932..59171
                      /gene="petD"
                      /locus_tag="Se404-851cp_000062"
                      /note="blatX_hit petD_NC_028594.1; position 5 - 537;
                      coverage 99.26%; match 98.70%"
-     mRNA            join(57932..57939,58639..59171)
+     mRNA            join(57932..57939,58643..59171)
                      /gene="petD"
                      /locus_tag="Se404-851cp_000062"
                      /product="cytochrome b6/f complex subunit IV"
-     CDS             join(57932..57939,58639..59171)
+     CDS             join(57932..57939,58643..59171)
                      /gene="petD"
                      /locus_tag="Se404-851cp_000062"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit IV"
                      /protein_id="Se404-851cp:cds.mRNA45"
-                     /translation="MGVNNKET*PE*SCVKG*IS*RYGT*LLWRARLAQ*SFIYFSSS
-                     NFRYYCMYSRFSGSRTINDW*TSKSICNSFGDITRMVSFPCIPNTSYST*QIIRCPFN
-                     GLSTRGIIDSAFSRECESISESISSSSSYNSILDRYCSSPLVRHWGSVTY**IFNFRS
-                     FPI*SNCRI*KSFNFLFIYL"
+                     /translation="MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVI
+                     LGTIACTVGLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMA
+                     SVPAGSLTVPFLENVNQFQNPFRRPVATTVSLIGTAVALWLGIGAALPIDESLTLGLF
+                     QFDPTVEYKNLSIFYSYI"
      gene            complement(59280..60290)
                      /gene="rpoA"
                      /locus_tag="Se404-851cp_000063"
@@ -1211,20 +1211,20 @@ FEATURES             Location/Qualifiers
                      /locus_tag="Se404-851cp_000069"
                      /note="blatX_hit rpl16_NC_032367.1; position 6 - 405;
                      coverage 98.77%; match 98.27%"
-     mRNA            complement(join(62444..62843,63707..63715))
+     mRNA            complement(join(62444..62839,63707..63715))
                      /gene="rpl16"
                      /locus_tag="Se404-851cp_000069"
                      /product="ribosomal protein L16"
-     CDS             complement(join(62444..62843,63707..63715))
+     CDS             complement(join(62444..62839,63707..63715))
                      /gene="rpl16"
                      /locus_tag="Se404-851cp_000069"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L16"
                      /protein_id="Se404-851cp:cds.mRNA52"
-                     /translation="MLS*PKKNKIS*TT*GKNERSILSRQSHLFR*IRSSST*TCLDH
-                     IWADRSRTKNDYSLCPSWRKNMGTYISRQTYYNETCRNTYGFRERISRILGIRHQTRS
-                     NTL*NGWSI*NRR*SSC*NSCIQNAYTYSICYYL"
+                     /translation="MLSPKRTKFRKQHRGRMKGVSYRGNRICFGRFALQALEPAWITS
+                     GQIEAGRRTITRYARRGGKIWVRIFPDKPITMRPAETRMGSGKGSPEYWVSVIRPGRI
+                     LYEMGGVSETVARAAARIAAYKMPIRTQFVTT"
      gene            complement(63809..64465)
                      /gene="rps3"
                      /locus_tag="Se404-851cp_000070"
@@ -1595,6 +1595,7 @@ FEATURES             Location/Qualifiers
      rRNA            85829..87319
                      /gene="rrn16"
                      /locus_tag="Se404-851cp_000092"
+                     /product="16S ribosomal RNA"
      gene            87702..88746
                      /gene="trnI-GAU"
                      /locus_tag="Se404-851cp_000093"
@@ -1621,6 +1622,7 @@ FEATURES             Location/Qualifiers
      rRNA            89823..92629
                      /gene="rrn23"
                      /locus_tag="Se404-851cp_000095"
+                     /product="23S ribosomal RNA"
      gene            92733..92835
                      /gene="rrn4.5"
                      /locus_tag="Se404-851cp_000096"
@@ -1629,6 +1631,7 @@ FEATURES             Location/Qualifiers
      rRNA            92733..92835
                      /gene="rrn4.5"
                      /locus_tag="Se404-851cp_000096"
+                     /product="4.5S ribosomal RNA"
      gene            93082..93202
                      /gene="rrn5"
                      /locus_tag="Se404-851cp_000097"
@@ -1637,6 +1640,7 @@ FEATURES             Location/Qualifiers
      rRNA            93082..93202
                      /gene="rrn5"
                      /locus_tag="Se404-851cp_000097"
+                     /product="5S ribosomal RNA"
      gene            93411..93484
                      /gene="trnR-ACG"
                      /locus_tag="Se404-851cp_000098"

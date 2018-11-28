@@ -283,12 +283,10 @@ Se404-851cp	EMBL	gene	62444	63715	.	-	.	ID=gene70;gene=rpl16;note=blatX_hit rpl1
 Se404-851cp	manual	mRNA	62444	63715	.	-	.	ID=mRNA52;Parent=gene70;gene=rpl16
 Se404-851cp	manual	exon	62444	62839	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	EMBL	CDS	62444	62839	.	-	0	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16
-Se404-851cp	manual	intron	62840	63707	.	-	.	Parent=mRNA52;gene=rpl16
-Se404-851cp	manual	exon	63708	63715	.	-	.	Parent=mRNA52;gene=rpl16
-Se404-851cp	manual	CDS	63708	63715	.	-	1	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16	
-Se404-851cp	EMBL	gene	63809	64465	.	-	.	ID=gene71;gene=rps3;note=blatX_hit rps3_NC_028594.1%3B position 1 - 657%3B coverage 100.00%25%3B match 100.00%25;Name=rps3
+Se404-851cp	manual	intron	62840	63706	.	-	.	Parent=mRNA52;gene=rpl16
 Se404-851cp	manual	exon	63707	63715	.	-	.	Parent=mRNA52;gene=rpl16
-Se404-851cp	manual	CDS	63707	63715	.	-	0	Parent=mRNA52;Name=CDS-rpl16;product=ribosomal protein L16
+Se404-851cp	manual	CDS	63707	63715	.	-	0	Parent=mRNA52;gene=rpl16;Name=CDS-rpl16;product=ribosomal protein L16
+Se404-851cp	EMBL	gene	63809	64465	.	-	.	ID=gene71;gene=rps3;note=blatX_hit rps3_NC_028594.1%3B position 1 - 657%3B coverage 100.00%25%3B match 100.00%25;Name=rps3
 Se404-851cp	manual	mRNA	63809	64465	.	-	.	ID=mRNA53;Parent=gene71;gene=rps3
 Se404-851cp	manual	exon	63809	64465	.	-	.	Parent=mRNA53;gene=rps3
 Se404-851cp	EMBL	CDS	63809	64465	.	-	0	Parent=mRNA53;translation=MAQKINPLGFRLGVTQNDRSHWFAQQRNYSKDLREDQKIRTCIENYVRTHIKSSSNYGGIARVEISRKIDLIQVKIYIGFPNLLLIEGRGFQGIEKLKNDVLNMLDSVDRKLHIAIEKVAKPYRKPNILAEYIALQLEKRVPFRKTMKKAIELAEREEVEGIQIQIAGRLDGKEIARVEWDRGGRVPLQTIRARIDYCYYPVQTIYGVLGIKIWILEE;gene=rps3;Name=CDS-rps3;product=ribosomal protein S3

@@ -1,0 +1,317 @@
+##gff-version 3
+##sequence-region   NC_028594.1 1 123266
+NC_028594.1	RefSeq	gene	1	1062	.	-	.	ID=gene-OU3CP_gene1;Dbxref=GeneID:26373653;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding;locus_tag=OU3CP_gene1
+NC_028594.1	RefSeq	CDS	1	1062	.	-	0	ID=cds-YP_009185688.1;Parent=gene-OU3CP_gene1;Dbxref=Genbank:YP_009185688.1,GeneID:26373653;Name=YP_009185688.1;gbkey=CDS;gene=psbA;inference=similar to AA sequence:RefSeq:YP_008082796.1;product=photosystem II protein D1;protein_id=YP_009185688.1;transl_table=11
+NC_028594.1	RefSeq	exon	1534	1568	.	-	.	ID=exon-OU3CP_gene2-2;Parent=rna-OU3CP_gene2;Dbxref=GeneID:26373540;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+NC_028594.1	RefSeq	gene	1534	4115	.	-	.	ID=gene-OU3CP_gene2;Dbxref=GeneID:26373540;Name=trnK-UUU;gbkey=Gene;gene=trnK-UUU;gene_biotype=tRNA;locus_tag=OU3CP_gene2
+NC_028594.1	RefSeq	tRNA	1534	4115	.	-	.	ID=rna-OU3CP_gene2;Parent=gene-OU3CP_gene2;Dbxref=GeneID:26373540;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+NC_028594.1	RefSeq	intron	1569	4080	.	-	.	ID=id-OU3CP_gene2;Dbxref=GeneID:26373540;gbkey=intron;gene=trnK-UUU
+NC_028594.1	RefSeq	gene	1750	3297	.	-	.	ID=gene-OU3CP_gene3;Dbxref=GeneID:26373541;Name=matK;gbkey=Gene;gene=matK;gene_biotype=protein_coding;locus_tag=OU3CP_gene3
+NC_028594.1	RefSeq	CDS	1750	3297	.	-	0	ID=cds-YP_009185689.1;Parent=gene-OU3CP_gene3;Dbxref=Genbank:YP_009185689.1,GeneID:26373541;Name=YP_009185689.1;gbkey=CDS;gene=matK;inference=similar to AA sequence:RefSeq:YP_008082797.1;product=maturase K;protein_id=YP_009185689.1;transl_table=11
+NC_028594.1	RefSeq	exon	4081	4115	.	-	.	ID=exon-OU3CP_gene2-1;Parent=rna-OU3CP_gene2;Dbxref=GeneID:26373540;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;product=tRNA-Lys
+###
+NC_028594.1	RefSeq	gene	4707	6248	.	-	.	ID=gene-OU3CP_gene4;Dbxref=GeneID:26373542;Name=chlB;gbkey=Gene;gene=chlB;gene_biotype=protein_coding;locus_tag=OU3CP_gene4
+NC_028594.1	RefSeq	CDS	4707	6248	.	-	0	ID=cds-YP_009185690.1;Parent=gene-OU3CP_gene4;Dbxref=Genbank:YP_009185690.1,GeneID:26373542;Name=YP_009185690.1;gbkey=CDS;gene=chlB;inference=similar to AA sequence:RefSeq:YP_008082798.1;product=photochlorophyllide reductase subunit B;protein_id=YP_009185690.1;transl_table=11
+NC_028594.1	RefSeq	gene	6453	6524	.	-	.	ID=gene-OU3CP_gene5;Dbxref=GeneID:26373543;Name=trnQ-UUG;gbkey=Gene;gene=trnQ-UUG;gene_biotype=tRNA;locus_tag=OU3CP_gene5
+NC_028594.1	RefSeq	tRNA	6453	6524	.	-	.	ID=rna-OU3CP_gene5;Parent=gene-OU3CP_gene5;Dbxref=GeneID:26373543;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+NC_028594.1	RefSeq	exon	6453	6524	.	-	.	ID=exon-OU3CP_gene5-1;Parent=rna-OU3CP_gene5;Dbxref=GeneID:26373543;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;product=tRNA-Gln
+NC_028594.1	RefSeq	gene	6881	7060	.	+	.	ID=gene-OU3CP_gene6;Dbxref=GeneID:26373544;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding;locus_tag=OU3CP_gene6
+NC_028594.1	RefSeq	CDS	6881	7060	.	+	0	ID=cds-YP_009185691.1;Parent=gene-OU3CP_gene6;Dbxref=Genbank:YP_009185691.1,GeneID:26373544;Name=YP_009185691.1;gbkey=CDS;gene=psbK;inference=similar to AA sequence:RefSeq:YP_008082799.1;product=photosystem II protein K;protein_id=YP_009185691.1;transl_table=11
+NC_028594.1	RefSeq	gene	7544	7654	.	+	.	ID=gene-OU3CP_gene7;Dbxref=GeneID:26373545;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=OU3CP_gene7
+NC_028594.1	RefSeq	CDS	7544	7654	.	+	0	ID=cds-YP_009185692.1;Parent=gene-OU3CP_gene7;Dbxref=Genbank:YP_009185692.1,GeneID:26373545;Name=YP_009185692.1;gbkey=CDS;gene=psbI;inference=similar to AA sequence:RefSeq:YP_008082800.1;product=photosystem II protein I;protein_id=YP_009185692.1;transl_table=11
+NC_028594.1	RefSeq	gene	7731	7818	.	-	.	ID=gene-OU3CP_gene8;Dbxref=GeneID:26373546;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA;locus_tag=OU3CP_gene8
+NC_028594.1	RefSeq	tRNA	7731	7818	.	-	.	ID=rna-OU3CP_gene8;Parent=gene-OU3CP_gene8;Dbxref=GeneID:26373546;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+NC_028594.1	RefSeq	exon	7731	7818	.	-	.	ID=exon-OU3CP_gene8-1;Parent=rna-OU3CP_gene8;Dbxref=GeneID:26373546;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+NC_028594.1	RefSeq	gene	8280	8381	.	+	.	ID=gene-OU3CP_gene9;Dbxref=GeneID:26373547;Name=ycf12;gbkey=Gene;gene=ycf12;gene_biotype=protein_coding;locus_tag=OU3CP_gene9
+NC_028594.1	RefSeq	CDS	8280	8381	.	+	0	ID=cds-YP_009185693.1;Parent=gene-OU3CP_gene9;Dbxref=Genbank:YP_009185693.1,GeneID:26373547;Name=YP_009185693.1;gbkey=CDS;gene=ycf12;inference=similar to AA sequence:RefSeq:YP_008082834.1;product=photosystem II reaction center protein ycf12;protein_id=YP_009185693.1;transl_table=11
+NC_028594.1	RefSeq	gene	8801	9391	.	+	.	ID=gene-OU3CP_gene10;Dbxref=GeneID:26373548;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=OU3CP_gene10
+NC_028594.1	RefSeq	CDS	8801	9391	.	+	0	ID=cds-YP_009185694.1;Parent=gene-OU3CP_gene10;Dbxref=Genbank:YP_009185694.1,GeneID:26373548;Name=YP_009185694.1;gbkey=CDS;gene=clpP;inference=similar to AA sequence:RefSeq:YP_008082802.1;product=ATP-dependent Clp protease proteolytic subunit;protein_id=YP_009185694.1;transl_table=11
+NC_028594.1	RefSeq	CDS	9559	9672	.	+	0	ID=cds-YP_009185695.1;Parent=gene-OU3CP_gene11;Dbxref=Genbank:YP_009185695.1,GeneID:26373549;Name=YP_009185695.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=YP_009185695.1;transl_table=11
+NC_028594.1	RefSeq	gene	9559	9672	.	+	.	ID=gene-OU3CP_gene11;Dbxref=GeneID:26373549;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=OU3CP_gene11;part=1/2
+NC_028594.1	RefSeq	CDS	112442	112673	.	+	0	ID=cds-YP_009185695.1;Parent=gene-OU3CP_gene11;Dbxref=Genbank:YP_009185695.1,GeneID:26373549;Name=YP_009185695.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=YP_009185695.1;transl_table=11
+NC_028594.1	RefSeq	gene	112442	113241	.	+	.	ID=gene-OU3CP_gene11;Dbxref=GeneID:26373549;Name=rps12;exception=trans-splicing;gbkey=Gene;gene=rps12;gene_biotype=protein_coding;locus_tag=OU3CP_gene11;part=2/2
+NC_028594.1	RefSeq	CDS	113216	113241	.	+	2	ID=cds-YP_009185695.1;Parent=gene-OU3CP_gene11;Dbxref=Genbank:YP_009185695.1,GeneID:26373549;Name=YP_009185695.1;exception=trans-splicing;gbkey=CDS;gene=rps12;inference=similar to AA sequence:RefSeq:YP_008082803.1;product=ribosomal protein S12;protein_id=YP_009185695.1;transl_table=11
+NC_028594.1	RefSeq	gene	10382	10741	.	+	.	ID=gene-OU3CP_gene13;Dbxref=GeneID:26373550;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding;locus_tag=OU3CP_gene13
+NC_028594.1	RefSeq	CDS	10382	10741	.	+	0	ID=cds-YP_009185696.1;Parent=gene-OU3CP_gene13;Dbxref=Genbank:YP_009185696.1,GeneID:26373550;Name=YP_009185696.1;gbkey=CDS;gene=rpl20;inference=similar to AA sequence:RefSeq:YP_008082804.1;product=ribosomal protein L20;protein_id=YP_009185696.1;transl_table=11
+NC_028594.1	RefSeq	gene	11001	11282	.	-	.	ID=gene-OU3CP_gene14;Dbxref=GeneID:26373551;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding;locus_tag=OU3CP_gene14
+NC_028594.1	RefSeq	CDS	11001	11282	.	-	0	ID=cds-YP_009185697.1;Parent=gene-OU3CP_gene14;Dbxref=Genbank:YP_009185697.1,GeneID:26373551;Name=YP_009185697.1;gbkey=CDS;gene=rps18;inference=similar to AA sequence:RefSeq:YP_008082805.1;product=ribosomal protein S18;protein_id=YP_009185697.1;transl_table=11
+NC_028594.1	RefSeq	gene	11406	11612	.	-	.	ID=gene-OU3CP_gene15;Dbxref=GeneID:26373552;Name=rpl33;gbkey=Gene;gene=rpl33;gene_biotype=protein_coding;locus_tag=OU3CP_gene15
+NC_028594.1	RefSeq	CDS	11406	11612	.	-	0	ID=cds-YP_009185698.1;Parent=gene-OU3CP_gene15;Dbxref=Genbank:YP_009185698.1,GeneID:26373552;Name=YP_009185698.1;gbkey=CDS;gene=rpl33;inference=similar to AA sequence:RefSeq:YP_008082806.1;product=ribosomal protein L33;protein_id=YP_009185698.1;transl_table=11
+NC_028594.1	RefSeq	gene	11930	12058	.	-	.	ID=gene-OU3CP_gene16;Dbxref=GeneID:26373553;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding;locus_tag=OU3CP_gene16
+NC_028594.1	RefSeq	CDS	11930	12058	.	-	0	ID=cds-YP_009185699.1;Parent=gene-OU3CP_gene16;Dbxref=Genbank:YP_009185699.1,GeneID:26373553;Name=YP_009185699.1;gbkey=CDS;gene=psaJ;inference=similar to AA sequence:RefSeq:YP_008082807.1;product=photosystem I subunit IX;protein_id=YP_009185699.1;transl_table=11
+NC_028594.1	RefSeq	gene	12356	12429	.	+	.	ID=gene-OU3CP_gene17;Dbxref=GeneID:26373554;Name=trnP-UGG;gbkey=Gene;gene=trnP-UGG;gene_biotype=tRNA;locus_tag=OU3CP_gene17
+NC_028594.1	RefSeq	tRNA	12356	12429	.	+	.	ID=rna-OU3CP_gene17;Parent=gene-OU3CP_gene17;Dbxref=GeneID:26373554;Note=anticodon:UGG;gbkey=tRNA;gene=trnP-UGG;product=tRNA-Pro
+NC_028594.1	RefSeq	exon	12356	12429	.	+	.	ID=exon-OU3CP_gene17-1;Parent=rna-OU3CP_gene17;Dbxref=GeneID:26373554;Note=anticodon:UGG;gbkey=tRNA;gene=trnP-UGG;product=tRNA-Pro
+NC_028594.1	RefSeq	gene	12597	12670	.	+	.	ID=gene-OU3CP_gene18;Dbxref=GeneID:26373555;Name=trnW-CCA;gbkey=Gene;gene=trnW-CCA;gene_biotype=tRNA;locus_tag=OU3CP_gene18
+NC_028594.1	RefSeq	tRNA	12597	12670	.	+	.	ID=rna-OU3CP_gene18;Parent=gene-OU3CP_gene18;Dbxref=GeneID:26373555;Note=anticodon:CCA;gbkey=tRNA;gene=trnW-CCA;product=tRNA-Trp
+NC_028594.1	RefSeq	exon	12597	12670	.	+	.	ID=exon-OU3CP_gene18-1;Parent=rna-OU3CP_gene18;Dbxref=GeneID:26373555;Note=anticodon:CCA;gbkey=tRNA;gene=trnW-CCA;product=tRNA-Trp
+NC_028594.1	RefSeq	gene	12793	12906	.	-	.	ID=gene-OU3CP_gene19;Dbxref=GeneID:26373556;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding;locus_tag=OU3CP_gene19
+NC_028594.1	RefSeq	CDS	12793	12906	.	-	0	ID=cds-YP_009185700.1;Parent=gene-OU3CP_gene19;Dbxref=Genbank:YP_009185700.1,GeneID:26373556;Name=YP_009185700.1;gbkey=CDS;gene=petG;inference=similar to AA sequence:RefSeq:YP_008082808.1;product=cytochrome b6/f complex subunit V;protein_id=YP_009185700.1;transl_table=11
+NC_028594.1	RefSeq	gene	13011	13199	.	-	.	ID=gene-OU3CP_gene20;Dbxref=GeneID:26373557;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding;locus_tag=OU3CP_gene20
+NC_028594.1	RefSeq	CDS	13011	13199	.	-	0	ID=cds-YP_009185701.1;Parent=gene-OU3CP_gene20;Dbxref=Genbank:YP_009185701.1,GeneID:26373557;Name=YP_009185701.1;gbkey=CDS;gene=petL;inference=similar to AA sequence:RefSeq:YP_008082809.1;product=cytochrome b/f complex 3.5 kDa subunit;protein_id=YP_009185701.1;transl_table=11
+NC_028594.1	RefSeq	gene	14431	14682	.	+	.	ID=gene-OU3CP_gene21;Dbxref=GeneID:26373558;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding;locus_tag=OU3CP_gene21
+NC_028594.1	RefSeq	CDS	14431	14682	.	+	0	ID=cds-YP_009185702.1;Parent=gene-OU3CP_gene21;Dbxref=Genbank:YP_009185702.1,GeneID:26373558;Name=YP_009185702.1;gbkey=CDS;gene=psbE;inference=similar to AA sequence:RefSeq:YP_008082810.1;product=cytochrome b559 alpha chain;protein_id=YP_009185702.1;transl_table=11
+NC_028594.1	RefSeq	gene	14692	14811	.	+	.	ID=gene-OU3CP_gene22;Dbxref=GeneID:26373559;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding;locus_tag=OU3CP_gene22
+NC_028594.1	RefSeq	CDS	14692	14811	.	+	0	ID=cds-YP_009185703.1;Parent=gene-OU3CP_gene22;Dbxref=Genbank:YP_009185703.1,GeneID:26373559;Name=YP_009185703.1;gbkey=CDS;gene=psbF;inference=similar to AA sequence:RefSeq:YP_008082811.1;product=photosystem II cytochrome b559 beta subunit;protein_id=YP_009185703.1;transl_table=11
+NC_028594.1	RefSeq	gene	14845	14961	.	+	.	ID=gene-OU3CP_gene23;Dbxref=GeneID:26373560;Name=psbL;gbkey=Gene;gene=psbL;gene_biotype=protein_coding;locus_tag=OU3CP_gene23
+NC_028594.1	RefSeq	CDS	14845	14961	.	+	0	ID=cds-YP_009185704.1;Parent=gene-OU3CP_gene23;Dbxref=Genbank:YP_009185704.1,GeneID:26373560;Name=YP_009185704.1;gbkey=CDS;gene=psbL;inference=similar to AA sequence:RefSeq:YP_008082812.1;product=photosystem II protein L;protein_id=YP_009185704.1;transl_table=11
+NC_028594.1	RefSeq	gene	15080	15202	.	+	.	ID=gene-OU3CP_gene24;Dbxref=GeneID:26373561;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding;locus_tag=OU3CP_gene24
+NC_028594.1	RefSeq	CDS	15080	15202	.	+	0	ID=cds-YP_009185705.1;Parent=gene-OU3CP_gene24;Dbxref=Genbank:YP_009185705.1,GeneID:26373561;Name=YP_009185705.1;gbkey=CDS;gene=psbJ;inference=similar to AA sequence:RefSeq:YP_008082813.1;product=photosystem II protein J;protein_id=YP_009185705.1;transl_table=11
+NC_028594.1	RefSeq	gene	16202	17197	.	-	.	ID=gene-OU3CP_gene25;Dbxref=GeneID:26373562;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding;locus_tag=OU3CP_gene25
+NC_028594.1	RefSeq	CDS	16202	17197	.	-	0	ID=cds-YP_009185706.1;Parent=gene-OU3CP_gene25;Dbxref=Genbank:YP_009185706.1,GeneID:26373562;Name=YP_009185706.1;gbkey=CDS;gene=petA;inference=similar to AA sequence:RefSeq:YP_008082814.1;product=cytochrome f;protein_id=YP_009185706.1;transl_table=11
+NC_028594.1	RefSeq	gene	17423	18208	.	-	.	ID=gene-OU3CP_gene26;Dbxref=GeneID:26373563;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding;locus_tag=OU3CP_gene26
+NC_028594.1	RefSeq	CDS	17423	18208	.	-	0	ID=cds-YP_009185707.1;Parent=gene-OU3CP_gene26;Dbxref=Genbank:YP_009185707.1,GeneID:26373563;Name=YP_009185707.1;gbkey=CDS;gene=cemA;inference=similar to AA sequence:RefSeq:YP_008082815.1;product=chloroplast envelope membrane protein;protein_id=YP_009185707.1;transl_table=11
+NC_028594.1	RefSeq	gene	19045	19599	.	-	.	ID=gene-OU3CP_gene27;Dbxref=GeneID:26373564;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding;locus_tag=OU3CP_gene27
+NC_028594.1	RefSeq	CDS	19045	19599	.	-	0	ID=cds-YP_009185708.1;Parent=gene-OU3CP_gene27;Dbxref=Genbank:YP_009185708.1,GeneID:26373564;Name=YP_009185708.1;gbkey=CDS;gene=ycf4;inference=similar to AA sequence:RefSeq:YP_008082816.1;product=photosystem I assembly protein Ycf4;protein_id=YP_009185708.1;transl_table=11
+NC_028594.1	RefSeq	gene	20166	20276	.	-	.	ID=gene-OU3CP_gene28;Dbxref=GeneID:26373565;Name=psaI;gbkey=Gene;gene=psaI;gene_biotype=protein_coding;locus_tag=OU3CP_gene28
+NC_028594.1	RefSeq	CDS	20166	20276	.	-	0	ID=cds-YP_009185709.1;Parent=gene-OU3CP_gene28;Dbxref=Genbank:YP_009185709.1,GeneID:26373565;Name=YP_009185709.1;gbkey=CDS;gene=psaI;inference=similar to AA sequence:RefSeq:YP_008082817.1;product=photosystem I subunit VIII;protein_id=YP_009185709.1;transl_table=11
+NC_028594.1	RefSeq	gene	20814	21794	.	-	.	ID=gene-OU3CP_gene29;Dbxref=GeneID:26373566;Name=accD;gbkey=Gene;gene=accD;gene_biotype=protein_coding;locus_tag=OU3CP_gene29
+NC_028594.1	RefSeq	CDS	20814	21794	.	-	0	ID=cds-YP_009185710.1;Parent=gene-OU3CP_gene29;Dbxref=Genbank:YP_009185710.1,GeneID:26373566;Name=YP_009185710.1;gbkey=CDS;gene=accD;inference=similar to AA sequence:RefSeq:YP_008082818.1;product=acetyl-CoA carboxylase beta subunit;protein_id=YP_009185710.1;transl_table=11
+NC_028594.1	RefSeq	gene	22050	22123	.	-	.	ID=gene-OU3CP_gene30;Dbxref=GeneID:26373567;Name=trnR-CCG;gbkey=Gene;gene=trnR-CCG;gene_biotype=tRNA;locus_tag=OU3CP_gene30
+NC_028594.1	RefSeq	tRNA	22050	22123	.	-	.	ID=rna-OU3CP_gene30;Parent=gene-OU3CP_gene30;Dbxref=GeneID:26373567;Note=anticodon:CCG;gbkey=tRNA;gene=trnR-CCG;product=tRNA-Arg
+NC_028594.1	RefSeq	exon	22050	22123	.	-	.	ID=exon-OU3CP_gene30-1;Parent=rna-OU3CP_gene30;Dbxref=GeneID:26373567;Note=anticodon:CCG;gbkey=tRNA;gene=trnR-CCG;product=tRNA-Arg
+NC_028594.1	RefSeq	gene	22443	23870	.	-	.	ID=gene-OU3CP_gene31;Dbxref=GeneID:26373568;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding;locus_tag=OU3CP_gene31
+NC_028594.1	RefSeq	CDS	22443	23870	.	-	0	ID=cds-YP_009185711.1;Parent=gene-OU3CP_gene31;Dbxref=Genbank:YP_009185711.1,GeneID:26373568;Name=YP_009185711.1;gbkey=CDS;gene=rbcL;inference=similar to AA sequence:RefSeq:YP_008082819.1;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=YP_009185711.1;transl_table=11
+NC_028594.1	RefSeq	gene	24579	26057	.	+	.	ID=gene-OU3CP_gene32;Dbxref=GeneID:26373569;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding;locus_tag=OU3CP_gene32
+NC_028594.1	RefSeq	CDS	24579	26057	.	+	0	ID=cds-YP_009185712.1;Parent=gene-OU3CP_gene32;Dbxref=Genbank:YP_009185712.1,GeneID:26373569;Name=YP_009185712.1;gbkey=CDS;gene=atpB;inference=similar to AA sequence:RefSeq:YP_008082820.1;product=ATP synthase CF1 beta chain;protein_id=YP_009185712.1;transl_table=11
+NC_028594.1	RefSeq	gene	26066	26479	.	+	.	ID=gene-OU3CP_gene33;Dbxref=GeneID:26373570;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding;locus_tag=OU3CP_gene33
+NC_028594.1	RefSeq	CDS	26066	26479	.	+	0	ID=cds-YP_009185713.1;Parent=gene-OU3CP_gene33;Dbxref=Genbank:YP_009185713.1,GeneID:26373570;Name=YP_009185713.1;gbkey=CDS;gene=atpE;inference=similar to AA sequence:RefSeq:YP_008082821.1;product=ATP synthase CF1 epsilon chain;protein_id=YP_009185713.1;transl_table=11
+NC_028594.1	RefSeq	gene	26588	26660	.	-	.	ID=gene-OU3CP_gene34;Dbxref=GeneID:26373571;Name=trnM-CAU;gbkey=Gene;gene=trnM-CAU;gene_biotype=tRNA;locus_tag=OU3CP_gene34
+NC_028594.1	RefSeq	tRNA	26588	26660	.	-	.	ID=rna-OU3CP_gene34;Parent=gene-OU3CP_gene34;Dbxref=GeneID:26373571;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;product=tRNA-Met
+NC_028594.1	RefSeq	exon	26588	26660	.	-	.	ID=exon-OU3CP_gene34-1;Parent=rna-OU3CP_gene34;Dbxref=GeneID:26373571;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;product=tRNA-Met
+NC_028594.1	RefSeq	exon	26850	26888	.	+	.	ID=exon-OU3CP_gene35-1;Parent=rna-OU3CP_gene35;Dbxref=GeneID:26373572;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+NC_028594.1	RefSeq	gene	26850	27468	.	+	.	ID=gene-OU3CP_gene35;Dbxref=GeneID:26373572;Name=trnV-UAC;gbkey=Gene;gene=trnV-UAC;gene_biotype=tRNA;locus_tag=OU3CP_gene35
+NC_028594.1	RefSeq	tRNA	26850	27468	.	+	.	ID=rna-OU3CP_gene35;Parent=gene-OU3CP_gene35;Dbxref=GeneID:26373572;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+NC_028594.1	RefSeq	intron	26889	27431	.	+	.	ID=id-OU3CP_gene35;Dbxref=GeneID:26373572;gbkey=intron;gene=trnV-UAC
+NC_028594.1	RefSeq	exon	27432	27468	.	+	.	ID=exon-OU3CP_gene35-2;Parent=rna-OU3CP_gene35;Dbxref=GeneID:26373572;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;product=tRNA-Val
+###
+NC_028594.1	RefSeq	gene	29758	29832	.	+	.	ID=gene-OU3CP_gene36;Dbxref=GeneID:26373573;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=OU3CP_gene36
+NC_028594.1	RefSeq	tRNA	29758	29832	.	+	.	ID=rna-OU3CP_gene36;Parent=gene-OU3CP_gene36;Dbxref=GeneID:26373573;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+NC_028594.1	RefSeq	exon	29758	29832	.	+	.	ID=exon-OU3CP_gene36-1;Parent=rna-OU3CP_gene36;Dbxref=GeneID:26373573;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+NC_028594.1	RefSeq	gene	29956	30026	.	-	.	ID=gene-OU3CP_gene37;Dbxref=GeneID:26373574;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=OU3CP_gene37
+NC_028594.1	RefSeq	tRNA	29956	30026	.	-	.	ID=rna-OU3CP_gene37;Parent=gene-OU3CP_gene37;Dbxref=GeneID:26373574;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+NC_028594.1	RefSeq	exon	29956	30026	.	-	.	ID=exon-OU3CP_gene37-1;Parent=rna-OU3CP_gene37;Dbxref=GeneID:26373574;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+NC_028594.1	RefSeq	gene	31246	31338	.	+	.	ID=gene-OU3CP_gene38;Dbxref=GeneID:26373575;Name=psaM;gbkey=Gene;gene=psaM;gene_biotype=protein_coding;locus_tag=OU3CP_gene38
+NC_028594.1	RefSeq	CDS	31246	31338	.	+	0	ID=cds-YP_009185714.1;Parent=gene-OU3CP_gene38;Dbxref=Genbank:YP_009185714.1,GeneID:26373575;Name=YP_009185714.1;gbkey=CDS;gene=psaM;inference=similar to AA sequence:RefSeq:YP_008082822.1;product=photosystem I protein M;protein_id=YP_009185714.1;transl_table=11
+NC_028594.1	RefSeq	gene	31554	31641	.	+	.	ID=gene-OU3CP_gene39;Dbxref=GeneID:26373576;Name=trnS-GCU;gbkey=Gene;gene=trnS-GCU;gene_biotype=tRNA;locus_tag=OU3CP_gene39
+NC_028594.1	RefSeq	tRNA	31554	31641	.	+	.	ID=rna-OU3CP_gene39;Parent=gene-OU3CP_gene39;Dbxref=GeneID:26373576;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+NC_028594.1	RefSeq	exon	31554	31641	.	+	.	ID=exon-OU3CP_gene39-1;Parent=rna-OU3CP_gene39;Dbxref=GeneID:26373576;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;product=tRNA-Ser
+NC_028594.1	RefSeq	gene	31718	31828	.	-	.	ID=gene-OU3CP_gene40;Dbxref=GeneID:26373577;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding;locus_tag=OU3CP_gene40
+NC_028594.1	RefSeq	CDS	31718	31828	.	-	0	ID=cds-YP_009185715.1;Parent=gene-OU3CP_gene40;Dbxref=Genbank:YP_009185715.1,GeneID:26373577;Name=YP_009185715.1;gbkey=CDS;gene=psbI;inference=similar to AA sequence:RefSeq:YP_008082800.1;product=photosystem II protein I;protein_id=YP_009185715.1;transl_table=11
+NC_028594.1	RefSeq	gene	32126	32198	.	+	.	ID=gene-OU3CP_gene41;Dbxref=GeneID:26373578;Name=trnE-UUC;gbkey=Gene;gene=trnE-UUC;gene_biotype=tRNA;locus_tag=OU3CP_gene41
+NC_028594.1	RefSeq	tRNA	32126	32198	.	+	.	ID=rna-OU3CP_gene41;Parent=gene-OU3CP_gene41;Dbxref=GeneID:26373578;Note=anticodon:UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+NC_028594.1	RefSeq	exon	32126	32198	.	+	.	ID=exon-OU3CP_gene41-1;Parent=rna-OU3CP_gene41;Dbxref=GeneID:26373578;Note=anticodon:UUC;gbkey=tRNA;gene=trnE-UUC;product=tRNA-Glu
+NC_028594.1	RefSeq	gene	32271	32354	.	+	.	ID=gene-OU3CP_gene42;Dbxref=GeneID:26373579;Name=trnY-GUA;gbkey=Gene;gene=trnY-GUA;gene_biotype=tRNA;locus_tag=OU3CP_gene42
+NC_028594.1	RefSeq	tRNA	32271	32354	.	+	.	ID=rna-OU3CP_gene42;Parent=gene-OU3CP_gene42;Dbxref=GeneID:26373579;Note=anticodon:GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+NC_028594.1	RefSeq	exon	32271	32354	.	+	.	ID=exon-OU3CP_gene42-1;Parent=rna-OU3CP_gene42;Dbxref=GeneID:26373579;Note=anticodon:GUA;gbkey=tRNA;gene=trnY-GUA;product=tRNA-Tyr
+NC_028594.1	RefSeq	gene	32614	32687	.	+	.	ID=gene-OU3CP_gene43;Dbxref=GeneID:26373580;Name=trnD-GUC;gbkey=Gene;gene=trnD-GUC;gene_biotype=tRNA;locus_tag=OU3CP_gene43
+NC_028594.1	RefSeq	tRNA	32614	32687	.	+	.	ID=rna-OU3CP_gene43;Parent=gene-OU3CP_gene43;Dbxref=GeneID:26373580;Note=anticodon:GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+NC_028594.1	RefSeq	exon	32614	32687	.	+	.	ID=exon-OU3CP_gene43-1;Parent=rna-OU3CP_gene43;Dbxref=GeneID:26373580;Note=anticodon:GUC;gbkey=tRNA;gene=trnD-GUC;product=tRNA-Asp
+NC_028594.1	RefSeq	gene	33601	33714	.	+	.	ID=gene-OU3CP_gene44;Dbxref=GeneID:26373581;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding;locus_tag=OU3CP_gene44
+NC_028594.1	RefSeq	CDS	33601	33714	.	+	0	ID=cds-YP_009185716.1;Parent=gene-OU3CP_gene44;Dbxref=Genbank:YP_009185716.1,GeneID:26373581;Name=YP_009185716.1;gbkey=CDS;gene=psbM;inference=similar to AA sequence:RefSeq:YP_008082824.1;product=photosystem II M protein;protein_id=YP_009185716.1;transl_table=11
+NC_028594.1	RefSeq	gene	34607	34696	.	-	.	ID=gene-OU3CP_gene45;Dbxref=GeneID:26373582;Name=petN;gbkey=Gene;gene=petN;gene_biotype=protein_coding;locus_tag=OU3CP_gene45
+NC_028594.1	RefSeq	CDS	34607	34696	.	-	0	ID=cds-YP_009185717.1;Parent=gene-OU3CP_gene45;Dbxref=Genbank:YP_009185717.1,GeneID:26373582;Name=YP_009185717.1;gbkey=CDS;gene=petN;inference=similar to AA sequence:RefSeq:YP_008082825.1;product=cytochrome b6/f complex subunit VIII;protein_id=YP_009185717.1;transl_table=11
+NC_028594.1	RefSeq	gene	35017	35087	.	-	.	ID=gene-OU3CP_gene46;Dbxref=GeneID:26373583;Name=trnC-GCA;gbkey=Gene;gene=trnC-GCA;gene_biotype=tRNA;locus_tag=OU3CP_gene46
+NC_028594.1	RefSeq	tRNA	35017	35087	.	-	.	ID=rna-OU3CP_gene46;Parent=gene-OU3CP_gene46;Dbxref=GeneID:26373583;Note=anticodon:GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+NC_028594.1	RefSeq	exon	35017	35087	.	-	.	ID=exon-OU3CP_gene46-1;Parent=rna-OU3CP_gene46;Dbxref=GeneID:26373583;Note=anticodon:GCA;gbkey=tRNA;gene=trnC-GCA;product=tRNA-Cys
+NC_028594.1	RefSeq	gene	35507	38737	.	+	.	ID=gene-OU3CP_gene47;Dbxref=GeneID:26373584;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=OU3CP_gene47
+NC_028594.1	RefSeq	CDS	35507	38737	.	+	0	ID=cds-YP_009185718.1;Parent=gene-OU3CP_gene47;Dbxref=Genbank:YP_009185718.1,GeneID:26373584;Name=YP_009185718.1;gbkey=CDS;gene=rpoB;inference=similar to AA sequence:RefSeq:YP_008082826.1;product=RNA polymerase beta subunit;protein_id=YP_009185718.1;transl_table=11
+NC_028594.1	RefSeq	CDS	38760	39191	.	+	0	ID=cds-YP_009185719.1;Parent=gene-OU3CP_gene48;Dbxref=Genbank:YP_009185719.1,GeneID:26373585;Name=YP_009185719.1;gbkey=CDS;gene=rpoC1;inference=similar to AA sequence:RefSeq:YP_008082827.1;product=RNA polymerase beta subunit-1;protein_id=YP_009185719.1;transl_table=11
+NC_028594.1	RefSeq	gene	38760	41376	.	+	.	ID=gene-OU3CP_gene48;Dbxref=GeneID:26373585;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding;locus_tag=OU3CP_gene48
+NC_028594.1	RefSeq	intron	39192	39717	.	+	.	ID=id-OU3CP_gene48;Dbxref=GeneID:26373585;gbkey=intron;gene=rpoC1
+NC_028594.1	RefSeq	CDS	39718	41376	.	+	0	ID=cds-YP_009185719.1;Parent=gene-OU3CP_gene48;Dbxref=Genbank:YP_009185719.1,GeneID:26373585;Name=YP_009185719.1;gbkey=CDS;gene=rpoC1;inference=similar to AA sequence:RefSeq:YP_008082827.1;product=RNA polymerase beta subunit-1;protein_id=YP_009185719.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	41470	45126	.	+	.	ID=gene-OU3CP_gene49;Dbxref=GeneID:26373586;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding;locus_tag=OU3CP_gene49
+NC_028594.1	RefSeq	CDS	41470	45126	.	+	0	ID=cds-YP_009185720.1;Parent=gene-OU3CP_gene49;Dbxref=Genbank:YP_009185720.1,GeneID:26373586;Name=YP_009185720.1;gbkey=CDS;gene=rpoC2;inference=similar to AA sequence:RefSeq:YP_008082828.1;product=RNA polymerase beta subunit-2;protein_id=YP_009185720.1;transl_table=11
+NC_028594.1	RefSeq	gene	45329	46033	.	+	.	ID=gene-OU3CP_gene50;Dbxref=GeneID:26373587;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding;locus_tag=OU3CP_gene50
+NC_028594.1	RefSeq	CDS	45329	46033	.	+	0	ID=cds-YP_009185721.1;Parent=gene-OU3CP_gene50;Dbxref=Genbank:YP_009185721.1,GeneID:26373587;Name=YP_009185721.1;gbkey=CDS;gene=rps2;inference=similar to AA sequence:RefSeq:YP_008082829.1;product=ribosomal protein S2;protein_id=YP_009185721.1;transl_table=11
+NC_028594.1	RefSeq	gene	46326	47072	.	+	.	ID=gene-OU3CP_gene51;Dbxref=GeneID:26373588;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding;locus_tag=OU3CP_gene51
+NC_028594.1	RefSeq	CDS	46326	47072	.	+	0	ID=cds-YP_009185722.1;Parent=gene-OU3CP_gene51;Dbxref=Genbank:YP_009185722.1,GeneID:26373588;Name=YP_009185722.1;gbkey=CDS;gene=atpI;inference=similar to AA sequence:RefSeq:YP_008082830.1;product=ATP synthase CF0 A chain;protein_id=YP_009185722.1;transl_table=11
+NC_028594.1	RefSeq	gene	47762	48007	.	+	.	ID=gene-OU3CP_gene52;Dbxref=GeneID:26373589;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding;locus_tag=OU3CP_gene52
+NC_028594.1	RefSeq	CDS	47762	48007	.	+	0	ID=cds-YP_009185723.1;Parent=gene-OU3CP_gene52;Dbxref=Genbank:YP_009185723.1,GeneID:26373589;Name=YP_009185723.1;gbkey=CDS;gene=atpH;inference=similar to AA sequence:RefSeq:YP_008082831.1;product=ATP synthase CF0 subunit III;protein_id=YP_009185723.1;transl_table=11
+NC_028594.1	RefSeq	CDS	48337	48481	.	+	0	ID=cds-YP_009185724.1;Parent=gene-OU3CP_gene53;Dbxref=Genbank:YP_009185724.1,GeneID:26373590;Name=YP_009185724.1;gbkey=CDS;gene=atpF;inference=similar to AA sequence:RefSeq:YP_008082832.1;product=ATP synthase CF0 subunit I;protein_id=YP_009185724.1;transl_table=11
+NC_028594.1	RefSeq	gene	48337	49656	.	+	.	ID=gene-OU3CP_gene53;Dbxref=GeneID:26373590;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding;locus_tag=OU3CP_gene53
+NC_028594.1	RefSeq	intron	48482	49246	.	+	.	ID=id-OU3CP_gene53;Dbxref=GeneID:26373590;gbkey=intron;gene=atpF
+NC_028594.1	RefSeq	CDS	49247	49656	.	+	2	ID=cds-YP_009185724.1;Parent=gene-OU3CP_gene53;Dbxref=Genbank:YP_009185724.1,GeneID:26373590;Name=YP_009185724.1;gbkey=CDS;gene=atpF;inference=similar to AA sequence:RefSeq:YP_008082832.1;product=ATP synthase CF0 subunit I;protein_id=YP_009185724.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	49700	51223	.	+	.	ID=gene-OU3CP_gene54;Dbxref=GeneID:26373591;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding;locus_tag=OU3CP_gene54
+NC_028594.1	RefSeq	CDS	49700	51223	.	+	0	ID=cds-YP_009185725.1;Parent=gene-OU3CP_gene54;Dbxref=Genbank:YP_009185725.1,GeneID:26373591;Name=YP_009185725.1;gbkey=CDS;gene=atpA;inference=similar to AA sequence:RefSeq:YP_008082833.1;product=ATP synthase CF1 alpha chain;protein_id=YP_009185725.1;transl_table=11
+NC_028594.1	RefSeq	gene	51323	51392	.	-	.	ID=gene-OU3CP_gene55;Dbxref=GeneID:26373592;Name=trnR-UCU;gbkey=Gene;gene=trnR-UCU;gene_biotype=tRNA;locus_tag=OU3CP_gene55
+NC_028594.1	RefSeq	tRNA	51323	51392	.	-	.	ID=rna-OU3CP_gene55;Parent=gene-OU3CP_gene55;Dbxref=GeneID:26373592;Note=anticodon:UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+NC_028594.1	RefSeq	exon	51323	51392	.	-	.	ID=exon-OU3CP_gene55-1;Parent=rna-OU3CP_gene55;Dbxref=GeneID:26373592;Note=anticodon:UCU;gbkey=tRNA;gene=trnR-UCU;product=tRNA-Arg
+NC_028594.1	RefSeq	exon	51611	51659	.	-	.	ID=exon-OU3CP_gene56-2;Parent=rna-OU3CP_gene56;Dbxref=GeneID:26373593;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+NC_028594.1	RefSeq	gene	51611	52452	.	-	.	ID=gene-OU3CP_gene56;Dbxref=GeneID:26373593;Name=trnG-GCC;gbkey=Gene;gene=trnG-GCC;gene_biotype=tRNA;locus_tag=OU3CP_gene56
+NC_028594.1	RefSeq	tRNA	51611	52452	.	-	.	ID=rna-OU3CP_gene56;Parent=gene-OU3CP_gene56;Dbxref=GeneID:26373593;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+NC_028594.1	RefSeq	intron	51660	52430	.	-	.	ID=id-OU3CP_gene56;Dbxref=GeneID:26373593;gbkey=intron;gene=trnG-GCC
+NC_028594.1	RefSeq	exon	52431	52452	.	-	.	ID=exon-OU3CP_gene56-1;Parent=rna-OU3CP_gene56;Dbxref=GeneID:26373593;Note=anticodon:GCC;gbkey=tRNA;gene=trnG-GCC;product=tRNA-Gly
+###
+NC_028594.1	RefSeq	gene	52638	52739	.	-	.	ID=gene-OU3CP_gene57;Dbxref=GeneID:26373594;Name=ycf12;gbkey=Gene;gene=ycf12;gene_biotype=protein_coding;locus_tag=OU3CP_gene57
+NC_028594.1	RefSeq	CDS	52638	52739	.	-	0	ID=cds-YP_009185726.1;Parent=gene-OU3CP_gene57;Dbxref=Genbank:YP_009185726.1,GeneID:26373594;Name=YP_009185726.1;gbkey=CDS;gene=ycf12;inference=similar to AA sequence:RefSeq:YP_008082834.1;product=photosystem II reaction center protein ycf12;protein_id=YP_009185726.1;transl_table=11
+NC_028594.1	RefSeq	gene	53497	55023	.	+	.	ID=gene-OU3CP_gene58;Dbxref=GeneID:26373595;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding;locus_tag=OU3CP_gene58
+NC_028594.1	RefSeq	CDS	53497	55023	.	+	0	ID=cds-YP_009185727.1;Parent=gene-OU3CP_gene58;Dbxref=Genbank:YP_009185727.1,GeneID:26373595;Name=YP_009185727.1;gbkey=CDS;gene=psbB;inference=similar to AA sequence:RefSeq:YP_008082835.1;product=photosystem II CP47 chlorophyll apoprotein;protein_id=YP_009185727.1;transl_table=11
+NC_028594.1	RefSeq	gene	55098	55205	.	+	.	ID=gene-OU3CP_gene59;Dbxref=GeneID:26373596;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding;locus_tag=OU3CP_gene59
+NC_028594.1	RefSeq	CDS	55098	55205	.	+	0	ID=cds-YP_009185728.1;Parent=gene-OU3CP_gene59;Dbxref=Genbank:YP_009185728.1,GeneID:26373596;Name=YP_009185728.1;gbkey=CDS;gene=psbT;inference=similar to AA sequence:RefSeq:YP_008082836.1;product=photosystem II protein T;protein_id=YP_009185728.1;transl_table=11
+NC_028594.1	RefSeq	gene	55287	55418	.	-	.	ID=gene-OU3CP_gene60;Dbxref=GeneID:26373597;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding;locus_tag=OU3CP_gene60
+NC_028594.1	RefSeq	CDS	55287	55418	.	-	0	ID=cds-YP_009185729.1;Parent=gene-OU3CP_gene60;Dbxref=Genbank:YP_009185729.1,GeneID:26373597;Name=YP_009185729.1;gbkey=CDS;gene=psbN;inference=similar to AA sequence:RefSeq:YP_008082837.1;product=photosystem II protein N;protein_id=YP_009185729.1;transl_table=11
+NC_028594.1	RefSeq	gene	55498	55725	.	+	.	ID=gene-OU3CP_gene61;Dbxref=GeneID:26373598;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding;locus_tag=OU3CP_gene61
+NC_028594.1	RefSeq	CDS	55498	55725	.	+	0	ID=cds-YP_009185730.1;Parent=gene-OU3CP_gene61;Dbxref=Genbank:YP_009185730.1,GeneID:26373598;Name=YP_009185730.1;gbkey=CDS;gene=psbH;inference=similar to AA sequence:RefSeq:YP_008082838.1;product=photosystem II 10 kDa phosphoprotein;protein_id=YP_009185730.1;transl_table=11
+NC_028594.1	RefSeq	CDS	55880	55885	.	+	0	ID=cds-YP_009185731.1;Parent=gene-OU3CP_gene62;Dbxref=Genbank:YP_009185731.1,GeneID:26373599;Name=YP_009185731.1;gbkey=CDS;gene=petB;inference=similar to AA sequence:RefSeq:YP_008082839.1;product=cytochrome b6;protein_id=YP_009185731.1;transl_table=11
+NC_028594.1	RefSeq	gene	55880	57317	.	+	.	ID=gene-OU3CP_gene62;Dbxref=GeneID:26373599;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding;locus_tag=OU3CP_gene62
+NC_028594.1	RefSeq	intron	55886	56675	.	+	.	ID=id-OU3CP_gene62;Dbxref=GeneID:26373599;gbkey=intron;gene=petB
+NC_028594.1	RefSeq	CDS	56676	57317	.	+	0	ID=cds-YP_009185731.1;Parent=gene-OU3CP_gene62;Dbxref=Genbank:YP_009185731.1,GeneID:26373599;Name=YP_009185731.1;gbkey=CDS;gene=petB;inference=similar to AA sequence:RefSeq:YP_008082839.1;product=cytochrome b6;protein_id=YP_009185731.1;transl_table=11
+###
+NC_028594.1	RefSeq	CDS	57527	57534	.	+	0	ID=cds-YP_009185732.1;Parent=gene-OU3CP_gene63;Dbxref=Genbank:YP_009185732.1,GeneID:26373600;Name=YP_009185732.1;gbkey=CDS;gene=petD;inference=similar to AA sequence:RefSeq:YP_008082840.1;product=cytochrome b6/f complex subunit IV;protein_id=YP_009185732.1;transl_table=11
+NC_028594.1	RefSeq	gene	57527	58766	.	+	.	ID=gene-OU3CP_gene63;Dbxref=GeneID:26373600;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding;locus_tag=OU3CP_gene63
+NC_028594.1	RefSeq	intron	57535	58237	.	+	.	ID=id-OU3CP_gene63;Dbxref=GeneID:26373600;gbkey=intron;gene=petD
+NC_028594.1	RefSeq	CDS	58238	58766	.	+	1	ID=cds-YP_009185732.1;Parent=gene-OU3CP_gene63;Dbxref=Genbank:YP_009185732.1,GeneID:26373600;Name=YP_009185732.1;gbkey=CDS;gene=petD;inference=similar to AA sequence:RefSeq:YP_008082840.1;product=cytochrome b6/f complex subunit IV;protein_id=YP_009185732.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	58875	59885	.	-	.	ID=gene-OU3CP_gene64;Dbxref=GeneID:26373601;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding;locus_tag=OU3CP_gene64
+NC_028594.1	RefSeq	CDS	58875	59885	.	-	0	ID=cds-YP_009185733.1;Parent=gene-OU3CP_gene64;Dbxref=Genbank:YP_009185733.1,GeneID:26373601;Name=YP_009185733.1;gbkey=CDS;gene=rpoA;inference=similar to AA sequence:RefSeq:YP_008082841.1;product=RNA polymerase alpha subunit;protein_id=YP_009185733.1;transl_table=11
+NC_028594.1	RefSeq	gene	59945	60337	.	-	.	ID=gene-OU3CP_gene65;Dbxref=GeneID:26373602;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding;locus_tag=OU3CP_gene65
+NC_028594.1	RefSeq	CDS	59945	60337	.	-	0	ID=cds-YP_009185734.1;Parent=gene-OU3CP_gene65;Dbxref=Genbank:YP_009185734.1,GeneID:26373602;Name=YP_009185734.1;gbkey=CDS;gene=rps11;inference=similar to AA sequence:RefSeq:YP_008082842.1;product=ribosomal protein S11;protein_id=YP_009185734.1;transl_table=11
+NC_028594.1	RefSeq	gene	60420	60533	.	-	.	ID=gene-OU3CP_gene66;Dbxref=GeneID:26373603;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding;locus_tag=OU3CP_gene66
+NC_028594.1	RefSeq	CDS	60420	60533	.	-	0	ID=cds-YP_009185735.1;Parent=gene-OU3CP_gene66;Dbxref=Genbank:YP_009185735.1,GeneID:26373603;Name=YP_009185735.1;gbkey=CDS;gene=rpl36;inference=similar to AA sequence:RefSeq:YP_008082843.1;product=ribosomal protein L36;protein_id=YP_009185735.1;transl_table=11
+NC_028594.1	RefSeq	gene	60636	60872	.	-	.	ID=gene-OU3CP_gene67;Dbxref=GeneID:26373604;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=OU3CP_gene67
+NC_028594.1	RefSeq	CDS	60636	60872	.	-	0	ID=cds-YP_009185736.1;Parent=gene-OU3CP_gene67;Dbxref=Genbank:YP_009185736.1,GeneID:26373604;Name=YP_009185736.1;gbkey=CDS;gene=infA;inference=similar to AA sequence:RefSeq:YP_008082844.1;product=translation initiation factor 1;protein_id=YP_009185736.1;transl_table=11
+NC_028594.1	RefSeq	gene	61010	61408	.	-	.	ID=gene-OU3CP_gene68;Dbxref=GeneID:26373605;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding;locus_tag=OU3CP_gene68
+NC_028594.1	RefSeq	CDS	61010	61408	.	-	0	ID=cds-YP_009185737.1;Parent=gene-OU3CP_gene68;Dbxref=Genbank:YP_009185737.1,GeneID:26373605;Name=YP_009185737.1;gbkey=CDS;gene=rps8;inference=similar to AA sequence:RefSeq:YP_008082845.1;product=ribosomal protein S8;protein_id=YP_009185737.1;transl_table=11
+NC_028594.1	RefSeq	gene	61554	61922	.	-	.	ID=gene-OU3CP_gene69;Dbxref=GeneID:26373606;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding;locus_tag=OU3CP_gene69
+NC_028594.1	RefSeq	CDS	61554	61922	.	-	0	ID=cds-YP_009185738.1;Parent=gene-OU3CP_gene69;Dbxref=Genbank:YP_009185738.1,GeneID:26373606;Name=YP_009185738.1;gbkey=CDS;gene=rpl14;inference=similar to AA sequence:RefSeq:YP_008082846.1;product=ribosomal protein L14;protein_id=YP_009185738.1;transl_table=11
+NC_028594.1	RefSeq	CDS	62039	62434	.	-	0	ID=cds-YP_009185739.1;Parent=gene-OU3CP_gene70;Dbxref=Genbank:YP_009185739.1,GeneID:26373607;Name=YP_009185739.1;gbkey=CDS;gene=rpl16;inference=similar to AA sequence:RefSeq:YP_008082847.1;product=ribosomal protein L16;protein_id=YP_009185739.1;transl_table=11
+NC_028594.1	RefSeq	gene	62039	63310	.	-	.	ID=gene-OU3CP_gene70;Dbxref=GeneID:26373607;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding;locus_tag=OU3CP_gene70
+NC_028594.1	RefSeq	intron	62435	63301	.	-	.	ID=id-OU3CP_gene70;Dbxref=GeneID:26373607;gbkey=intron;gene=rpl16
+NC_028594.1	RefSeq	CDS	63302	63310	.	-	0	ID=cds-YP_009185739.1;Parent=gene-OU3CP_gene70;Dbxref=Genbank:YP_009185739.1,GeneID:26373607;Name=YP_009185739.1;gbkey=CDS;gene=rpl16;inference=similar to AA sequence:RefSeq:YP_008082847.1;product=ribosomal protein L16;protein_id=YP_009185739.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	63404	64060	.	-	.	ID=gene-OU3CP_gene71;Dbxref=GeneID:26373608;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding;locus_tag=OU3CP_gene71
+NC_028594.1	RefSeq	CDS	63404	64060	.	-	0	ID=cds-YP_009185740.1;Parent=gene-OU3CP_gene71;Dbxref=Genbank:YP_009185740.1,GeneID:26373608;Name=YP_009185740.1;gbkey=CDS;gene=rps3;inference=similar to AA sequence:RefSeq:YP_008082848.1;product=ribosomal protein S3;protein_id=YP_009185740.1;transl_table=11
+NC_028594.1	RefSeq	gene	64045	64473	.	-	.	ID=gene-OU3CP_gene72;Dbxref=GeneID:26373609;Name=rpl22;gbkey=Gene;gene=rpl22;gene_biotype=protein_coding;locus_tag=OU3CP_gene72
+NC_028594.1	RefSeq	CDS	64045	64473	.	-	0	ID=cds-YP_009185741.1;Parent=gene-OU3CP_gene72;Dbxref=Genbank:YP_009185741.1,GeneID:26373609;Name=YP_009185741.1;gbkey=CDS;gene=rpl22;inference=similar to AA sequence:RefSeq:YP_008082849.1;product=ribosomal protein L22;protein_id=YP_009185741.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	64504	64782	.	-	.	ID=gene-OU3CP_gene73;Dbxref=GeneID:26373610;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding;locus_tag=OU3CP_gene73
+NC_028594.1	RefSeq	CDS	64504	64782	.	-	0	ID=cds-YP_009185742.1;Parent=gene-OU3CP_gene73;Dbxref=Genbank:YP_009185742.1,GeneID:26373610;Name=YP_009185742.1;gbkey=CDS;gene=rps19;inference=similar to AA sequence:RefSeq:YP_008082850.1;product=ribosomal protein S19;protein_id=YP_009185742.1;transl_table=11
+NC_028594.1	RefSeq	CDS	64834	65264	.	-	2	ID=cds-YP_009185743.1;Parent=gene-OU3CP_gene74;Dbxref=Genbank:YP_009185743.1,GeneID:26373611;Name=YP_009185743.1;gbkey=CDS;gene=rpl2;inference=similar to AA sequence:RefSeq:YP_008082851.1;product=ribosomal protein L2;protein_id=YP_009185743.1;transl_table=11
+NC_028594.1	RefSeq	gene	64834	66341	.	-	.	ID=gene-OU3CP_gene74;Dbxref=GeneID:26373611;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding;locus_tag=OU3CP_gene74
+NC_028594.1	RefSeq	intron	65265	65941	.	-	.	ID=id-OU3CP_gene74;Dbxref=GeneID:26373611;gbkey=intron;gene=rpl2
+NC_028594.1	RefSeq	CDS	65942	66341	.	-	0	ID=cds-YP_009185743.1;Parent=gene-OU3CP_gene74;Dbxref=Genbank:YP_009185743.1,GeneID:26373611;Name=YP_009185743.1;gbkey=CDS;gene=rpl2;inference=similar to AA sequence:RefSeq:YP_008082851.1;product=ribosomal protein L2;protein_id=YP_009185743.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	66369	66644	.	-	.	ID=gene-OU3CP_gene75;Dbxref=GeneID:26373612;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding;locus_tag=OU3CP_gene75
+NC_028594.1	RefSeq	CDS	66369	66644	.	-	0	ID=cds-YP_009185744.1;Parent=gene-OU3CP_gene75;Dbxref=Genbank:YP_009185744.1,GeneID:26373612;Name=YP_009185744.1;gbkey=CDS;gene=rpl23;inference=similar to AA sequence:RefSeq:YP_008082852.1;product=ribosomal protein L23;protein_id=YP_009185744.1;transl_table=11
+NC_028594.1	RefSeq	gene	66980	67053	.	-	.	ID=gene-OU3CP_gene76;Dbxref=GeneID:26373613;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=OU3CP_gene76
+NC_028594.1	RefSeq	tRNA	66980	67053	.	-	.	ID=rna-OU3CP_gene76;Parent=gene-OU3CP_gene76;Dbxref=GeneID:26373613;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+NC_028594.1	RefSeq	exon	66980	67053	.	-	.	ID=exon-OU3CP_gene76-1;Parent=rna-OU3CP_gene76;Dbxref=GeneID:26373613;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+NC_028594.1	RefSeq	gene	68895	68967	.	-	.	ID=gene-OU3CP_gene77;Dbxref=GeneID:26373614;Name=trnF-GAA;gbkey=Gene;gene=trnF-GAA;gene_biotype=tRNA;locus_tag=OU3CP_gene77
+NC_028594.1	RefSeq	tRNA	68895	68967	.	-	.	ID=rna-OU3CP_gene77;Parent=gene-OU3CP_gene77;Dbxref=GeneID:26373614;Note=anticodon:GAA;gbkey=tRNA;gene=trnF-GAA;product=tRNA-Phe
+NC_028594.1	RefSeq	exon	68895	68967	.	-	.	ID=exon-OU3CP_gene77-1;Parent=rna-OU3CP_gene77;Dbxref=GeneID:26373614;Note=anticodon:GAA;gbkey=tRNA;gene=trnF-GAA;product=tRNA-Phe
+NC_028594.1	RefSeq	exon	69348	69386	.	-	.	ID=exon-OU3CP_gene78-2;Parent=rna-OU3CP_gene78;Dbxref=GeneID:26373615;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+NC_028594.1	RefSeq	gene	69348	69920	.	-	.	ID=gene-OU3CP_gene78;Dbxref=GeneID:26373615;Name=trnL-UAA;gbkey=Gene;gene=trnL-UAA;gene_biotype=tRNA;locus_tag=OU3CP_gene78
+NC_028594.1	RefSeq	tRNA	69348	69920	.	-	.	ID=rna-OU3CP_gene78;Parent=gene-OU3CP_gene78;Dbxref=GeneID:26373615;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+NC_028594.1	RefSeq	intron	69387	69868	.	-	.	ID=id-OU3CP_gene78;Dbxref=GeneID:26373615;gbkey=intron;gene=trnL-UAA
+NC_028594.1	RefSeq	exon	69869	69920	.	-	.	ID=exon-OU3CP_gene78-1;Parent=rna-OU3CP_gene78;Dbxref=GeneID:26373615;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;product=tRNA-Leu
+###
+NC_028594.1	RefSeq	gene	70336	70408	.	+	.	ID=gene-OU3CP_gene79;Dbxref=GeneID:26373616;Name=trnT-UGU;gbkey=Gene;gene=trnT-UGU;gene_biotype=tRNA;locus_tag=OU3CP_gene79
+NC_028594.1	RefSeq	tRNA	70336	70408	.	+	.	ID=rna-OU3CP_gene79;Parent=gene-OU3CP_gene79;Dbxref=GeneID:26373616;Note=anticodon:UGU;gbkey=tRNA;gene=trnT-UGU;product=tRNA-Thr
+NC_028594.1	RefSeq	exon	70336	70408	.	+	.	ID=exon-OU3CP_gene79-1;Parent=rna-OU3CP_gene79;Dbxref=GeneID:26373616;Note=anticodon:UGU;gbkey=tRNA;gene=trnT-UGU;product=tRNA-Thr
+NC_028594.1	RefSeq	gene	70666	71271	.	+	.	ID=gene-OU3CP_gene80;Dbxref=GeneID:26373617;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding;locus_tag=OU3CP_gene80
+NC_028594.1	RefSeq	CDS	70666	71271	.	+	0	ID=cds-YP_009185745.1;Parent=gene-OU3CP_gene80;Dbxref=Genbank:YP_009185745.1,GeneID:26373617;Name=YP_009185745.1;gbkey=CDS;gene=rps4;inference=similar to AA sequence:RefSeq:YP_008082853.1;product=ribosomal protein S4;protein_id=YP_009185745.1;transl_table=11
+NC_028594.1	RefSeq	gene	71572	71658	.	+	.	ID=gene-OU3CP_gene81;Dbxref=GeneID:26373618;Name=trnS-GGA;gbkey=Gene;gene=trnS-GGA;gene_biotype=tRNA;locus_tag=OU3CP_gene81
+NC_028594.1	RefSeq	tRNA	71572	71658	.	+	.	ID=rna-OU3CP_gene81;Parent=gene-OU3CP_gene81;Dbxref=GeneID:26373618;Note=anticodon:GGA;gbkey=tRNA;gene=trnS-GGA;product=tRNA-Ser
+NC_028594.1	RefSeq	exon	71572	71658	.	+	.	ID=exon-OU3CP_gene81-1;Parent=rna-OU3CP_gene81;Dbxref=GeneID:26373618;Note=anticodon:GGA;gbkey=tRNA;gene=trnS-GGA;product=tRNA-Ser
+NC_028594.1	RefSeq	CDS	72381	72506	.	+	0	ID=cds-YP_009185746.1;Parent=gene-OU3CP_gene82;Dbxref=Genbank:YP_009185746.1,GeneID:26373619;Name=YP_009185746.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=YP_009185746.1;transl_table=11
+NC_028594.1	RefSeq	gene	72381	74316	.	+	.	ID=gene-OU3CP_gene82;Dbxref=GeneID:26373619;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding;locus_tag=OU3CP_gene82
+NC_028594.1	RefSeq	intron	72507	73218	.	+	.	ID=id-OU3CP_gene82;Dbxref=GeneID:26373619;gbkey=intron;gene=ycf3
+NC_028594.1	RefSeq	CDS	73219	73449	.	+	0	ID=cds-YP_009185746.1;Parent=gene-OU3CP_gene82;Dbxref=Genbank:YP_009185746.1,GeneID:26373619;Name=YP_009185746.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=YP_009185746.1;transl_table=11
+NC_028594.1	RefSeq	intron	73450	74160	.	+	.	ID=id-OU3CP_gene82-2;Dbxref=GeneID:26373619;gbkey=intron;gene=ycf3
+NC_028594.1	RefSeq	CDS	74161	74316	.	+	0	ID=cds-YP_009185746.1;Parent=gene-OU3CP_gene82;Dbxref=Genbank:YP_009185746.1,GeneID:26373619;Name=YP_009185746.1;gbkey=CDS;gene=ycf3;inference=similar to AA sequence:RefSeq:YP_008082854.1;product=photosystem I assembly protein Ycf3;protein_id=YP_009185746.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	74935	77187	.	+	.	ID=gene-OU3CP_gene83;Dbxref=GeneID:26373620;Name=psaA;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;locus_tag=OU3CP_gene83
+NC_028594.1	RefSeq	CDS	74935	77187	.	+	0	ID=cds-YP_009185747.1;Parent=gene-OU3CP_gene83;Dbxref=Genbank:YP_009185747.1,GeneID:26373620;Name=YP_009185747.1;gbkey=CDS;gene=psaA;inference=similar to AA sequence:RefSeq:YP_008082855.1;product=photosystem I P700 apoprotein A1;protein_id=YP_009185747.1;transl_table=11
+NC_028594.1	RefSeq	gene	77213	79417	.	+	.	ID=gene-OU3CP_gene84;Dbxref=GeneID:26373621;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding;locus_tag=OU3CP_gene84
+NC_028594.1	RefSeq	CDS	77213	79417	.	+	0	ID=cds-YP_009185748.1;Parent=gene-OU3CP_gene84;Dbxref=Genbank:YP_009185748.1,GeneID:26373621;Name=YP_009185748.1;gbkey=CDS;gene=psaB;inference=similar to AA sequence:RefSeq:YP_008082856.1;product=photosystem I P700 apoprotein A2;protein_id=YP_009185748.1;transl_table=11
+NC_028594.1	RefSeq	gene	79567	79866	.	+	.	ID=gene-OU3CP_gene85;Dbxref=GeneID:26373622;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding;locus_tag=OU3CP_gene85
+NC_028594.1	RefSeq	CDS	79567	79866	.	+	0	ID=cds-YP_009185749.1;Parent=gene-OU3CP_gene85;Dbxref=Genbank:YP_009185749.1,GeneID:26373622;Name=YP_009185749.1;gbkey=CDS;gene=rps14;inference=similar to AA sequence:RefSeq:YP_008082857.1;product=ribosomal protein S14;protein_id=YP_009185749.1;transl_table=11
+NC_028594.1	RefSeq	gene	80002	80075	.	+	.	ID=gene-OU3CP_gene86;Dbxref=GeneID:26373623;Name=trnfM-CAU;gbkey=Gene;gene=trnfM-CAU;gene_biotype=tRNA;locus_tag=OU3CP_gene86
+NC_028594.1	RefSeq	tRNA	80002	80075	.	+	.	ID=rna-OU3CP_gene86;Parent=gene-OU3CP_gene86;Dbxref=GeneID:26373623;Note=anticodon:CAU;gbkey=tRNA;gene=trnfM-CAU;product=tRNA-Met
+NC_028594.1	RefSeq	exon	80002	80075	.	+	.	ID=exon-OU3CP_gene86-1;Parent=rna-OU3CP_gene86;Dbxref=GeneID:26373623;Note=anticodon:CAU;gbkey=tRNA;gene=trnfM-CAU;product=tRNA-Met
+NC_028594.1	RefSeq	gene	80212	80282	.	-	.	ID=gene-OU3CP_gene87;Dbxref=GeneID:26373624;Name=trnG-UCC;gbkey=Gene;gene=trnG-UCC;gene_biotype=tRNA;locus_tag=OU3CP_gene87
+NC_028594.1	RefSeq	tRNA	80212	80282	.	-	.	ID=rna-OU3CP_gene87;Parent=gene-OU3CP_gene87;Dbxref=GeneID:26373624;Note=anticodon:UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+NC_028594.1	RefSeq	exon	80212	80282	.	-	.	ID=exon-OU3CP_gene87-1;Parent=rna-OU3CP_gene87;Dbxref=GeneID:26373624;Note=anticodon:UCC;gbkey=tRNA;gene=trnG-UCC;product=tRNA-Gly
+NC_028594.1	RefSeq	gene	80457	80705	.	-	.	ID=gene-OU3CP_gene88;Dbxref=GeneID:26373625;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding;locus_tag=OU3CP_gene88
+NC_028594.1	RefSeq	CDS	80457	80705	.	-	0	ID=cds-YP_009185750.1;Parent=gene-OU3CP_gene88;Dbxref=Genbank:YP_009185750.1,GeneID:26373625;Name=YP_009185750.1;gbkey=CDS;gene=psbZ;inference=similar to AA sequence:RefSeq:YP_008082858.1;product=photosystem II protein Z;protein_id=YP_009185750.1;transl_table=11
+NC_028594.1	RefSeq	gene	80995	81081	.	+	.	ID=gene-OU3CP_gene89;Dbxref=GeneID:26373626;Name=trnS-UGA;gbkey=Gene;gene=trnS-UGA;gene_biotype=tRNA;locus_tag=OU3CP_gene89
+NC_028594.1	RefSeq	tRNA	80995	81081	.	+	.	ID=rna-OU3CP_gene89;Parent=gene-OU3CP_gene89;Dbxref=GeneID:26373626;Note=anticodon:UGA;gbkey=tRNA;gene=trnS-UGA;product=tRNA-Ser
+NC_028594.1	RefSeq	exon	80995	81081	.	+	.	ID=exon-OU3CP_gene89-1;Parent=rna-OU3CP_gene89;Dbxref=GeneID:26373626;Note=anticodon:UGA;gbkey=tRNA;gene=trnS-UGA;product=tRNA-Ser
+NC_028594.1	RefSeq	gene	81276	82697	.	-	.	ID=gene-OU3CP_gene90;Dbxref=GeneID:26373627;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding;locus_tag=OU3CP_gene90
+NC_028594.1	RefSeq	CDS	81276	82697	.	-	0	ID=cds-YP_009185751.1;Parent=gene-OU3CP_gene90;Dbxref=Genbank:YP_009185751.1,GeneID:26373627;Name=YP_009185751.1;gbkey=CDS;gene=psbC;inference=similar to AA sequence:RefSeq:YP_008082859.1;product=photosystem II 44 kDa protein;protein_id=YP_009185751.1;transl_table=11
+NC_028594.1	RefSeq	gene	82645	83706	.	-	.	ID=gene-OU3CP_gene91;Dbxref=GeneID:26373628;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding;locus_tag=OU3CP_gene91
+NC_028594.1	RefSeq	CDS	82645	83706	.	-	0	ID=cds-YP_009185752.1;Parent=gene-OU3CP_gene91;Dbxref=Genbank:YP_009185752.1,GeneID:26373628;Name=YP_009185752.1;gbkey=CDS;gene=psbD;inference=similar to AA sequence:RefSeq:YP_008082860.1;product=photosystem II protein D2;protein_id=YP_009185752.1;transl_table=11
+###
+NC_028594.1	RefSeq	gene	85012	85082	.	-	.	ID=gene-OU3CP_gene92;Dbxref=GeneID:26373629;Name=trnT-GGU;gbkey=Gene;gene=trnT-GGU;gene_biotype=tRNA;locus_tag=OU3CP_gene92
+NC_028594.1	RefSeq	tRNA	85012	85082	.	-	.	ID=rna-OU3CP_gene92;Parent=gene-OU3CP_gene92;Dbxref=GeneID:26373629;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+NC_028594.1	RefSeq	exon	85012	85082	.	-	.	ID=exon-OU3CP_gene92-1;Parent=rna-OU3CP_gene92;Dbxref=GeneID:26373629;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;product=tRNA-Thr
+NC_028594.1	RefSeq	gene	85409	86899	.	+	.	ID=gene-OU3CP_gene93;Dbxref=GeneID:26373630;Name=rrn16;gbkey=Gene;gene=rrn16;gene_biotype=rRNA;locus_tag=OU3CP_gene93
+NC_028594.1	RefSeq	rRNA	85409	86899	.	+	.	ID=rna-OU3CP_gene93;Parent=gene-OU3CP_gene93;Dbxref=GeneID:26373630;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+NC_028594.1	RefSeq	exon	85409	86899	.	+	.	ID=exon-OU3CP_gene93-1;Parent=rna-OU3CP_gene93;Dbxref=GeneID:26373630;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+NC_028594.1	RefSeq	exon	87282	87323	.	+	.	ID=exon-OU3CP_gene94-1;Parent=rna-OU3CP_gene94;Dbxref=GeneID:26373631;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+NC_028594.1	RefSeq	gene	87282	88326	.	+	.	ID=gene-OU3CP_gene94;Dbxref=GeneID:26373631;Name=trnI-GAU;gbkey=Gene;gene=trnI-GAU;gene_biotype=tRNA;locus_tag=OU3CP_gene94
+NC_028594.1	RefSeq	tRNA	87282	88326	.	+	.	ID=rna-OU3CP_gene94;Parent=gene-OU3CP_gene94;Dbxref=GeneID:26373631;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+NC_028594.1	RefSeq	intron	87324	88291	.	+	.	ID=id-OU3CP_gene94;Dbxref=GeneID:26373631;gbkey=intron;gene=trnI-GAU
+NC_028594.1	RefSeq	exon	88292	88326	.	+	.	ID=exon-OU3CP_gene94-2;Parent=rna-OU3CP_gene94;Dbxref=GeneID:26373631;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;product=tRNA-Ile
+###
+NC_028594.1	RefSeq	exon	88399	88436	.	+	.	ID=exon-OU3CP_gene95-1;Parent=rna-OU3CP_gene95;Dbxref=GeneID:26373632;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+NC_028594.1	RefSeq	gene	88399	89255	.	+	.	ID=gene-OU3CP_gene95;Dbxref=GeneID:26373632;Name=trnA-UGC;gbkey=Gene;gene=trnA-UGC;gene_biotype=tRNA;locus_tag=OU3CP_gene95
+NC_028594.1	RefSeq	tRNA	88399	89255	.	+	.	ID=rna-OU3CP_gene95;Parent=gene-OU3CP_gene95;Dbxref=GeneID:26373632;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+NC_028594.1	RefSeq	intron	88437	89220	.	+	.	ID=id-OU3CP_gene95;Dbxref=GeneID:26373632;gbkey=intron;gene=trnA-UGC
+NC_028594.1	RefSeq	exon	89221	89255	.	+	.	ID=exon-OU3CP_gene95-2;Parent=rna-OU3CP_gene95;Dbxref=GeneID:26373632;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;product=tRNA-Ala
+###
+NC_028594.1	RefSeq	gene	89403	92209	.	+	.	ID=gene-OU3CP_gene96;Dbxref=GeneID:26373633;Name=rrn23;gbkey=Gene;gene=rrn23;gene_biotype=rRNA;locus_tag=OU3CP_gene96
+NC_028594.1	RefSeq	rRNA	89403	92209	.	+	.	ID=rna-OU3CP_gene96;Parent=gene-OU3CP_gene96;Dbxref=GeneID:26373633;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+NC_028594.1	RefSeq	exon	89403	92209	.	+	.	ID=exon-OU3CP_gene96-1;Parent=rna-OU3CP_gene96;Dbxref=GeneID:26373633;gbkey=rRNA;gene=rrn23;product=23S ribosomal RNA
+NC_028594.1	RefSeq	gene	92313	92415	.	+	.	ID=gene-OU3CP_gene97;Dbxref=GeneID:26373634;Name=rrn4.5;gbkey=Gene;gene=rrn4.5;gene_biotype=rRNA;locus_tag=OU3CP_gene97
+NC_028594.1	RefSeq	rRNA	92313	92415	.	+	.	ID=rna-OU3CP_gene97;Parent=gene-OU3CP_gene97;Dbxref=GeneID:26373634;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+NC_028594.1	RefSeq	exon	92313	92415	.	+	.	ID=exon-OU3CP_gene97-1;Parent=rna-OU3CP_gene97;Dbxref=GeneID:26373634;gbkey=rRNA;gene=rrn4.5;product=4.5S ribosomal RNA
+NC_028594.1	RefSeq	gene	92662	92782	.	+	.	ID=gene-OU3CP_gene98;Dbxref=GeneID:26373635;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA;locus_tag=OU3CP_gene98
+NC_028594.1	RefSeq	rRNA	92662	92782	.	+	.	ID=rna-OU3CP_gene98;Parent=gene-OU3CP_gene98;Dbxref=GeneID:26373635;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+NC_028594.1	RefSeq	exon	92662	92782	.	+	.	ID=exon-OU3CP_gene98-1;Parent=rna-OU3CP_gene98;Dbxref=GeneID:26373635;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+NC_028594.1	RefSeq	gene	92991	93064	.	+	.	ID=gene-OU3CP_gene99;Dbxref=GeneID:26373636;Name=trnR-ACG;gbkey=Gene;gene=trnR-ACG;gene_biotype=tRNA;locus_tag=OU3CP_gene99
+NC_028594.1	RefSeq	tRNA	92991	93064	.	+	.	ID=rna-OU3CP_gene99;Parent=gene-OU3CP_gene99;Dbxref=GeneID:26373636;Note=anticodon:ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+NC_028594.1	RefSeq	exon	92991	93064	.	+	.	ID=exon-OU3CP_gene99-1;Parent=rna-OU3CP_gene99;Dbxref=GeneID:26373636;Note=anticodon:ACG;gbkey=tRNA;gene=trnR-ACG;product=tRNA-Arg
+NC_028594.1	RefSeq	gene	93800	93871	.	-	.	ID=gene-OU3CP_gene100;Dbxref=GeneID:26373637;Name=trnN-GUU;gbkey=Gene;gene=trnN-GUU;gene_biotype=tRNA;locus_tag=OU3CP_gene100
+NC_028594.1	RefSeq	tRNA	93800	93871	.	-	.	ID=rna-OU3CP_gene100;Parent=gene-OU3CP_gene100;Dbxref=GeneID:26373637;Note=anticodon:GUU;gbkey=tRNA;gene=trnN-GUU;product=tRNA-Asn
+NC_028594.1	RefSeq	exon	93800	93871	.	-	.	ID=exon-OU3CP_gene100-1;Parent=rna-OU3CP_gene100;Dbxref=GeneID:26373637;Note=anticodon:GUU;gbkey=tRNA;gene=trnN-GUU;product=tRNA-Asn
+NC_028594.1	RefSeq	gene	94157	95032	.	+	.	ID=gene-OU3CP_gene101;Dbxref=GeneID:26373638;Name=chlL;gbkey=Gene;gene=chlL;gene_biotype=protein_coding;locus_tag=OU3CP_gene101
+NC_028594.1	RefSeq	CDS	94157	95032	.	+	0	ID=cds-YP_009185753.1;Parent=gene-OU3CP_gene101;Dbxref=Genbank:YP_009185753.1,GeneID:26373638;Name=YP_009185753.1;gbkey=CDS;gene=chlL;inference=similar to AA sequence:RefSeq:YP_008082861.1;product=protochlorophyllide reductase ATP-binding subunit;protein_id=YP_009185753.1;transl_table=11
+NC_028594.1	RefSeq	gene	95149	96555	.	+	.	ID=gene-OU3CP_gene102;Dbxref=GeneID:26373639;Name=chlN;gbkey=Gene;gene=chlN;gene_biotype=protein_coding;locus_tag=OU3CP_gene102
+NC_028594.1	RefSeq	CDS	95149	96555	.	+	0	ID=cds-YP_009185754.1;Parent=gene-OU3CP_gene102;Dbxref=Genbank:YP_009185754.1,GeneID:26373639;Name=YP_009185754.1;gbkey=CDS;gene=chlN;inference=similar to AA sequence:RefSeq:YP_008082862.1;product=photochlorophyllide reductase subunit N;protein_id=YP_009185754.1;transl_table=11
+NC_028594.1	RefSeq	gene	97533	102803	.	+	.	ID=gene-OU3CP_gene103;Dbxref=GeneID:26373640;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=protein_coding;locus_tag=OU3CP_gene103
+NC_028594.1	RefSeq	CDS	97533	102803	.	+	0	ID=cds-YP_009185755.1;Parent=gene-OU3CP_gene103;Dbxref=Genbank:YP_009185755.1,GeneID:26373640;Name=YP_009185755.1;gbkey=CDS;gene=ycf1;inference=similar to AA sequence:RefSeq:YP_008082863.1;product=Ycf1;protein_id=YP_009185755.1;transl_table=11
+NC_028594.1	RefSeq	gene	103140	103406	.	+	.	ID=gene-OU3CP_gene104;Dbxref=GeneID:26373641;Name=rps15;gbkey=Gene;gene=rps15;gene_biotype=protein_coding;locus_tag=OU3CP_gene104
+NC_028594.1	RefSeq	CDS	103140	103406	.	+	0	ID=cds-YP_009185756.1;Parent=gene-OU3CP_gene104;Dbxref=Genbank:YP_009185756.1,GeneID:26373641;Name=YP_009185756.1;gbkey=CDS;gene=rps15;inference=similar to AA sequence:RefSeq:YP_008082864.1;product=ribosomal protein S15;protein_id=YP_009185756.1;transl_table=11
+NC_028594.1	RefSeq	gene	104769	105014	.	+	.	ID=gene-OU3CP_gene105;Dbxref=GeneID:26373642;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding;locus_tag=OU3CP_gene105
+NC_028594.1	RefSeq	CDS	104769	105014	.	+	0	ID=cds-YP_009185757.1;Parent=gene-OU3CP_gene105;Dbxref=Genbank:YP_009185757.1,GeneID:26373642;Name=YP_009185757.1;gbkey=CDS;gene=psaC;inference=similar to AA sequence:RefSeq:YP_008082865.1;product=photosystem I subunit VII;protein_id=YP_009185757.1;transl_table=11
+NC_028594.1	RefSeq	gene	106961	107923	.	-	.	ID=gene-OU3CP_gene106;Dbxref=GeneID:26373643;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding;locus_tag=OU3CP_gene106
+NC_028594.1	RefSeq	CDS	106961	107923	.	-	0	ID=cds-YP_009185758.1;Parent=gene-OU3CP_gene106;Dbxref=Genbank:YP_009185758.1,GeneID:26373643;Name=YP_009185758.1;gbkey=CDS;gene=ccsA;inference=similar to AA sequence:RefSeq:YP_008082866.1;product=cytochrome c biogenesis protein;protein_id=YP_009185758.1;transl_table=11
+NC_028594.1	RefSeq	gene	108062	108139	.	-	.	ID=gene-OU3CP_gene107;Dbxref=GeneID:26373644;Name=trnL-UAG;gbkey=Gene;gene=trnL-UAG;gene_biotype=tRNA;locus_tag=OU3CP_gene107
+NC_028594.1	RefSeq	tRNA	108062	108139	.	-	.	ID=rna-OU3CP_gene107;Parent=gene-OU3CP_gene107;Dbxref=GeneID:26373644;Note=anticodon:UAG;gbkey=tRNA;gene=trnL-UAG;product=tRNA-Leu
+NC_028594.1	RefSeq	exon	108062	108139	.	-	.	ID=exon-OU3CP_gene107-1;Parent=rna-OU3CP_gene107;Dbxref=GeneID:26373644;Note=anticodon:UAG;gbkey=tRNA;gene=trnL-UAG;product=tRNA-Leu
+NC_028594.1	RefSeq	gene	108296	108369	.	+	.	ID=gene-OU3CP_gene108;Dbxref=GeneID:26373645;Name=trnP-GGG;gbkey=Gene;gene=trnP-GGG;gene_biotype=tRNA;locus_tag=OU3CP_gene108
+NC_028594.1	RefSeq	tRNA	108296	108369	.	+	.	ID=rna-OU3CP_gene108;Parent=gene-OU3CP_gene108;Dbxref=GeneID:26373645;Note=anticodon:GGG;gbkey=tRNA;gene=trnP-GGG;product=tRNA-Pro
+NC_028594.1	RefSeq	exon	108296	108369	.	+	.	ID=exon-OU3CP_gene108-1;Parent=rna-OU3CP_gene108;Dbxref=GeneID:26373645;Note=anticodon:GGG;gbkey=tRNA;gene=trnP-GGG;product=tRNA-Pro
+NC_028594.1	RefSeq	gene	109471	109683	.	-	.	ID=gene-OU3CP_gene109;Dbxref=GeneID:26373646;Name=rpl32;gbkey=Gene;gene=rpl32;gene_biotype=protein_coding;locus_tag=OU3CP_gene109
+NC_028594.1	RefSeq	CDS	109471	109683	.	-	0	ID=cds-YP_009185759.1;Parent=gene-OU3CP_gene109;Dbxref=Genbank:YP_009185759.1,GeneID:26373646;Name=YP_009185759.1;gbkey=CDS;gene=rpl32;inference=similar to AA sequence:RefSeq:YP_008082867.1;product=ribosomal protein L32;protein_id=YP_009185759.1;transl_table=11
+NC_028594.1	RefSeq	gene	110811	110882	.	-	.	ID=gene-OU3CP_gene110;Dbxref=GeneID:26373647;Name=trnV-GAC;gbkey=Gene;gene=trnV-GAC;gene_biotype=tRNA;locus_tag=OU3CP_gene110
+NC_028594.1	RefSeq	tRNA	110811	110882	.	-	.	ID=rna-OU3CP_gene110;Parent=gene-OU3CP_gene110;Dbxref=GeneID:26373647;Note=anticodon:GAC;gbkey=tRNA;gene=trnV-GAC;product=tRNA-Val
+NC_028594.1	RefSeq	exon	110811	110882	.	-	.	ID=exon-OU3CP_gene110-1;Parent=rna-OU3CP_gene110;Dbxref=GeneID:26373647;Note=anticodon:GAC;gbkey=tRNA;gene=trnV-GAC;product=tRNA-Val
+NC_028594.1	RefSeq	intron	112674	113215	.	+	.	ID=id-OU3CP_gene11;Dbxref=GeneID:26373549;gbkey=intron;gene=rps12
+NC_028594.1	RefSeq	gene	113290	113757	.	+	.	ID=gene-OU3CP_gene111;Dbxref=GeneID:26373648;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding;locus_tag=OU3CP_gene111
+NC_028594.1	RefSeq	CDS	113290	113757	.	+	0	ID=cds-YP_009185760.1;Parent=gene-OU3CP_gene111;Dbxref=Genbank:YP_009185760.1,GeneID:26373648;Name=YP_009185760.1;gbkey=CDS;gene=rps7;inference=similar to AA sequence:RefSeq:YP_008082868.1;product=ribosomal protein S7;protein_id=YP_009185760.1;transl_table=11
+NC_028594.1	RefSeq	gene	115332	115412	.	+	.	ID=gene-OU3CP_gene112;Dbxref=GeneID:26373649;Name=trnL-CAA;gbkey=Gene;gene=trnL-CAA;gene_biotype=tRNA;locus_tag=OU3CP_gene112
+NC_028594.1	RefSeq	tRNA	115332	115412	.	+	.	ID=rna-OU3CP_gene112;Parent=gene-OU3CP_gene112;Dbxref=GeneID:26373649;Note=anticodon:CAA;gbkey=tRNA;gene=trnL-CAA;product=tRNA-Leu
+NC_028594.1	RefSeq	exon	115332	115412	.	+	.	ID=exon-OU3CP_gene112-1;Parent=rna-OU3CP_gene112;Dbxref=GeneID:26373649;Note=anticodon:CAA;gbkey=tRNA;gene=trnL-CAA;product=tRNA-Leu
+NC_028594.1	RefSeq	gene	116102	122482	.	-	.	ID=gene-OU3CP_gene113;Dbxref=GeneID:26373650;Name=ycf2;gbkey=Gene;gene=ycf2;gene_biotype=protein_coding;locus_tag=OU3CP_gene113
+NC_028594.1	RefSeq	CDS	116102	122482	.	-	0	ID=cds-YP_009185761.1;Parent=gene-OU3CP_gene113;Dbxref=Genbank:YP_009185761.1,GeneID:26373650;Name=YP_009185761.1;gbkey=CDS;gene=ycf2;inference=similar to AA sequence:RefSeq:YP_008082869.1;product=Ycf2;protein_id=YP_009185761.1;transl_table=11
+NC_028594.1	RefSeq	gene	122664	122738	.	-	.	ID=gene-OU3CP_gene114;Dbxref=GeneID:26373651;Name=trnH-GUG;gbkey=Gene;gene=trnH-GUG;gene_biotype=tRNA;locus_tag=OU3CP_gene114
+NC_028594.1	RefSeq	tRNA	122664	122738	.	-	.	ID=rna-OU3CP_gene114;Parent=gene-OU3CP_gene114;Dbxref=GeneID:26373651;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+NC_028594.1	RefSeq	exon	122664	122738	.	-	.	ID=exon-OU3CP_gene114-1;Parent=rna-OU3CP_gene114;Dbxref=GeneID:26373651;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;product=tRNA-His
+NC_028594.1	RefSeq	gene	123043	123116	.	+	.	ID=gene-OU3CP_gene115;Dbxref=GeneID:26373652;Name=trnI-CAU;gbkey=Gene;gene=trnI-CAU;gene_biotype=tRNA;locus_tag=OU3CP_gene115
+NC_028594.1	RefSeq	tRNA	123043	123116	.	+	.	ID=rna-OU3CP_gene115;Parent=gene-OU3CP_gene115;Dbxref=GeneID:26373652;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile
+NC_028594.1	RefSeq	exon	123043	123116	.	+	.	ID=exon-OU3CP_gene115-1;Parent=rna-OU3CP_gene115;Dbxref=GeneID:26373652;Note=anticodon:CAU;gbkey=tRNA;gene=trnI-CAU;product=tRNA-Ile

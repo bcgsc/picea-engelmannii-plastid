@@ -1,0 +1,3 @@
+Use of uninitialized value $transcript_legend in numeric eq (==) at ../lib/GeneMap/Plastome.pm line 1928.
+
+calculating GC content graph...

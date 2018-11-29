@@ -27,8 +27,8 @@ Submit-block ::= {
       names std {
         {
           name name {
-            last "Coombe",
-            first "Lauren",
+            last "Lin",
+            first "Diana",
             middle "",
             initials "",
             suffix "",
@@ -37,8 +37,8 @@ Submit-block ::= {
         },
         {
           name name {
-            last "Lin",
-            first "Diana",
+            last "Coombe",
+            first "Lauren",
             middle "",
             initials "",
             suffix "",
@@ -97,8 +97,8 @@ Seqdesc ::= pub {
         names std {
           {
             name name {
-              last "Coombe",
-              first "Lauren",
+              last "Lin",
+              first "Diana",
               middle "",
               initials "",
               suffix "",
@@ -107,8 +107,8 @@ Seqdesc ::= pub {
           },
           {
             name name {
-              last "Lin",
-              first "Diana",
+              last "Coombe",
+              first "Lauren",
               middle "",
               initials "",
               suffix "",

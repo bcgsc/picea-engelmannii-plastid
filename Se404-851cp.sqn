@@ -28,16 +28,16 @@ Seq-submit ::= {
         names std {
           {
             name name {
-              last "Coombe",
-              first "Lauren",
-              initials "L."
+              last "Lin",
+              first "Diana",
+              initials "D."
             }
           },
           {
             name name {
-              last "Lin",
-              first "Diana",
-              initials "D."
+              last "Coombe",
+              first "Lauren",
+              initials "L."
             }
           },
           {
@@ -108,16 +108,16 @@ Seq-submit ::= {
                 names std {
                   {
                     name name {
-                      last "Coombe",
-                      first "Lauren",
-                      initials "L."
+                      last "Lin",
+                      first "Diana",
+                      initials "D."
                     }
                   },
                   {
                     name name {
-                      last "Lin",
-                      first "Diana",
-                      initials "D."
+                      last "Coombe",
+                      first "Lauren",
+                      initials "L."
                     }
                   },
                   {
@@ -466,7 +466,7 @@ EFD789FCC09CB8901270D4EACF605A34D7A004C8F0D8E8204A23BFF8105EF10CA009F33B603E2D
 68083C82952CC798EEE1F8D10BD634C48D6C30A07B4D73D0DD3EA397F27784ED5D48A2C9382748
 3CC24DF8223BE202283CB52AFC8CF7B343F9C3E07DB8011F7F4CC3A0F602C3DDFD3FABCD522B3F
 6850233A7328B73D3644CE7D8D0CB3EC14D82C09092817028D03A06230210B03570F82B4FD0820
-3A3EF682A08879D0C3D4CDCEFB20DB02831D0FD17A07E2488B26B777D2260032FB331333333333
+3A3EF682A08879D0C3D4CDCEFB20DB02831D0FD17A07E2488B26B777D2260032FB333333333333
 FFFFFFCBC7E25A388A01FD3B58D78AAA80DF2001735837FF3E7295327040507F3E2346AB13D0F3
 88F435E888CF3D74F17779DBDD3C5DFE76ABDE813F4222203271EAA239CC2A041D1EB7A37D03CF
 3236F44CE83A081FAE83E03A0C8FA28A3420DC7BA3A3A8A38043D82080A3FDEBE86CE03E9C04FF

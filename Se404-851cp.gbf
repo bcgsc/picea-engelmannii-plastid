@@ -2,10 +2,26 @@ LOCUS       Se404-851cp           123542 bp    DNA     circular     28-NOV-2018
 DEFINITION  Picea engelmannii isolate Se404-851 chloroplast, complete genome.
 ACCESSION   
 VERSION
+DBLINK      BioProject: PRJNA504036
+            BioSample: SAMN10388286
 KEYWORDS    .
 SOURCE      chloroplast Picea engelmannii
   ORGANISM  Picea engelmannii
             Unclassified.
+REFERENCE   1  (bases 1 to 123542)
+  AUTHORS   Lin,D., Coombe,L., Warren,R.L., Jackman,S.D. and Birol,I.
+  TITLE     Picea engelmannii isolate Se404-851 chloroplast, complete genome
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 123542)
+  AUTHORS   Lin,D., Coombe,L., Warren,R.L., Jackman,S.D. and Birol,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
+            Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: ABySS v. 2.1.1
+            Genome Coverage       :: 66x
+            Sequencing Technology :: Illumina HiSeq
+            ##Metadata-END##
 FEATURES             Location/Qualifiers
      source          1..123542
                      /organism="Picea engelmannii"
@@ -14,20 +30,20 @@ FEATURES             Location/Qualifiers
                      /isolate="Se404-851"
      gene            complement(1..1062)
                      /gene="psbA"
-                     /locus_tag="Se404-851cp_000001"
+                     /locus_tag="EFE08CP_000001"
                      /note="blatX_hit psbA_NC_028594.1; position 1 - 1062;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(1..1062)
                      /gene="psbA"
-                     /locus_tag="Se404-851cp_000001"
+                     /locus_tag="EFE08CP_000001"
                      /product="photosystem II protein D1"
      CDS             complement(1..1062)
                      /gene="psbA"
-                     /locus_tag="Se404-851cp_000001"
+                     /locus_tag="EFE08CP_000001"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D1"
-                     /protein_id="Se404-851cp:cds.mRNA1"
+                     /protein_id="EFE08CP:cds.mRNA1"
                      /translation="MTAIIERRESANLWGRFCDWITSTENRLYIGWFGVLMIPTLLTA
                      TSVFIIAFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAASV
                      DEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAPVAAASAVFLI
@@ -37,29 +53,29 @@ FEATURES             Location/Qualifiers
                      NAHNFPLDLAAVESISIGG"
      gene            complement(1534..4115)
                      /gene="trnK-UUU"
-                     /locus_tag="Se404-851cp_000002"
+                     /locus_tag="EFE08CP_000002"
                      /note="blatN_hit trnK-UUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(1534..1568,4081..4115))
                      /gene="trnK-UUU"
-                     /locus_tag="Se404-851cp_000002"
+                     /locus_tag="EFE08CP_000002"
                      /product="tRNA-Lys"
      gene            complement(1750..3297)
                      /gene="matK"
-                     /locus_tag="Se404-851cp_000003"
+                     /locus_tag="EFE08CP_000003"
                      /note="blatX_hit matK_NC_028594.1; position 1 - 1548;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(1750..3297)
                      /gene="matK"
-                     /locus_tag="Se404-851cp_000003"
+                     /locus_tag="EFE08CP_000003"
                      /product="maturase K"
      CDS             complement(1750..3297)
                      /gene="matK"
-                     /locus_tag="Se404-851cp_000003"
+                     /locus_tag="EFE08CP_000003"
                      /codon_start=1
                      /transl_table=11
                      /product="maturase K"
-                     /protein_id="Se404-851cp:cds.mRNA2"
+                     /protein_id="EFE08CP:cds.mRNA2"
                      /translation="MDEFHRYGKEDSSWQQCFLYPLFFQEDLYAISHDHYLDGSSSSE
                      PMEHLSSNDQFSFLTVKRLIGQIRQQNHSIVLFVNCDPNPLVDRKKSSYSESVLEGLT
                      LVLEVPFSIRSKYSVEGMNEWKSFRSIHSIFPFLEDKFPHSNYVSDTRIPYSIHPEIL
@@ -72,20 +88,20 @@ FEATURES             Location/Qualifiers
                      IENLFDQ"
      gene            complement(4909..6450)
                      /gene="chlB"
-                     /locus_tag="Se404-851cp_000004"
+                     /locus_tag="EFE08CP_000004"
                      /note="blatX_hit chlB_NC_028594.1; position 1 - 1542;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(4909..6450)
                      /gene="chlB"
-                     /locus_tag="Se404-851cp_000004"
+                     /locus_tag="EFE08CP_000004"
                      /product="photochlorophyllide reductase subunit B"
      CDS             complement(4909..6450)
                      /gene="chlB"
-                     /locus_tag="Se404-851cp_000004"
+                     /locus_tag="EFE08CP_000004"
                      /codon_start=1
                      /transl_table=11
                      /product="photochlorophyllide reductase subunit B"
-                     /protein_id="Se404-851cp:cds.mRNA3"
+                     /protein_id="EFE08CP:cds.mRNA3"
                      /translation="MKLAHWMYAGPAHIGTLRVASSFKNVHAIMHAPLGDDYFNVMRS
                      MLERERNFTPATASIVDRHVLARGSRKRVVDNILRKDKEEGPDLIILTPTCTSSILQE
                      DLKNFVDRASIISDCNVIFADVDHYQVNEIQAADRTLEQVVRYYLEKSYRQETLDQFV
@@ -98,324 +114,324 @@ FEATURES             Location/Qualifiers
                      KEALS"
      gene            complement(6655..6726)
                      /gene="trnQ-UUG"
-                     /locus_tag="Se404-851cp_000005"
+                     /locus_tag="EFE08CP_000005"
                      /note="blatN_hit trnQ-UUG_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(6655..6726)
                      /gene="trnQ-UUG"
-                     /locus_tag="Se404-851cp_000005"
+                     /locus_tag="EFE08CP_000005"
                      /product="tRNA-Gln"
      gene            7083..7262
                      /gene="psbK"
-                     /locus_tag="Se404-851cp_000006"
+                     /locus_tag="EFE08CP_000006"
                      /note="blatX_hit psbK_NC_032367.1; position 1 - 180;
                      coverage 100.00%; match 100.00%"
      mRNA            7083..7262
                      /gene="psbK"
-                     /locus_tag="Se404-851cp_000006"
+                     /locus_tag="EFE08CP_000006"
                      /product="photosystem II protein K"
      CDS             7083..7262
                      /gene="psbK"
-                     /locus_tag="Se404-851cp_000006"
+                     /locus_tag="EFE08CP_000006"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein K"
-                     /protein_id="Se404-851cp:cds.mRNA4"
+                     /protein_id="EFE08CP:cds.mRNA4"
                      /translation="MPVMLNIFLDDAFIYSNNIFFGKLPEAYAISDPIVDVMPIIPVL
                      SFLLAFVWQAAVSFR"
      gene            7751..7861
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000007"
+                     /locus_tag="EFE08CP_000007"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
      mRNA            7751..7861
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000007"
+                     /locus_tag="EFE08CP_000007"
                      /product="photosystem II protein I"
      CDS             7751..7861
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000007"
+                     /locus_tag="EFE08CP_000007"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein I"
-                     /protein_id="Se404-851cp:cds.mRNA5"
+                     /protein_id="EFE08CP:cds.mRNA5"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            complement(7938..8025)
                      /gene="trnS-GCU"
-                     /locus_tag="Se404-851cp_000008"
+                     /locus_tag="EFE08CP_000008"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(7938..8025)
                      /gene="trnS-GCU"
-                     /locus_tag="Se404-851cp_000008"
+                     /locus_tag="EFE08CP_000008"
                      /product="tRNA-Ser"
      gene            8473..8574
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000009"
+                     /locus_tag="EFE08CP_000009"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
                      coverage 100.00%; match 100.00%"
      mRNA            8473..8574
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000009"
+                     /locus_tag="EFE08CP_000009"
                      /product="photosystem II reaction center protein ycf12"
      CDS             8473..8574
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000009"
+                     /locus_tag="EFE08CP_000009"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II reaction center protein ycf12"
-                     /protein_id="Se404-851cp:cds.mRNA6"
+                     /protein_id="EFE08CP:cds.mRNA6"
                      /translation="MNLEVIAQLTVLTLTVVSGPLVIVLLAVRKGNL"
      gene            8994..9584
                      /gene="clpP"
-                     /locus_tag="Se404-851cp_000010"
+                     /locus_tag="EFE08CP_000010"
                      /note="blatX_hit clpP_NC_032367.1; position 1 - 591;
                      coverage 100.00%; match 99.83%"
      mRNA            8994..9584
                      /gene="clpP"
-                     /locus_tag="Se404-851cp_000010"
+                     /locus_tag="EFE08CP_000010"
                      /product="ATP-dependent Clp protease proteolytic subunit"
      CDS             8994..9584
                      /gene="clpP"
-                     /locus_tag="Se404-851cp_000010"
+                     /locus_tag="EFE08CP_000010"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP-dependent Clp protease proteolytic subunit"
-                     /protein_id="Se404-851cp:cds.mRNA7"
+                     /protein_id="EFE08CP:cds.mRNA7"
                      /translation="MPVGVPKVPFRAPGDEDANWVDLYNRLYRERLLFLAQDINHEIA
                      NQLMGLMVYLSAEDANKDMFSFLNCPGGSVIPGVGLFDIMQIIVPDVHTICMGIAASM
                      GSFILIGGEITKRIALPHARVMIHQPASSYYDGPAADFHTESKHVTMLRDYITKCYIE
                      RTGNLGEVIQRDLDRDVFMSATEARAYGIVDAVAEG"
      gene            join(9752..9865,112721..113520)
                      /gene="rps12"
-                     /locus_tag="Se404-851cp_000011"
+                     /locus_tag="EFE08CP_000011"
                      /trans_splicing
                      /note="blatX_hit rps12_NC_032367.1; position 1 - 372;
                      coverage 100.00%; match 99.73%"
      mRNA            join(9752..9865,112721..112952,113495..113520)
                      /gene="rps12"
-                     /locus_tag="Se404-851cp_000011"
+                     /locus_tag="EFE08CP_000011"
                      /product="ribosomal protein S12"
      CDS             join(9752..9865,112721..112952,113495..113520)
                      /gene="rps12"
-                     /locus_tag="Se404-851cp_000011"
+                     /locus_tag="EFE08CP_000011"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12"
-                     /protein_id="Se404-851cp:cds.mRNA8"
+                     /protein_id="EFE08CP:cds.mRNA8"
                      /translation="MPTIQQLIRKARQPIENRKKSPALRGCPQRRGVCARVYTITPKK
                      PNSALRKVARVRLTSGFEITAYIPGIDHNLQEHSVVLVRGGRVKDLPGVRYHIVRGTL
                      DAAEVKDRQQGRSKYGVKKPK"
      gene            10575..10934
                      /gene="rpl20"
-                     /locus_tag="Se404-851cp_000012"
+                     /locus_tag="EFE08CP_000012"
                      /note="blatX_hit rpl20_NC_032367.1; position 1 - 360;
                      coverage 100.00%; match 100.00%"
      mRNA            10575..10934
                      /gene="rpl20"
-                     /locus_tag="Se404-851cp_000012"
+                     /locus_tag="EFE08CP_000012"
                      /product="ribosomal protein L20"
      CDS             10575..10934
                      /gene="rpl20"
-                     /locus_tag="Se404-851cp_000012"
+                     /locus_tag="EFE08CP_000012"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L20"
-                     /protein_id="Se404-851cp:cds.mRNA9"
+                     /protein_id="EFE08CP:cds.mRNA9"
                      /translation="MTRVKRGYIARKRRKKILAFVSGSRGAHSKLFRTANQRKARALV
                      SAHRDRGKRKRDLRRLWITRINAAARANGVSYNRFIQYLYKRQLLPNRKTLAQIAVLD
                      SNCFSTILKNLSCDEIG"
      gene            complement(11194..11475)
                      /gene="rps18"
-                     /locus_tag="Se404-851cp_000013"
+                     /locus_tag="EFE08CP_000013"
                      /note="blatX_hit rps18_NC_032367.1; position 1 - 282;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(11194..11475)
                      /gene="rps18"
-                     /locus_tag="Se404-851cp_000013"
+                     /locus_tag="EFE08CP_000013"
                      /product="ribosomal protein S18"
      CDS             complement(11194..11475)
                      /gene="rps18"
-                     /locus_tag="Se404-851cp_000013"
+                     /locus_tag="EFE08CP_000013"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S18"
-                     /protein_id="Se404-851cp:cds.mRNA10"
+                     /protein_id="EFE08CP:cds.mRNA10"
                      /translation="MKQTMDKPKRYFRRHLTPIRRHLTPIRRHLSPIRSGDRIDYKNM
                      SLISRFISEQGKILSGRVNRLTSKQQRLITNAIKRARIPSLLPFLYNEN"
      gene            complement(11599..11805)
                      /gene="rpl33"
-                     /locus_tag="Se404-851cp_000014"
+                     /locus_tag="EFE08CP_000014"
                      /note="blatX_hit rpl33_NC_032367.1; position 1 - 207;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(11599..11805)
                      /gene="rpl33"
-                     /locus_tag="Se404-851cp_000014"
+                     /locus_tag="EFE08CP_000014"
                      /product="ribosomal protein L33"
      CDS             complement(11599..11805)
                      /gene="rpl33"
-                     /locus_tag="Se404-851cp_000014"
+                     /locus_tag="EFE08CP_000014"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L33"
-                     /protein_id="Se404-851cp:cds.mRNA11"
+                     /protein_id="EFE08CP:cds.mRNA11"
                      /translation="MAKSGDVRVTITLECTSCTQDSVYKRFPGISRYTTRKNRRNTPI
                      RLESNKFCPYCYKHTIHGEIKKRD"
      gene            complement(12123..12251)
                      /gene="psaJ"
-                     /locus_tag="Se404-851cp_000015"
+                     /locus_tag="EFE08CP_000015"
                      /note="blatX_hit psaJ_NC_032367.1; position 1 - 129;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(12123..12251)
                      /gene="psaJ"
-                     /locus_tag="Se404-851cp_000015"
+                     /locus_tag="EFE08CP_000015"
                      /product="photosystem I subunit IX"
      CDS             complement(12123..12251)
                      /gene="psaJ"
-                     /locus_tag="Se404-851cp_000015"
+                     /locus_tag="EFE08CP_000015"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit IX"
-                     /protein_id="Se404-851cp:cds.mRNA12"
+                     /protein_id="EFE08CP:cds.mRNA12"
                      /translation="MQDLKTYLSTAPVLAISSFIFLAGLLIEINRFFPDALTFAFF"
      gene            12549..12622
                      /gene="trnP-UGG"
-                     /locus_tag="Se404-851cp_000016"
+                     /locus_tag="EFE08CP_000016"
                      /note="blatN_hit trnP-UGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            12549..12622
                      /gene="trnP-UGG"
-                     /locus_tag="Se404-851cp_000016"
+                     /locus_tag="EFE08CP_000016"
                      /product="tRNA-Pro"
      gene            12790..12863
                      /gene="trnW-CCA"
-                     /locus_tag="Se404-851cp_000017"
+                     /locus_tag="EFE08CP_000017"
                      /note="blatN_hit trnW-CCA_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            12790..12863
                      /gene="trnW-CCA"
-                     /locus_tag="Se404-851cp_000017"
+                     /locus_tag="EFE08CP_000017"
                      /product="tRNA-Trp"
      gene            complement(12986..13099)
                      /gene="petG"
-                     /locus_tag="Se404-851cp_000018"
+                     /locus_tag="EFE08CP_000018"
                      /note="blatX_hit petG_NC_032367.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(12986..13099)
                      /gene="petG"
-                     /locus_tag="Se404-851cp_000018"
+                     /locus_tag="EFE08CP_000018"
                      /product="cytochrome b6/f complex subunit V"
      CDS             complement(12986..13099)
                      /gene="petG"
-                     /locus_tag="Se404-851cp_000018"
+                     /locus_tag="EFE08CP_000018"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit V"
-                     /protein_id="Se404-851cp:cds.mRNA13"
+                     /protein_id="EFE08CP:cds.mRNA13"
                      /translation="MIEALPSGIVLGLIPITLAGLSVTAYSQYRRGDQLDI"
      gene            complement(13204..13392)
                      /gene="petL"
-                     /locus_tag="Se404-851cp_000019"
+                     /locus_tag="EFE08CP_000019"
                      /note="blatX_hit petL_NC_028594.1; position 1 - 189;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(13204..13392)
                      /gene="petL"
-                     /locus_tag="Se404-851cp_000019"
+                     /locus_tag="EFE08CP_000019"
                      /product="cytochrome b/f complex 3.5 kDa subunit"
      CDS             complement(13204..13392)
                      /gene="petL"
-                     /locus_tag="Se404-851cp_000019"
+                     /locus_tag="EFE08CP_000019"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b/f complex 3.5 kDa subunit"
-                     /protein_id="Se404-851cp:cds.mRNA14"
+                     /protein_id="EFE08CP:cds.mRNA14"
                      /translation="MKICINHISFSPSTPTITIISYFGFLLASIIFTLVLFISSSKIQ
                      LIRNEGRGNPLSSLYQFQ"
      gene            14633..14884
                      /gene="psbE"
-                     /locus_tag="Se404-851cp_000020"
+                     /locus_tag="EFE08CP_000020"
                      /note="blatX_hit psbE_NC_028594.1; position 1 - 252;
                      coverage 100.00%; match 100.00%"
      mRNA            14633..14884
                      /gene="psbE"
-                     /locus_tag="Se404-851cp_000020"
+                     /locus_tag="EFE08CP_000020"
                      /product="cytochrome b559 alpha chain"
      CDS             14633..14884
                      /gene="psbE"
-                     /locus_tag="Se404-851cp_000020"
+                     /locus_tag="EFE08CP_000020"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b559 alpha chain"
-                     /protein_id="Se404-851cp:cds.mRNA15"
+                     /protein_id="EFE08CP:cds.mRNA15"
                      /translation="MSGNTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAY
                      DVFGSPRPNEYFTESRQEVPLVTGRFDSLEQLDEFTRSF"
      gene            14894..15013
                      /gene="psbF"
-                     /locus_tag="Se404-851cp_000021"
+                     /locus_tag="EFE08CP_000021"
                      /note="blatX_hit psbF_NC_032367.1; position 1 - 120;
                      coverage 100.00%; match 100.00%"
      mRNA            14894..15013
                      /gene="psbF"
-                     /locus_tag="Se404-851cp_000021"
+                     /locus_tag="EFE08CP_000021"
                      /product="photosystem II cytochrome b559 beta subunit"
      CDS             14894..15013
                      /gene="psbF"
-                     /locus_tag="Se404-851cp_000021"
+                     /locus_tag="EFE08CP_000021"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II cytochrome b559 beta subunit"
-                     /protein_id="Se404-851cp:cds.mRNA16"
+                     /protein_id="EFE08CP:cds.mRNA16"
                      /translation="MTIDRTYPIFTVRWLAIHGLAVPTVFFSGSISAMQFIQR"
      gene            15047..15163
                      /gene="psbL"
-                     /locus_tag="Se404-851cp_000022"
+                     /locus_tag="EFE08CP_000022"
                      /note="blatX_hit psbL_NC_028594.1; position 1 - 117;
                      coverage 100.00%; match 100.00%"
      mRNA            15047..15163
                      /gene="psbL"
-                     /locus_tag="Se404-851cp_000022"
+                     /locus_tag="EFE08CP_000022"
                      /product="photosystem II protein L"
      CDS             15047..15163
                      /gene="psbL"
-                     /locus_tag="Se404-851cp_000022"
+                     /locus_tag="EFE08CP_000022"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein L"
-                     /protein_id="Se404-851cp:cds.mRNA17"
+                     /protein_id="EFE08CP:cds.mRNA17"
                      /translation="MTQLNPNNQNVELNRTSLYWGLLLIFVLAVLFSNYLFN"
      gene            15282..15404
                      /gene="psbJ"
-                     /locus_tag="Se404-851cp_000023"
+                     /locus_tag="EFE08CP_000023"
                      /note="blatX_hit psbJ_NC_032367.1; position 1 - 123;
                      coverage 100.00%; match 99.19%"
      mRNA            15282..15404
                      /gene="psbJ"
-                     /locus_tag="Se404-851cp_000023"
+                     /locus_tag="EFE08CP_000023"
                      /product="photosystem II protein J"
      CDS             15282..15404
                      /gene="psbJ"
-                     /locus_tag="Se404-851cp_000023"
+                     /locus_tag="EFE08CP_000023"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein J"
-                     /protein_id="Se404-851cp:cds.mRNA18"
+                     /protein_id="EFE08CP:cds.mRNA18"
                      /translation="MADTTGRIPLWLIGTVTGIIVIGLLGIFFYGSYSGLGSSL"
      gene            complement(16403..17398)
                      /gene="petA"
-                     /locus_tag="Se404-851cp_000024"
+                     /locus_tag="EFE08CP_000024"
                      /note="blatX_hit petA_NC_028594.1; position 1 - 996;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(16403..17398)
                      /gene="petA"
-                     /locus_tag="Se404-851cp_000024"
+                     /locus_tag="EFE08CP_000024"
                      /product="cytochrome f"
      CDS             complement(16403..17398)
                      /gene="petA"
-                     /locus_tag="Se404-851cp_000024"
+                     /locus_tag="EFE08CP_000024"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome f"
-                     /protein_id="Se404-851cp:cds.mRNA19"
+                     /protein_id="EFE08CP:cds.mRNA19"
                      /translation="MQNRNTYDLKKKMTRLISVLVMIHIITRTSISNAYPIFAQQGYE
                      NPREATGRIVCANCHLAKKPVDIEVPQSVLPNTVFEAVVKIPYDTQMKQVLANGKKGA
                      LNVGAVLILPEGFELAPPDRISPEIRQKMGNLYFQNYRPNQKNIIVIGPVPGQKYSEL
@@ -424,20 +440,20 @@ FEATURES             Location/Qualifiers
                      IVLQDPLRVKGLLLFLASVILAQIFLVLKKKQFEKVQLAEMNLQVHRFPNMKLTD"
      gene            complement(17624..18409)
                      /gene="cemA"
-                     /locus_tag="Se404-851cp_000025"
+                     /locus_tag="EFE08CP_000025"
                      /note="blatX_hit cemA_NC_028594.1; position 1 - 786;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(17624..18409)
                      /gene="cemA"
-                     /locus_tag="Se404-851cp_000025"
+                     /locus_tag="EFE08CP_000025"
                      /product="chloroplast envelope membrane protein"
      CDS             complement(17624..18409)
                      /gene="cemA"
-                     /locus_tag="Se404-851cp_000025"
+                     /locus_tag="EFE08CP_000025"
                      /codon_start=1
                      /transl_table=11
                      /product="chloroplast envelope membrane protein"
-                     /protein_id="Se404-851cp:cds.mRNA20"
+                     /protein_id="EFE08CP:cds.mRNA20"
                      /translation="MDPIPHSITRTLSRFRTELTSESGSLAIHELEVAEYKASASLRY
                      LACLVVLPWVIPISLRKGLEPWVTNWWNTGQSQKIFDYLQEENVLGRFEKIEELFLLE
                      RMVEDSSGTDSKDLRIEIHKETIQLVEMYNEDCIKIISHLLTNLIGFAFISAYLILGK
@@ -445,57 +461,57 @@ FEATURES             Location/Qualifiers
                      ERIISGLVSTFPVILDTILKYWIFRRFNRISPSLVVIYHSMNE"
      gene            complement(19263..19817)
                      /gene="ycf4"
-                     /locus_tag="Se404-851cp_000026"
+                     /locus_tag="EFE08CP_000026"
                      /note="blatX_hit ycf4_NC_028594.1; position 1 - 555;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(19263..19817)
                      /gene="ycf4"
-                     /locus_tag="Se404-851cp_000026"
+                     /locus_tag="EFE08CP_000026"
                      /product="photosystem I assembly protein Ycf4"
      CDS             complement(19263..19817)
                      /gene="ycf4"
-                     /locus_tag="Se404-851cp_000026"
+                     /locus_tag="EFE08CP_000026"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I assembly protein Ycf4"
-                     /protein_id="Se404-851cp:cds.mRNA21"
+                     /protein_id="EFE08CP:cds.mRNA21"
                      /translation="MNNRSKWLWIEPITGSRKRSNFFWACILFLGSLGFFLVGISSYF
                      GENLIPLLSSQEILFVPQGIVMCFYGIAGLFISSYLWCTILFDVGSGYNKFDKRKGIV
                      CLFRWGFPGKNRRIFPRFLMKDIQMIKMEIQEGISPRRVLYMEIKGRQDIPLARTGDN
                      LNLREIEQKAAESARFLRVSIEGF"
      gene            complement(20384..20494)
                      /gene="psaI"
-                     /locus_tag="Se404-851cp_000027"
+                     /locus_tag="EFE08CP_000027"
                      /note="blatX_hit psaI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(20384..20494)
                      /gene="psaI"
-                     /locus_tag="Se404-851cp_000027"
+                     /locus_tag="EFE08CP_000027"
                      /product="photosystem I subunit VIII"
      CDS             complement(20384..20494)
                      /gene="psaI"
-                     /locus_tag="Se404-851cp_000027"
+                     /locus_tag="EFE08CP_000027"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VIII"
-                     /protein_id="Se404-851cp:cds.mRNA22"
+                     /protein_id="EFE08CP:cds.mRNA22"
                      /translation="MIIPNLPSFFVPLVGLLLPAITMVLFHLYIQNDDIF"
      gene            complement(21032..22012)
                      /gene="accD"
-                     /locus_tag="Se404-851cp_000028"
+                     /locus_tag="EFE08CP_000028"
                      /note="blatX_hit accD_NC_028594.1; position 1 - 981;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(21032..22012)
                      /gene="accD"
-                     /locus_tag="Se404-851cp_000028"
+                     /locus_tag="EFE08CP_000028"
                      /product="acetyl-CoA carboxylase beta subunit"
      CDS             complement(21032..22012)
                      /gene="accD"
-                     /locus_tag="Se404-851cp_000028"
+                     /locus_tag="EFE08CP_000028"
                      /codon_start=1
                      /transl_table=11
                      /product="acetyl-CoA carboxylase beta subunit"
-                     /protein_id="Se404-851cp:cds.mRNA23"
+                     /protein_id="EFE08CP:cds.mRNA23"
                      /translation="MSIREWFEDRRKITGLLKNSVERDSKDVNEMERNKNLSIDYVKI
                      NRLWVQCDNCESLLYIRFLRENKSVCEECGYYLQMNSSDRIELPIDRGTRHPMDEDMY
                      TLDVLQFHSENEPAHSDPLHSEDESYKDHITFCQIETGLTDAIQTGIGQLNGLPIALG
@@ -504,31 +520,31 @@ FEATURES             Location/Qualifiers
                      QKVIEDFQVTEHLFGHGLFDLIVPRNLLKGVLSELFQLYSLPRKEKKMNV"
      gene            complement(22268..22341)
                      /gene="trnR-CCG"
-                     /locus_tag="Se404-851cp_000029"
+                     /locus_tag="EFE08CP_000029"
                      /note="blatN_hit trnR-CCG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(22268..22341)
                      /gene="trnR-CCG"
-                     /locus_tag="Se404-851cp_000029"
+                     /locus_tag="EFE08CP_000029"
                      /product="tRNA-Arg"
      gene            complement(22665..24092)
                      /gene="rbcL"
-                     /locus_tag="Se404-851cp_000030"
+                     /locus_tag="EFE08CP_000030"
                      /note="blatX_hit rbcL_NC_028594.1; position 1 - 1428;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(22665..24092)
                      /gene="rbcL"
-                     /locus_tag="Se404-851cp_000030"
+                     /locus_tag="EFE08CP_000030"
                      /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
      CDS             complement(22665..24092)
                      /gene="rbcL"
-                     /locus_tag="Se404-851cp_000030"
+                     /locus_tag="EFE08CP_000030"
                      /codon_start=1
                      /transl_table=11
                      /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
-                     /protein_id="Se404-851cp:cds.mRNA24"
+                     /protein_id="EFE08CP:cds.mRNA24"
                      /translation="MSPKTETKASVGFKAGVKDYRLTYYTPEYQTKDTDILAAFRVTP
                      QPGVPPEEAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYDIEPVPGEETQFIAYVA
                      YPLDLFEEGSVTNLFTSIVGNVFGFKALRALRLEDLRIPPAYSKTFQGPPHGIQVERD
@@ -540,20 +556,20 @@ FEATURES             Location/Qualifiers
                      WSPELAAACEIWKEIKFEFEAIDTI"
      gene            24801..26279
                      /gene="atpB"
-                     /locus_tag="Se404-851cp_000031"
+                     /locus_tag="EFE08CP_000031"
                      /note="blatX_hit atpB_NC_028594.1; position 1 - 1479;
                      coverage 100.00%; match 100.00%"
      mRNA            24801..26279
                      /gene="atpB"
-                     /locus_tag="Se404-851cp_000031"
+                     /locus_tag="EFE08CP_000031"
                      /product="ATP synthase CF1 beta chain"
      CDS             24801..26279
                      /gene="atpB"
-                     /locus_tag="Se404-851cp_000031"
+                     /locus_tag="EFE08CP_000031"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 beta chain"
-                     /protein_id="Se404-851cp:cds.mRNA25"
+                     /protein_id="EFE08CP:cds.mRNA25"
                      /translation="MRTNPLVLGVSALVEKNVGRIAQIIGPVLDVSFPPGNMPNIYNS
                      LIVKGQGTAGQEIQVTCEVQQLLGNHKVRAVAMSATDGLTRGMRVIDTGAPLSVPVGG
                      ATLGRIFNVLGEPVDNLGPVDARITSPIHRSAPAFTELDTKLSIFETGIKVVDLLAPY
@@ -565,188 +581,188 @@ FEATURES             Location/Qualifiers
                      ETIRGFQMILSGELDGITEQSFYLVGNIDEATAKAMNSKTES"
      gene            26288..26701
                      /gene="atpE"
-                     /locus_tag="Se404-851cp_000032"
+                     /locus_tag="EFE08CP_000032"
                      /note="blatX_hit atpE_NC_028594.1; position 1 - 414;
                      coverage 100.00%; match 100.00%"
      mRNA            26288..26701
                      /gene="atpE"
-                     /locus_tag="Se404-851cp_000032"
+                     /locus_tag="EFE08CP_000032"
                      /product="ATP synthase CF1 epsilon chain"
      CDS             26288..26701
                      /gene="atpE"
-                     /locus_tag="Se404-851cp_000032"
+                     /locus_tag="EFE08CP_000032"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 epsilon chain"
-                     /protein_id="Se404-851cp:cds.mRNA26"
+                     /protein_id="EFE08CP:cds.mRNA26"
                      /translation="MTLNLRVLSPNRVIWDSEVQEIILSTNSGQIGVLPNHASLVAAV
                      DIGVMKIRLNGQWSTMALMGGFAKIDNDRITVLVNNAERDVDIDLKEAQETFKVAKAD
                      LARAEGKRQAIEADVAPKRARTRLEAISASPPVSN"
      gene            complement(26810..26882)
                      /gene="trnM-CAU"
-                     /locus_tag="Se404-851cp_000033"
+                     /locus_tag="EFE08CP_000033"
                      /note="blatN_hit trnM-CAU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(26810..26882)
                      /gene="trnM-CAU"
-                     /locus_tag="Se404-851cp_000033"
+                     /locus_tag="EFE08CP_000033"
                      /product="tRNA-Met"
      gene            27072..27690
                      /gene="trnV-UAC"
-                     /locus_tag="Se404-851cp_000034"
+                     /locus_tag="EFE08CP_000034"
                      /note="blatN_hit trnV-UAC_NC_032367.1; position 1 - 76;
                      coverage 100.00%; match 100.00%"
      tRNA            join(27072..27110,27654..27690)
                      /gene="trnV-UAC"
-                     /locus_tag="Se404-851cp_000034"
+                     /locus_tag="EFE08CP_000034"
                      /product="tRNA-Tyr"
      gene            29979..30053
                      /gene="trnH-GUG"
-                     /locus_tag="Se404-851cp_000035"
+                     /locus_tag="EFE08CP_000035"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 98.67%; match 98.67%"
      tRNA            29979..30053
                      /gene="trnH-GUG"
-                     /locus_tag="Se404-851cp_000035"
+                     /locus_tag="EFE08CP_000035"
                      /product="tRNA-His"
      gene            complement(30177..30248)
                      /gene="trnT-GGU"
-                     /locus_tag="Se404-851cp_000036"
+                     /locus_tag="EFE08CP_000036"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(30177..30248)
                      /gene="trnT-GGU"
-                     /locus_tag="Se404-851cp_000036"
+                     /locus_tag="EFE08CP_000036"
                      /product="tRNA-Thr"
      gene            31470..31559
                      /gene="psaM"
-                     /locus_tag="Se404-851cp_000037"
+                     /locus_tag="EFE08CP_000037"
                      /note="blatX_hit psaM_NC_032367.1; position 1 - 90;
                      coverage 100.00%; match 100.00%"
      mRNA            31470..31559
                      /gene="psaM"
-                     /locus_tag="Se404-851cp_000037"
+                     /locus_tag="EFE08CP_000037"
                      /product="photosystem I protein M"
      CDS             31470..31559
                      /gene="psaM"
-                     /locus_tag="Se404-851cp_000037"
+                     /locus_tag="EFE08CP_000037"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I protein M"
-                     /protein_id="Se404-851cp:cds.mRNA27"
+                     /protein_id="EFE08CP:cds.mRNA27"
                      /translation="MIEVQFFIAFVLAFATINLAIKLGKALYD"
      gene            31775..31862
                      /gene="trnS-GCU"
-                     /locus_tag="Se404-851cp_000038"
+                     /locus_tag="EFE08CP_000038"
                      /note="blatN_hit trnS-GCU_NC_032367.1; position 1 - 88;
                      coverage 100.00%; match 100.00%"
      tRNA            31775..31862
                      /gene="trnS-GCU"
-                     /locus_tag="Se404-851cp_000038"
+                     /locus_tag="EFE08CP_000038"
                      /product="tRNA-Ser"
      gene            complement(31939..32049)
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000039"
+                     /locus_tag="EFE08CP_000039"
                      /note="blatX_hit psbI_NC_032367.1; position 1 - 111;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(31939..32049)
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000039"
+                     /locus_tag="EFE08CP_000039"
                      /product="photosystem II protein I"
      CDS             complement(31939..32049)
                      /gene="psbI"
-                     /locus_tag="Se404-851cp_000039"
+                     /locus_tag="EFE08CP_000039"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein I"
-                     /protein_id="Se404-851cp:cds.mRNA28"
+                     /protein_id="EFE08CP:cds.mRNA28"
                      /translation="MLTLKLFVYTVVIFFISLFIFGFLSNDPGRNPGRKE"
      gene            32376..32448
                      /gene="trnE-UUC"
-                     /locus_tag="Se404-851cp_000040"
+                     /locus_tag="EFE08CP_000040"
                      /note="blatN_hit trnE-UUC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            32376..32448
                      /gene="trnE-UUC"
-                     /locus_tag="Se404-851cp_000040"
+                     /locus_tag="EFE08CP_000040"
                      /product="tRNA-Glu"
      gene            32521..32604
                      /gene="trnY-GUA"
-                     /locus_tag="Se404-851cp_000041"
+                     /locus_tag="EFE08CP_000041"
                      /note="blatN_hit trnY-GUA_NC_032367.1; position 1 - 84;
                      coverage 100.00%; match 98.81%"
      tRNA            32521..32604
                      /gene="trnY-GUA"
-                     /locus_tag="Se404-851cp_000041"
+                     /locus_tag="EFE08CP_000041"
                      /product="tRNA-Tyr"
      gene            32864..32937
                      /gene="trnD-GUC"
-                     /locus_tag="Se404-851cp_000042"
+                     /locus_tag="EFE08CP_000042"
                      /note="blatN_hit trnD-GUC_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            32864..32937
                      /gene="trnD-GUC"
-                     /locus_tag="Se404-851cp_000042"
+                     /locus_tag="EFE08CP_000042"
                      /product="tRNA-Asp"
      gene            33851..33964
                      /gene="psbM"
-                     /locus_tag="Se404-851cp_000043"
+                     /locus_tag="EFE08CP_000043"
                      /note="blatX_hit psbM_NC_032367.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
      mRNA            33851..33964
                      /gene="psbM"
-                     /locus_tag="Se404-851cp_000043"
+                     /locus_tag="EFE08CP_000043"
                      /product="photosystem II M protein"
      CDS             33851..33964
                      /gene="psbM"
-                     /locus_tag="Se404-851cp_000043"
+                     /locus_tag="EFE08CP_000043"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II M protein"
-                     /protein_id="Se404-851cp:cds.mRNA29"
+                     /protein_id="EFE08CP:cds.mRNA29"
                      /translation="MEVNTLAFIAVLLFLAISTAFLFIPYVKTASASSGNN"
      gene            complement(34857..34946)
                      /gene="petN"
-                     /locus_tag="Se404-851cp_000044"
+                     /locus_tag="EFE08CP_000044"
                      /note="blatX_hit petN_NC_032367.1; position 1 - 90;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(34857..34946)
                      /gene="petN"
-                     /locus_tag="Se404-851cp_000044"
+                     /locus_tag="EFE08CP_000044"
                      /product="cytochrome b6/f complex subunit VIII"
      CDS             complement(34857..34946)
                      /gene="petN"
-                     /locus_tag="Se404-851cp_000044"
+                     /locus_tag="EFE08CP_000044"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit VIII"
-                     /protein_id="Se404-851cp:cds.mRNA30"
+                     /protein_id="EFE08CP:cds.mRNA30"
                      /translation="MDIVGITWAALMVVFTFSLSLVVWGRSGL"
      gene            complement(35267..35337)
                      /gene="trnC-GCA"
-                     /locus_tag="Se404-851cp_000045"
+                     /locus_tag="EFE08CP_000045"
                      /note="blatN_hit trnC-GCA_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(35267..35337)
                      /gene="trnC-GCA"
-                     /locus_tag="Se404-851cp_000045"
+                     /locus_tag="EFE08CP_000045"
                      /product="tRNA-Cys"
      gene            35757..38987
                      /gene="rpoB"
-                     /locus_tag="Se404-851cp_000046"
+                     /locus_tag="EFE08CP_000046"
                      /note="blatX_hit rpoB_NC_028594.1; position 1 - 3231;
                      coverage 100.00%; match 99.94%"
      mRNA            35757..38987
                      /gene="rpoB"
-                     /locus_tag="Se404-851cp_000046"
+                     /locus_tag="EFE08CP_000046"
                      /product="RNA polymerase beta subunit"
      CDS             35757..38987
                      /gene="rpoB"
-                     /locus_tag="Se404-851cp_000046"
+                     /locus_tag="EFE08CP_000046"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit"
-                     /protein_id="Se404-851cp:cds.mRNA31"
+                     /protein_id="EFE08CP:cds.mRNA31"
                      /translation="MRLDENEGAFTIPEFGKIQFEGFCRFIDQGLMEELHNFPKIEDT
                      DKEIESRLFGNEYELAEPFIKERDAVYQSLTYYSELYVPARSIRRNSSKIQKQTVFLG
                      NIPLMNSHGTFVVNGIYRIVVNQILISPGIYYRSELDHNRINYIYTGTLISDWGRRLK
@@ -768,20 +784,20 @@ FEATURES             Location/Qualifiers
                      TGGPIPKPDTAPESFRLLIRELRSLALELNHAIISEKDFQIDREEV"
      gene            39010..41781
                      /gene="rpoC1"
-                     /locus_tag="Se404-851cp_000047"
+                     /locus_tag="EFE08CP_000047"
                      /note="blatX_hit rpoC1_NC_028594.1; position 1 - 2091;
                      coverage 100.00%; match 99.95%"
      mRNA            join(39010..39439,40121..41781)
                      /gene="rpoC1"
-                     /locus_tag="Se404-851cp_000047"
+                     /locus_tag="EFE08CP_000047"
                      /product="RNA polymerase beta subunit-1"
      CDS             join(39010..39439,40121..41781)
                      /gene="rpoC1"
-                     /locus_tag="Se404-851cp_000047"
+                     /locus_tag="EFE08CP_000047"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit-1"
-                     /protein_id="Se404-851cp:cds.mRNA32"
+                     /protein_id="EFE08CP:cds.mRNA32"
                      /translation="MIDQNKHQQLRIGLASPEQICAWSEKILPNGEIVGQVTKPYTLH
                      YETNKPERDGSFCERIFGPIKSRVCSCGNSPGIGNEKIDSKFCTQCGVEFVDSRIRRY
                      RMGYIKLACPVAHIWYLKRLPSYIANLLAKTRKELEGPVYCDLFIARPIANKPTLLRS
@@ -797,20 +813,20 @@ FEATURES             Location/Qualifiers
                      RSEHPKKSLPALRI"
      gene            41875..45531
                      /gene="rpoC2"
-                     /locus_tag="Se404-851cp_000048"
+                     /locus_tag="EFE08CP_000048"
                      /note="blatX_hit rpoC2_NC_021456.1; position 1 - 3657;
                      coverage 100.00%; match 99.97%"
      mRNA            41875..45531
                      /gene="rpoC2"
-                     /locus_tag="Se404-851cp_000048"
+                     /locus_tag="EFE08CP_000048"
                      /product="RNA polymerase beta subunit-2"
      CDS             41875..45531
                      /gene="rpoC2"
-                     /locus_tag="Se404-851cp_000048"
+                     /locus_tag="EFE08CP_000048"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase beta subunit-2"
-                     /protein_id="Se404-851cp:cds.mRNA33"
+                     /protein_id="EFE08CP:cds.mRNA33"
                      /translation="MKIWRFFLMKERTRLPFDNLPFYNKVMDKTAIKKLISRLIDHFG
                      MTYTSHILDQLKTSGFQQATDTAISLGIDDLLTAPSKAWLVQDAEQQGSVSEKQNHYG
                      NVHAVEKLRQSIEIWYATSEYLRKEMNPNFSMTDPLNPVHVMSFSGARGSTSQVHQLV
@@ -835,20 +851,20 @@ FEATURES             Location/Qualifiers
                      IQENSHNILKQPFK"
      gene            45734..46438
                      /gene="rps2"
-                     /locus_tag="Se404-851cp_000049"
+                     /locus_tag="EFE08CP_000049"
                      /note="blatX_hit rps2_NC_028594.1; position 1 - 705;
                      coverage 100.00%; match 100.00%"
      mRNA            45734..46438
                      /gene="rps2"
-                     /locus_tag="Se404-851cp_000049"
+                     /locus_tag="EFE08CP_000049"
                      /product="ribosomal protein S2"
      CDS             45734..46438
                      /gene="rps2"
-                     /locus_tag="Se404-851cp_000049"
+                     /locus_tag="EFE08CP_000049"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S2"
-                     /protein_id="Se404-851cp:cds.mRNA34"
+                     /protein_id="EFE08CP:cds.mRNA34"
                      /translation="MSKRYWNMDLEEMMEARVHLGHKTRKWNPKMAPYIFTERKDTHI
                      LNLAKTARSLSEACDLAFDIAGRGKQFLIVGTKYQAADLVASAATEARCHYVNRKWLG
                      GMLTNWSTTETRPQKFKDLKKEQDTGRFNRPPKKEAAMLKRQLDQLQKYLGGIRYMTS
@@ -856,20 +872,20 @@ FEATURES             Location/Qualifiers
                      NRSTSAICEGRSLRSL"
      gene            46731..47477
                      /gene="atpI"
-                     /locus_tag="Se404-851cp_000050"
+                     /locus_tag="EFE08CP_000050"
                      /note="blatX_hit atpI_NC_032367.1; position 1 - 747;
                      coverage 100.00%; match 100.00%"
      mRNA            46731..47477
                      /gene="atpI"
-                     /locus_tag="Se404-851cp_000050"
+                     /locus_tag="EFE08CP_000050"
                      /product="ATP synthase CF0 A chain"
      CDS             46731..47477
                      /gene="atpI"
-                     /locus_tag="Se404-851cp_000050"
+                     /locus_tag="EFE08CP_000050"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 A chain"
-                     /protein_id="Se404-851cp:cds.mRNA35"
+                     /protein_id="EFE08CP:cds.mRNA35"
                      /translation="MDIVRSPISTLNHIYEISGVEVGQHFYWQIGGFQVHAQVLITSW
                      VVIAVLLGSATIAVRDPQTIPTGGQNFVEYILEFFRDLTRTQIGEEEYGPWVPFIGTL
                      FLFIFVSNWSGALLPWGIIKLPHGELAAPTNDINTTVALALLTSVAYFYAGLAKKGLG
@@ -877,58 +893,58 @@ FEATURES             Location/Qualifiers
                      FLGLFTSGIQALIFATLAAAYIGESMEGHH"
      gene            48167..48412
                      /gene="atpH"
-                     /locus_tag="Se404-851cp_000051"
+                     /locus_tag="EFE08CP_000051"
                      /note="blatX_hit atpH_NC_032367.1; position 1 - 246;
                      coverage 100.00%; match 100.00%"
      mRNA            48167..48412
                      /gene="atpH"
-                     /locus_tag="Se404-851cp_000051"
+                     /locus_tag="EFE08CP_000051"
                      /product="ATP synthase CF0 subunit III"
      CDS             48167..48412
                      /gene="atpH"
-                     /locus_tag="Se404-851cp_000051"
+                     /locus_tag="EFE08CP_000051"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit III"
-                     /protein_id="Se404-851cp:cds.mRNA36"
+                     /protein_id="EFE08CP:cds.mRNA36"
                      /translation="MDPLISAASVIAAGLSVGLASIGPGVGQGTAAGQAVEGIARQPE
                      AEGKIRGTLLLSLAFMEALTIYGLVVALALLFANPFV"
      gene            48742..50061
                      /gene="atpF"
-                     /locus_tag="Se404-851cp_000052"
+                     /locus_tag="EFE08CP_000052"
                      /note="blatX_hit atpF_NC_028594.1; position 1 - 555;
                      coverage 100.00%; match 100.00%"
      mRNA            join(48742..48885,49651..50061)
                      /gene="atpF"
-                     /locus_tag="Se404-851cp_000052"
+                     /locus_tag="EFE08CP_000052"
                      /product="ATP synthase CF0 subunit I"
      CDS             join(48742..48885,49651..50061)
                      /gene="atpF"
-                     /locus_tag="Se404-851cp_000052"
+                     /locus_tag="EFE08CP_000052"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF0 subunit I"
-                     /protein_id="Se404-851cp:cds.mRNA37"
+                     /protein_id="EFE08CP:cds.mRNA37"
                      /translation="MKNVIDPFISLSYWPSAGGFGSNTNILETNIINPSLVLSVLIYF
                      GKGVLSNLLDNRKQKILNTIRNSEELCKGAIDQLEKARARLREVEMIAGEIRVNGDFQ
                      IEREKEDLINAASENLEQLEDPKNETVYSEQQRAIDQIRQQVSRQALRRAIGTLNSRL
                      NTELHLRTIDHNIGLLRTMMNTSD"
      gene            50105..51628
                      /gene="atpA"
-                     /locus_tag="Se404-851cp_000053"
+                     /locus_tag="EFE08CP_000053"
                      /note="blatX_hit atpA_NC_032367.1; position 1 - 1524;
                      coverage 100.00%; match 100.00%"
      mRNA            50105..51628
                      /gene="atpA"
-                     /locus_tag="Se404-851cp_000053"
+                     /locus_tag="EFE08CP_000053"
                      /product="ATP synthase CF1 alpha chain"
      CDS             50105..51628
                      /gene="atpA"
-                     /locus_tag="Se404-851cp_000053"
+                     /locus_tag="EFE08CP_000053"
                      /codon_start=1
                      /transl_table=11
                      /product="ATP synthase CF1 alpha chain"
-                     /protein_id="Se404-851cp:cds.mRNA38"
+                     /protein_id="EFE08CP:cds.mRNA38"
                      /translation="MGNIRLDEISSIIRKQIEQYNNEVRVGNLGTVLQVGDGIARIHG
                      LDEVMAGELVEFGDGTIGIALNLGSDNVGAVLMGDGLMIQEGSSVRATGKIAQIPVSD
                      AYLGRVVNALAQPIDGKGQISASEFRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPI
@@ -940,55 +956,55 @@ FEATURES             Location/Qualifiers
                      IAQVRKFLVRLREYLIKNKPQFGEIIRSTGTFTEEAKALLEEALKEHTELFVLQEQK"
      gene            complement(51728..51797)
                      /gene="trnR-UCU"
-                     /locus_tag="Se404-851cp_000054"
+                     /locus_tag="EFE08CP_000054"
                      /note="blatN_hit trnR-UCU_NC_032367.1; position 1 - 70;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(51728..51797)
                      /gene="trnR-UCU"
-                     /locus_tag="Se404-851cp_000054"
+                     /locus_tag="EFE08CP_000054"
                      /product="tRNA-Arg"
      gene            complement(52019..52859)
                      /gene="trnG-GCC"
-                     /locus_tag="Se404-851cp_000055"
+                     /locus_tag="EFE08CP_000055"
                      /note="blatN_hit trnG-GCC_NC_032367.1; position 1 - 59;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(52019..52055,52838..52859))
                      /gene="trnG-GCC"
-                     /locus_tag="Se404-851cp_000055"
+                     /locus_tag="EFE08CP_000055"
                      /product="tRNA-Ser"
      gene            complement(53045..53146)
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000056"
+                     /locus_tag="EFE08CP_000056"
                      /note="blatX_hit ycf12_NC_032367.1; position 1 - 102;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(53045..53146)
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000056"
+                     /locus_tag="EFE08CP_000056"
                      /product="photosystem II reaction center protein ycf12"
      CDS             complement(53045..53146)
                      /gene="ycf12"
-                     /locus_tag="Se404-851cp_000056"
+                     /locus_tag="EFE08CP_000056"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II reaction center protein ycf12"
-                     /protein_id="Se404-851cp:cds.mRNA39"
+                     /protein_id="EFE08CP:cds.mRNA39"
                      /translation="MNLEVIAQLTVLTLTVVSGPLVIVLLAVRKGNL"
      gene            53902..55428
                      /gene="psbB"
-                     /locus_tag="Se404-851cp_000057"
+                     /locus_tag="EFE08CP_000057"
                      /note="blatX_hit psbB_NC_028594.1; position 1 - 1527;
                      coverage 100.00%; match 100.00%"
      mRNA            53902..55428
                      /gene="psbB"
-                     /locus_tag="Se404-851cp_000057"
+                     /locus_tag="EFE08CP_000057"
                      /product="photosystem II CP47 chlorophyll apoprotein"
      CDS             53902..55428
                      /gene="psbB"
-                     /locus_tag="Se404-851cp_000057"
+                     /locus_tag="EFE08CP_000057"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II CP47 chlorophyll apoprotein"
-                     /protein_id="Se404-851cp:cds.mRNA40"
+                     /protein_id="EFE08CP:cds.mRNA40"
                      /translation="MGLPWYRVHTVVLNDPGRLISVHIMHTALVAGWAGSMTLYELAV
                      FDPSDPVLDPMWRQGMFVIPFMTRLGIKDSWTGWNITGETVINPGIWSYEGVAGAHIM
                      FSGLCFLAAIWHWVYWDLEIFCDERTGKLCLDLPKVFGIHLFLSGVACFGFGAFHVTG
@@ -1001,112 +1017,112 @@ FEATURES             Location/Qualifiers
                      "
      gene            55503..55610
                      /gene="psbT"
-                     /locus_tag="Se404-851cp_000058"
+                     /locus_tag="EFE08CP_000058"
                      /note="blatX_hit psbT_NC_029374.1; position 1 - 108;
                      coverage 100.00%; match 100.00%"
      mRNA            55503..55610
                      /gene="psbT"
-                     /locus_tag="Se404-851cp_000058"
+                     /locus_tag="EFE08CP_000058"
                      /product="photosystem II protein T"
      CDS             55503..55610
                      /gene="psbT"
-                     /locus_tag="Se404-851cp_000058"
+                     /locus_tag="EFE08CP_000058"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein T"
-                     /protein_id="Se404-851cp:cds.mRNA41"
+                     /protein_id="EFE08CP:cds.mRNA41"
                      /translation="MEALVYTFLLVSTLGIIFFAIFFREPPKIPNKGGK"
      gene            complement(55692..55823)
                      /gene="psbN"
-                     /locus_tag="Se404-851cp_000059"
+                     /locus_tag="EFE08CP_000059"
                      /note="blatX_hit psbN_NC_032367.1; position 1 - 132;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(55692..55823)
                      /gene="psbN"
-                     /locus_tag="Se404-851cp_000059"
+                     /locus_tag="EFE08CP_000059"
                      /product="photosystem II protein N"
      CDS             complement(55692..55823)
                      /gene="psbN"
-                     /locus_tag="Se404-851cp_000059"
+                     /locus_tag="EFE08CP_000059"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein N"
-                     /protein_id="Se404-851cp:cds.mRNA42"
+                     /protein_id="EFE08CP:cds.mRNA42"
                      /translation="METATLVTISISCLLVSFTGYALYTAFGQPSEQLRDPFEDHED"
      gene            55903..56130
                      /gene="psbH"
-                     /locus_tag="Se404-851cp_000060"
+                     /locus_tag="EFE08CP_000060"
                      /note="blatX_hit psbH_NC_028594.1; position 1 - 228;
                      coverage 100.00%; match 100.00%"
      mRNA            55903..56130
                      /gene="psbH"
-                     /locus_tag="Se404-851cp_000060"
+                     /locus_tag="EFE08CP_000060"
                      /product="photosystem II 10 kDa phosphoprotein"
      CDS             55903..56130
                      /gene="psbH"
-                     /locus_tag="Se404-851cp_000060"
+                     /locus_tag="EFE08CP_000060"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II 10 kDa phosphoprotein"
-                     /protein_id="Se404-851cp:cds.mRNA43"
+                     /protein_id="EFE08CP:cds.mRNA43"
                      /translation="MATQTIDDTSKTTPRATGVGTSLKPLNSEYGKVAPGWGTTPLMG
                      LTMALFAVFLSIILEIYNSSVLLDGIPVSWG"
      gene            56285..57722
                      /gene="petB"
-                     /locus_tag="Se404-851cp_000061"
+                     /locus_tag="EFE08CP_000061"
                      /note="blatX_hit petB_NC_028594.1; position 5 - 648;
                      coverage 99.38%; match 99.23%"
      mRNA            join(56285..56290,57081..57722)
                      /gene="petB"
-                     /locus_tag="Se404-851cp_000061"
+                     /locus_tag="EFE08CP_000061"
                      /product="cytochrome b6"
      CDS             join(56285..56290,57081..57722)
                      /gene="petB"
-                     /locus_tag="Se404-851cp_000061"
+                     /locus_tag="EFE08CP_000061"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6"
-                     /protein_id="Se404-851cp:cds.mRNA44"
+                     /protein_id="EFE08CP:cds.mRNA44"
                      /translation="MGKVYDRFEERLEIQAIADDITSKYVPPHVNIFYCLGGITLTSF
                      LVQVATGSAMTFYYRPTVTEAFASVQYLMTEVNFGWLIRSIHRWSASMMVLMMILHVF
                      RVYLTGGFKKPRELTWVTGVILGVLTVSFGVTGYSLPWDQIGYWAVKIVTGVPEAIPV
                      IGSPLVELLRGSVSVGQSTLTRFYSLHTFILPLLTAVFMPMHFLMIRKQGIPGPL"
      gene            57932..59171
                      /gene="petD"
-                     /locus_tag="Se404-851cp_000062"
+                     /locus_tag="EFE08CP_000062"
                      /note="blatX_hit petD_NC_028594.1; position 5 - 537;
                      coverage 99.26%; match 98.70%"
      mRNA            join(57932..57939,58643..59171)
                      /gene="petD"
-                     /locus_tag="Se404-851cp_000062"
+                     /locus_tag="EFE08CP_000062"
                      /product="cytochrome b6/f complex subunit IV"
      CDS             join(57932..57939,58643..59171)
                      /gene="petD"
-                     /locus_tag="Se404-851cp_000062"
+                     /locus_tag="EFE08CP_000062"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome b6/f complex subunit IV"
-                     /protein_id="Se404-851cp:cds.mRNA45"
+                     /protein_id="EFE08CP:cds.mRNA45"
                      /translation="MGVTKKPDLNDPVLRAKLAKGMGHNYYGEPAWPNDLSYIFPVVI
                      LGTIACTVGLAVLEPSMIGEPANPFATPLEILPEWYLFPVFQILRTVPNKLLGVLLMA
                      SVPAGSLTVPFLENVNQFQNPFRRPVATTVSLIGTAVALWLGIGAALPIDESLTLGLF
                      QFDPTVEYKNLSIFYSYI"
      gene            complement(59280..60290)
                      /gene="rpoA"
-                     /locus_tag="Se404-851cp_000063"
+                     /locus_tag="EFE08CP_000063"
                      /note="blatX_hit rpoA_NC_032367.1; position 1 - 1011;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(59280..60290)
                      /gene="rpoA"
-                     /locus_tag="Se404-851cp_000063"
+                     /locus_tag="EFE08CP_000063"
                      /product="RNA polymerase alpha subunit"
      CDS             complement(59280..60290)
                      /gene="rpoA"
-                     /locus_tag="Se404-851cp_000063"
+                     /locus_tag="EFE08CP_000063"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase alpha subunit"
-                     /protein_id="Se404-851cp:cds.mRNA46"
+                     /protein_id="EFE08CP:cds.mRNA46"
                      /translation="MIRDEISVSIQTLRWKCIESRAYSERLHYGRFALSPLRKGRADT
                      IGIAMRRVLLGEVEGTCITHVKLENIKHEYSAIIGIEESVHDILMNLKEIVLRSDSYG
                      IRGASICIVGPRNVTAQDIILPPSVKIIDTTQHIARLTKSITSDIRLQIEKNRGYIIH
@@ -1116,131 +1132,131 @@ FEATURES             Location/Qualifiers
                      RN"
      gene            complement(60350..60742)
                      /gene="rps11"
-                     /locus_tag="Se404-851cp_000064"
+                     /locus_tag="EFE08CP_000064"
                      /note="blatX_hit rps11_NC_032367.1; position 1 - 393;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(60350..60742)
                      /gene="rps11"
-                     /locus_tag="Se404-851cp_000064"
+                     /locus_tag="EFE08CP_000064"
                      /product="ribosomal protein S11"
      CDS             complement(60350..60742)
                      /gene="rps11"
-                     /locus_tag="Se404-851cp_000064"
+                     /locus_tag="EFE08CP_000064"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S11"
-                     /protein_id="Se404-851cp:cds.mRNA47"
+                     /protein_id="EFE08CP:cds.mRNA47"
                      /translation="MSKTKRRIGSRRNENRVLKGVIYVQASFNNTIVTVTDVRGQVLC
                      WSSAGACGFKGTRRGTPFAAQTAAENVIRTLMDRGMERVEVMISGPGRGRDTALRTIR
                      RSGILLSFVRDVTPMPHNGCRPPKKRRV"
      gene            complement(60825..60938)
                      /gene="rpl36"
-                     /locus_tag="Se404-851cp_000065"
+                     /locus_tag="EFE08CP_000065"
                      /note="blatX_hit rpl36_NC_028594.1; position 1 - 114;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(60825..60938)
                      /gene="rpl36"
-                     /locus_tag="Se404-851cp_000065"
+                     /locus_tag="EFE08CP_000065"
                      /product="ribosomal protein L36"
      CDS             complement(60825..60938)
                      /gene="rpl36"
-                     /locus_tag="Se404-851cp_000065"
+                     /locus_tag="EFE08CP_000065"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L36"
-                     /protein_id="Se404-851cp:cds.mRNA48"
+                     /protein_id="EFE08CP:cds.mRNA48"
                      /translation="MKIRASIRRICGKCRPIRRRKRVMIICSNPRHKQKQG"
      gene            complement(61041..61277)
                      /gene="infA"
-                     /locus_tag="Se404-851cp_000066"
+                     /locus_tag="EFE08CP_000066"
                      /note="blatX_hit infA_NC_032367.1; position 1 - 237;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(61041..61277)
                      /gene="infA"
-                     /locus_tag="Se404-851cp_000066"
+                     /locus_tag="EFE08CP_000066"
                      /product="translation initiation factor 1"
      CDS             complement(61041..61277)
                      /gene="infA"
-                     /locus_tag="Se404-851cp_000066"
+                     /locus_tag="EFE08CP_000066"
                      /codon_start=1
                      /transl_table=11
                      /product="translation initiation factor 1"
-                     /protein_id="Se404-851cp:cds.mRNA49"
+                     /protein_id="EFE08CP:cds.mRNA49"
                      /translation="MNKQNLIHAEGLVTESLPNGMFRVLTDNGCQILTHISGRIRRNS
                      VRILPGDRVKVELSAYDLTKGRIIYRLSNKSSNN"
      gene            complement(61415..61813)
                      /gene="rps8"
-                     /locus_tag="Se404-851cp_000067"
+                     /locus_tag="EFE08CP_000067"
                      /note="blatX_hit rps8_NC_028594.1; position 1 - 399;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(61415..61813)
                      /gene="rps8"
-                     /locus_tag="Se404-851cp_000067"
+                     /locus_tag="EFE08CP_000067"
                      /product="ribosomal protein S8"
      CDS             complement(61415..61813)
                      /gene="rps8"
-                     /locus_tag="Se404-851cp_000067"
+                     /locus_tag="EFE08CP_000067"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S8"
-                     /protein_id="Se404-851cp:cds.mRNA50"
+                     /protein_id="EFE08CP:cds.mRNA50"
                      /translation="MGNDTIANLITSIRNADMVEKRTVRVTATNITKNIGRILLREGF
                      IEDVREHQEGQKSFFISTLKYRRRKKRTYMTTSKRTSKSGLRIYSNYREIPKVLGGMG
                      IVILSTSQGILTDREARQKKIGGEILCYVW"
      gene            complement(61959..62327)
                      /gene="rpl14"
-                     /locus_tag="Se404-851cp_000068"
+                     /locus_tag="EFE08CP_000068"
                      /note="blatX_hit rpl14_NC_032367.1; position 1 - 369;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(61959..62327)
                      /gene="rpl14"
-                     /locus_tag="Se404-851cp_000068"
+                     /locus_tag="EFE08CP_000068"
                      /product="ribosomal protein L14"
      CDS             complement(61959..62327)
                      /gene="rpl14"
-                     /locus_tag="Se404-851cp_000068"
+                     /locus_tag="EFE08CP_000068"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L14"
-                     /protein_id="Se404-851cp:cds.mRNA51"
+                     /protein_id="EFE08CP:cds.mRNA51"
                      /translation="MIQSQTYLNIADNSGARKIMCIRVLGASNRKCAHIGDVIIAIIK
                      EAVPNMPLEKSEVVRAVVIRTCKEFERDNGMMIRSDDNAAVVIDQEGNPKGTRVFGPV
                      AQELRQLNFTKIVSLAPEVL"
      gene            complement(62444..63715)
                      /gene="rpl16"
-                     /locus_tag="Se404-851cp_000069"
+                     /locus_tag="EFE08CP_000069"
                      /note="blatX_hit rpl16_NC_032367.1; position 6 - 405;
                      coverage 98.77%; match 98.27%"
      mRNA            complement(join(62444..62839,63707..63715))
                      /gene="rpl16"
-                     /locus_tag="Se404-851cp_000069"
+                     /locus_tag="EFE08CP_000069"
                      /product="ribosomal protein L16"
      CDS             complement(join(62444..62839,63707..63715))
                      /gene="rpl16"
-                     /locus_tag="Se404-851cp_000069"
+                     /locus_tag="EFE08CP_000069"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L16"
-                     /protein_id="Se404-851cp:cds.mRNA52"
+                     /protein_id="EFE08CP:cds.mRNA52"
                      /translation="MLSPKRTKFRKQHRGRMKGVSYRGNRICFGRFALQALEPAWITS
                      GQIEAGRRTITRYARRGGKIWVRIFPDKPITMRPAETRMGSGKGSPEYWVSVIRPGRI
                      LYEMGGVSETVARAAARIAAYKMPIRTQFVTT"
      gene            complement(63809..64465)
                      /gene="rps3"
-                     /locus_tag="Se404-851cp_000070"
+                     /locus_tag="EFE08CP_000070"
                      /note="blatX_hit rps3_NC_028594.1; position 1 - 657;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(63809..64465)
                      /gene="rps3"
-                     /locus_tag="Se404-851cp_000070"
+                     /locus_tag="EFE08CP_000070"
                      /product="ribosomal protein S3"
      CDS             complement(63809..64465)
                      /gene="rps3"
-                     /locus_tag="Se404-851cp_000070"
+                     /locus_tag="EFE08CP_000070"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S3"
-                     /protein_id="Se404-851cp:cds.mRNA53"
+                     /protein_id="EFE08CP:cds.mRNA53"
                      /translation="MAQKINPLGFRLGVTQNDRSHWFAQQRNYSKDLREDQKIRTCIE
                      NYVRTHIKSSSNYGGIARVEISRKIDLIQVKIYIGFPNLLLIEGRGFQGIEKLKNDVL
                      NMLDSVDRKLHIAIEKVAKPYRKPNILAEYIALQLEKRVPFRKTMKKAIELAEREEVE
@@ -1248,57 +1264,57 @@ FEATURES             Location/Qualifiers
                      "
      gene            complement(64450..64878)
                      /gene="rpl22"
-                     /locus_tag="Se404-851cp_000071"
+                     /locus_tag="EFE08CP_000071"
                      /note="blatX_hit rpl22_NC_029374.1; position 1 - 429;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(64450..64878)
                      /gene="rpl22"
-                     /locus_tag="Se404-851cp_000071"
+                     /locus_tag="EFE08CP_000071"
                      /product="ribosomal protein L22"
      CDS             complement(64450..64878)
                      /gene="rpl22"
-                     /locus_tag="Se404-851cp_000071"
+                     /locus_tag="EFE08CP_000071"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L22"
-                     /protein_id="Se404-851cp:cds.mRNA54"
+                     /protein_id="EFE08CP:cds.mRNA54"
                      /translation="MESMGNNSPGPEIRALARNIRMSAHKARRVINQIRGCSYGQALM
                      ILELMPYGACYPISQLIHSAAANANHNMGLNKANLLVSRVEVNEGAVFKRVQPRAQGR
                      GYPIQKPTCHITIVLEEISRSNDPIMSIESRKRGYVWRRK"
      gene            complement(64909..65187)
                      /gene="rps19"
-                     /locus_tag="Se404-851cp_000072"
+                     /locus_tag="EFE08CP_000072"
                      /note="blatX_hit rps19_NC_028594.1; position 1 - 279;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(64909..65187)
                      /gene="rps19"
-                     /locus_tag="Se404-851cp_000072"
+                     /locus_tag="EFE08CP_000072"
                      /product="ribosomal protein S19"
      CDS             complement(64909..65187)
                      /gene="rps19"
-                     /locus_tag="Se404-851cp_000072"
+                     /locus_tag="EFE08CP_000072"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S19"
-                     /protein_id="Se404-851cp:cds.mRNA55"
+                     /protein_id="EFE08CP:cds.mRNA55"
                      /translation="MARSLKKNPFVANHSLRKIKNLNIKEEKKIIVTWSRASVIVPAM
                      IGHTIAVHNGREHLPIYVTDRMVDHKLGEFAPTLLFQGHARNDKKSRR"
      gene            complement(65238..66745)
                      /gene="rpl2"
-                     /locus_tag="Se404-851cp_000073"
+                     /locus_tag="EFE08CP_000073"
                      /note="blatX_hit rpl2_NC_032367.1; position 1 - 834;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(join(65238..65669,66344..66745))
                      /gene="rpl2"
-                     /locus_tag="Se404-851cp_000073"
+                     /locus_tag="EFE08CP_000073"
                      /product="ribosomal protein L2"
      CDS             complement(join(65238..65669,66344..66745))
                      /gene="rpl2"
-                     /locus_tag="Se404-851cp_000073"
+                     /locus_tag="EFE08CP_000073"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L2"
-                     /protein_id="Se404-851cp:cds.mRNA56"
+                     /protein_id="EFE08CP:cds.mRNA56"
                      /translation="MAIRSYRILTPDTRNRSVSGFDGRVQLDPQKKLTSGQHHCGKGR
                      NGRGIITARHRGGGHKRLYRQIDFRRDKEHISGKIVTIEYDPNRSAYICKVHYKNGDK
                      MYILHPRGVMIGDTILSGPKAPISIGNALPLSTNMPLGTAIHNIEITLGKGGQLARAA
@@ -1307,123 +1323,123 @@ FEATURES             Location/Qualifiers
                      E"
      gene            complement(66773..67048)
                      /gene="rpl23"
-                     /locus_tag="Se404-851cp_000074"
+                     /locus_tag="EFE08CP_000074"
                      /note="blatX_hit rpl23_NC_028594.1; position 1 - 276;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(66773..67048)
                      /gene="rpl23"
-                     /locus_tag="Se404-851cp_000074"
+                     /locus_tag="EFE08CP_000074"
                      /product="ribosomal protein L23"
      CDS             complement(66773..67048)
                      /gene="rpl23"
-                     /locus_tag="Se404-851cp_000074"
+                     /locus_tag="EFE08CP_000074"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L23"
-                     /protein_id="Se404-851cp:cds.mRNA57"
+                     /protein_id="EFE08CP:cds.mRNA57"
                      /translation="MDEVKYPVLTEKSIRLLERNQYTFNVDSQLNKTKMKIWIEHFFD
                      VKVIAMNSYRLPEKGGKRGSMIGHPIRCKRMIITLKPSDSIPLFSEQ"
      gene            complement(67384..67457)
                      /gene="trnI-CAU"
-                     /locus_tag="Se404-851cp_000075"
+                     /locus_tag="EFE08CP_000075"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(67384..67457)
                      /gene="trnI-CAU"
-                     /locus_tag="Se404-851cp_000075"
+                     /locus_tag="EFE08CP_000075"
                      /product="tRNA-Met"
      gene            complement(69299..69371)
                      /gene="trnF-GAA"
-                     /locus_tag="Se404-851cp_000076"
+                     /locus_tag="EFE08CP_000076"
                      /note="blatN_hit trnF-GAA_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(69299..69371)
                      /gene="trnF-GAA"
-                     /locus_tag="Se404-851cp_000076"
+                     /locus_tag="EFE08CP_000076"
                      /product="tRNA-Phe"
      gene            complement(69752..70324)
                      /gene="trnL-UAA"
-                     /locus_tag="Se404-851cp_000077"
+                     /locus_tag="EFE08CP_000077"
                      /note="blatN_hit trnL-UAA_NC_032367.1; position 1 - 85;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(join(69752..69801,70290..70324))
                      /gene="trnL-UAA"
-                     /locus_tag="Se404-851cp_000077"
+                     /locus_tag="EFE08CP_000077"
                      /product="tRNA-Leu"
      gene            70740..70812
                      /gene="trnT-UGU"
-                     /locus_tag="Se404-851cp_000078"
+                     /locus_tag="EFE08CP_000078"
                      /note="blatN_hit trnT-UGU_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            70740..70812
                      /gene="trnT-UGU"
-                     /locus_tag="Se404-851cp_000078"
+                     /locus_tag="EFE08CP_000078"
                      /product="tRNA-Thr"
      gene            71070..71675
                      /gene="rps4"
-                     /locus_tag="Se404-851cp_000079"
+                     /locus_tag="EFE08CP_000079"
                      /note="blatX_hit rps4_NC_032367.1; position 1 - 606;
                      coverage 100.00%; match 100.00%"
      mRNA            71070..71675
                      /gene="rps4"
-                     /locus_tag="Se404-851cp_000079"
+                     /locus_tag="EFE08CP_000079"
                      /product="ribosomal protein S4"
      CDS             71070..71675
                      /gene="rps4"
-                     /locus_tag="Se404-851cp_000079"
+                     /locus_tag="EFE08CP_000079"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S4"
-                     /protein_id="Se404-851cp:cds.mRNA58"
+                     /protein_id="EFE08CP:cds.mRNA58"
                      /translation="MSRYRGPRLKIIRRLKTLPGLTSKRPKNRKDSMNRSSSRKISQY
                      RIRPEEKQKLRFHYGLTERQLLKYVRIARRAKGSTGQVLLQLLEMRSDNIIFQLGMAP
                      TIPGARQLVNHGHIRVNDHMVDIPSYPCKPQDVITIRDQQRLRDIIRKNLDLFQRDKL
                      PNHLTFHSLQYKGFINQIIDSKWISLKINELLVVEYYSRQA"
      gene            71976..72062
                      /gene="trnS-GGA"
-                     /locus_tag="Se404-851cp_000080"
+                     /locus_tag="EFE08CP_000080"
                      /note="blatN_hit trnS-GGA_NC_032367.1; position 1 - 87;
                      coverage 100.00%; match 100.00%"
      tRNA            71976..72062
                      /gene="trnS-GGA"
-                     /locus_tag="Se404-851cp_000080"
+                     /locus_tag="EFE08CP_000080"
                      /product="tRNA-Ser"
      gene            72785..74722
                      /gene="ycf3"
-                     /locus_tag="Se404-851cp_000081"
+                     /locus_tag="EFE08CP_000081"
                      /note="blatX_hit ycf3_NC_032367.1; position 1 - 513;
                      coverage 100.00%; match 100.00%"
      mRNA            join(72785..72915,73630..73855,74567..74722)
                      /gene="ycf3"
-                     /locus_tag="Se404-851cp_000081"
+                     /locus_tag="EFE08CP_000081"
                      /product="photosystem I assembly protein Ycf3"
      CDS             join(72785..72915,73630..73855,74567..74722)
                      /gene="ycf3"
-                     /locus_tag="Se404-851cp_000081"
+                     /locus_tag="EFE08CP_000081"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I assembly protein Ycf3"
-                     /protein_id="Se404-851cp:cds.mRNA59"
+                     /protein_id="EFE08CP:cds.mRNA59"
                      /translation="MPRSQRNDNFIDKTFTIVADILLRIIPMAPEEKEAFTYYRDGVM
                      SAQSEGEYAEALQNYYEAMRLETDPYDRSYILYNIGLVHTSNGEHTKALEYYFQALER
                      NPSLPQALNNTALICHYRGEQAIRQGDPETAEAWFDQAAEYWEQAIALAPGNYIEAQN
                      WLKITGRFGE"
      gene            75341..77593
                      /gene="psaA"
-                     /locus_tag="Se404-851cp_000082"
+                     /locus_tag="EFE08CP_000082"
                      /note="blatX_hit psaA_NC_029374.1; position 1 - 2253;
                      coverage 100.00%; match 100.00%"
      mRNA            75341..77593
                      /gene="psaA"
-                     /locus_tag="Se404-851cp_000082"
+                     /locus_tag="EFE08CP_000082"
                      /product="photosystem I P700 apoprotein A1"
      CDS             75341..77593
                      /gene="psaA"
-                     /locus_tag="Se404-851cp_000082"
+                     /locus_tag="EFE08CP_000082"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 apoprotein A1"
-                     /protein_id="Se404-851cp:cds.mRNA60"
+                     /protein_id="EFE08CP:cds.mRNA60"
                      /translation="MIIRSPEPEVKVVVERDPVKTSFEKWAKPGHFSKTLAKGPDTTT
                      WIWNLHADAHDFDSHTDDLEDISRKVFSAHFGQLAIIFIWLSGMYFHGARFSNYEAWL
                      GDPTHIKPSAQVVWPIVGQEILNGDVGGGFRGIQITSGFFQLWRASGITSELQLYCTA
@@ -1440,20 +1456,20 @@ FEATURES             Location/Qualifiers
                      FFLARIIAVG"
      gene            77619..79823
                      /gene="psaB"
-                     /locus_tag="Se404-851cp_000083"
+                     /locus_tag="EFE08CP_000083"
                      /note="blatX_hit psaB_NC_032367.1; position 1 - 2205;
                      coverage 100.00%; match 99.86%"
      mRNA            77619..79823
                      /gene="psaB"
-                     /locus_tag="Se404-851cp_000083"
+                     /locus_tag="EFE08CP_000083"
                      /product="photosystem I P700 apoprotein A2"
      CDS             77619..79823
                      /gene="psaB"
-                     /locus_tag="Se404-851cp_000083"
+                     /locus_tag="EFE08CP_000083"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I P700 apoprotein A2"
-                     /protein_id="Se404-851cp:cds.mRNA61"
+                     /protein_id="EFE08CP:cds.mRNA61"
                      /translation="MASRFPKFSQGLAQDPTTRRIWFGIATAHDFESHDDITEERLYH
                      KIFASHFGQLAIIFLWTSGNLFHVAWQGNFEAWVRDPLHVRPIAHAIWDPHFGQPAIE
                      AFTRGGAPGPVNIAYSGVYQWWYTIGLRTNEDLYAGALFLLFVSAIFLIAGRLHLQPK
@@ -1469,83 +1485,83 @@ FEATURES             Location/Qualifiers
                      ERTPLANLVRWRDKPVALSIVQARLVGLAHFSVGYIFTYAAFLIASTSGKFG"
      gene            79973..80272
                      /gene="rps14"
-                     /locus_tag="Se404-851cp_000084"
+                     /locus_tag="EFE08CP_000084"
                      /note="blatX_hit rps14_NC_032367.1; position 1 - 300;
                      coverage 100.00%; match 100.00%"
      mRNA            79973..80272
                      /gene="rps14"
-                     /locus_tag="Se404-851cp_000084"
+                     /locus_tag="EFE08CP_000084"
                      /product="ribosomal protein S14"
      CDS             79973..80272
                      /gene="rps14"
-                     /locus_tag="Se404-851cp_000084"
+                     /locus_tag="EFE08CP_000084"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S14"
-                     /protein_id="Se404-851cp:cds.mRNA62"
+                     /protein_id="EFE08CP:cds.mRNA62"
                      /translation="MARKSLIQREKKRQALERKYHLIRQSLEEESKVSSLDDKWEIHR
                      KLQSSPRNSAPTRLHRRCSSTGRPRANYRDFGLSGHILREMAHACLLPGITKSSW"
      gene            80402..80475
                      /gene="trnfM-CAU"
-                     /locus_tag="Se404-851cp_000085"
+                     /locus_tag="EFE08CP_000085"
                      /note="blatN_hit trnfM-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            80402..80475
                      /gene="trnfM-CAU"
-                     /locus_tag="Se404-851cp_000085"
+                     /locus_tag="EFE08CP_000085"
                      /product="tRNA-Met"
      gene            complement(80612..80682)
                      /gene="trnG-UCC"
-                     /locus_tag="Se404-851cp_000086"
+                     /locus_tag="EFE08CP_000086"
                      /note="blatN_hit trnG-UCC_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(80612..80682)
                      /gene="trnG-UCC"
-                     /locus_tag="Se404-851cp_000086"
+                     /locus_tag="EFE08CP_000086"
                      /product="tRNA-Gly"
      gene            complement(80857..81102)
                      /gene="psbZ"
-                     /locus_tag="Se404-851cp_000087"
+                     /locus_tag="EFE08CP_000087"
                      /note="blatX_hit psbZ_NC_021456.1; position 1 - 189;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(80857..81102)
                      /gene="psbZ"
-                     /locus_tag="Se404-851cp_000087"
+                     /locus_tag="EFE08CP_000087"
                      /product="photosystem II protein Z"
      CDS             complement(80857..81102)
                      /gene="psbZ"
-                     /locus_tag="Se404-851cp_000087"
+                     /locus_tag="EFE08CP_000087"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein Z"
-                     /protein_id="Se404-851cp:cds.mRNA63"
+                     /protein_id="EFE08CP:cds.mRNA63"
                      /translation="MTIAFQSAVFALIAISFLLVIGVPVALASPDGWSSSKNVVFSGV
                      SLWIGSVLFVGILNSFISQICSRCFRLKLPPPSRRAL"
      gene            81392..81478
                      /gene="trnS-UGA"
-                     /locus_tag="Se404-851cp_000088"
+                     /locus_tag="EFE08CP_000088"
                      /note="blatN_hit trnS-UGA_NC_032367.1; position 1 - 87;
                      coverage 100.00%; match 100.00%"
      tRNA            81392..81478
                      /gene="trnS-UGA"
-                     /locus_tag="Se404-851cp_000088"
+                     /locus_tag="EFE08CP_000088"
                      /product="tRNA-Ser"
      gene            complement(81673..83094)
                      /gene="psbC"
-                     /locus_tag="Se404-851cp_000089"
+                     /locus_tag="EFE08CP_000089"
                      /note="blatX_hit psbC_NC_032367.1; position 1 - 1422;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(81673..83094)
                      /gene="psbC"
-                     /locus_tag="Se404-851cp_000089"
+                     /locus_tag="EFE08CP_000089"
                      /product="photosystem II 44 kDa protein"
      CDS             complement(81673..83094)
                      /gene="psbC"
-                     /locus_tag="Se404-851cp_000089"
+                     /locus_tag="EFE08CP_000089"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II 44 kDa protein"
-                     /protein_id="Se404-851cp:cds.mRNA64"
+                     /protein_id="EFE08CP:cds.mRNA64"
                      /translation="MKTLYSLRRSYPVETLFNGTIALAGRDQETTGFAWWAGNARLIN
                      LSGKLLGAHVAHAGLIVFWAGAMNLFEVAHFVPEKPMYEQGLILLPHLATLGWGVGPG
                      GEIVDTFPYFVSGVLHLISSAVLGFGGIYHALIGPETLEESFPFFGYVWKDRNKMTTI
@@ -1557,20 +1573,20 @@ FEATURES             Location/Qualifiers
                      AAAGFEKGIDRDFEPVLSMTPLN"
      gene            complement(83042..84103)
                      /gene="psbD"
-                     /locus_tag="Se404-851cp_000090"
+                     /locus_tag="EFE08CP_000090"
                      /note="blatX_hit psbD_NC_028594.1; position 1 - 1062;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(83042..84103)
                      /gene="psbD"
-                     /locus_tag="Se404-851cp_000090"
+                     /locus_tag="EFE08CP_000090"
                      /product="photosystem II protein D2"
      CDS             complement(83042..84103)
                      /gene="psbD"
-                     /locus_tag="Se404-851cp_000090"
+                     /locus_tag="EFE08CP_000090"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein D2"
-                     /protein_id="Se404-851cp:cds.mRNA65"
+                     /protein_id="EFE08CP:cds.mRNA65"
                      /translation="MTVALGKSSKEEKTLFDTVDDWLRRDRFVFVGWSGLLLFPCAYF
                      ALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDF
                      TRWCQLGGLWTFVALHGAFGLIGFMLRQFELARSVQLRPYNAIAFSAPIAVFVPVFLI
@@ -1580,103 +1596,103 @@ FEATURES             Location/Qualifiers
                      QPHENLIFPEEVLPRGNAL"
      gene            complement(85432..85502)
                      /gene="trnT-GGU"
-                     /locus_tag="Se404-851cp_000091"
+                     /locus_tag="EFE08CP_000091"
                      /note="blatN_hit trnT-GGU_NC_032367.1; position 1 - 71;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(85432..85502)
                      /gene="trnT-GGU"
-                     /locus_tag="Se404-851cp_000091"
+                     /locus_tag="EFE08CP_000091"
                      /product="tRNA-Thr"
      gene            85829..87319
                      /gene="rrn16"
-                     /locus_tag="Se404-851cp_000092"
+                     /locus_tag="EFE08CP_000092"
                      /note="blatN_hit rrn16_NC_032367.1; position 1 - 1491;
                      coverage 100.00%; match 100.00%"
      rRNA            85829..87319
                      /gene="rrn16"
-                     /locus_tag="Se404-851cp_000092"
+                     /locus_tag="EFE08CP_000092"
                      /product="16S ribosomal RNA"
      gene            87702..88746
                      /gene="trnI-GAU"
-                     /locus_tag="Se404-851cp_000093"
+                     /locus_tag="EFE08CP_000093"
                      /note="blatN_hit trnI-GAU_NC_032367.1; position 1 - 77;
                      coverage 100.00%; match 100.00%"
      tRNA            join(87702..87743,88712..88746)
                      /gene="trnI-GAU"
-                     /locus_tag="Se404-851cp_000093"
+                     /locus_tag="EFE08CP_000093"
                      /product="tRNA-Glu"
      gene            88819..89675
                      /gene="trnA-UGC"
-                     /locus_tag="Se404-851cp_000094"
+                     /locus_tag="EFE08CP_000094"
                      /note="blatN_hit trnA-UGC_NC_032367.1; position 1 - 73;
                      coverage 100.00%; match 100.00%"
      tRNA            join(88819..88856,89641..89675)
                      /gene="trnA-UGC"
-                     /locus_tag="Se404-851cp_000094"
+                     /locus_tag="EFE08CP_000094"
                      /product="tRNA-Ala"
      gene            89823..92629
                      /gene="rrn23"
-                     /locus_tag="Se404-851cp_000095"
+                     /locus_tag="EFE08CP_000095"
                      /note="blatN_hit rrn23_NC_028594.1; position 1 - 2807;
                      coverage 100.00%; match 100.00%"
      rRNA            89823..92629
                      /gene="rrn23"
-                     /locus_tag="Se404-851cp_000095"
+                     /locus_tag="EFE08CP_000095"
                      /product="23S ribosomal RNA"
      gene            92733..92835
                      /gene="rrn4.5"
-                     /locus_tag="Se404-851cp_000096"
+                     /locus_tag="EFE08CP_000096"
                      /note="blatN_hit rrn4.5_NC_032367.1; position 1 - 103;
                      coverage 100.00%; match 100.00%"
      rRNA            92733..92835
                      /gene="rrn4.5"
-                     /locus_tag="Se404-851cp_000096"
+                     /locus_tag="EFE08CP_000096"
                      /product="4.5S ribosomal RNA"
      gene            93082..93202
                      /gene="rrn5"
-                     /locus_tag="Se404-851cp_000097"
+                     /locus_tag="EFE08CP_000097"
                      /note="blatN_hit rrn5_NC_032367.1; position 1 - 121;
                      coverage 100.00%; match 100.00%"
      rRNA            93082..93202
                      /gene="rrn5"
-                     /locus_tag="Se404-851cp_000097"
+                     /locus_tag="EFE08CP_000097"
                      /product="5S ribosomal RNA"
      gene            93411..93484
                      /gene="trnR-ACG"
-                     /locus_tag="Se404-851cp_000098"
+                     /locus_tag="EFE08CP_000098"
                      /note="blatN_hit trnR-ACG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            93411..93484
                      /gene="trnR-ACG"
-                     /locus_tag="Se404-851cp_000098"
+                     /locus_tag="EFE08CP_000098"
                      /product="tRNA-Arg"
      gene            complement(94220..94291)
                      /gene="trnN-GUU"
-                     /locus_tag="Se404-851cp_000099"
+                     /locus_tag="EFE08CP_000099"
                      /note="blatN_hit trnN-GUU_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(94220..94291)
                      /gene="trnN-GUU"
-                     /locus_tag="Se404-851cp_000099"
+                     /locus_tag="EFE08CP_000099"
                      /product="tRNA-Asn"
      gene            94577..95452
                      /gene="chlL"
-                     /locus_tag="Se404-851cp_000100"
+                     /locus_tag="EFE08CP_000100"
                      /note="blatX_hit chlL_NC_029374.1; position 1 - 876;
                      coverage 100.00%; match 100.00%"
      mRNA            94577..95452
                      /gene="chlL"
-                     /locus_tag="Se404-851cp_000100"
+                     /locus_tag="EFE08CP_000100"
                      /product="protochlorophyllide reductase ATP-binding
                      subunit"
      CDS             94577..95452
                      /gene="chlL"
-                     /locus_tag="Se404-851cp_000100"
+                     /locus_tag="EFE08CP_000100"
                      /codon_start=1
                      /transl_table=11
                      /product="protochlorophyllide reductase ATP-binding
                      subunit"
-                     /protein_id="Se404-851cp:cds.mRNA66"
+                     /protein_id="EFE08CP:cds.mRNA66"
                      /translation="MKIAVYGKGGIGKSTTSCNISVALARRGQKVLQIGCDPKHDSTF
                      TLTGFLIPTIIDTLQSKDYHYEDIWPEDVIHKGYGGVDCVEAGGPPAGAGCGGYVVGE
                      TVKLLKELNAFYEYDIILFDVLGDVVCGGFAAPLNYADYCVIITDNGFDALFAANRIT
@@ -1685,20 +1701,20 @@ FEATURES             Location/Qualifiers
                      QKKKNQENLLGFTRI"
      gene            95569..96975
                      /gene="chlN"
-                     /locus_tag="Se404-851cp_000101"
+                     /locus_tag="EFE08CP_000101"
                      /note="blatX_hit chlN_NC_028594.1; position 1 - 1407;
                      coverage 100.00%; match 100.00%"
      mRNA            95569..96975
                      /gene="chlN"
-                     /locus_tag="Se404-851cp_000101"
+                     /locus_tag="EFE08CP_000101"
                      /product="photochlorophyllide reductase subunit N"
      CDS             95569..96975
                      /gene="chlN"
-                     /locus_tag="Se404-851cp_000101"
+                     /locus_tag="EFE08CP_000101"
                      /codon_start=1
                      /transl_table=11
                      /product="photochlorophyllide reductase subunit N"
-                     /protein_id="Se404-851cp:cds.mRNA67"
+                     /protein_id="EFE08CP:cds.mRNA67"
                      /translation="MSAKIDETITFECETGNYHTFCPISCVSWLYQKIEDSFFLVVGT
                      KTCGYFLQNALGVMIFAEPRYAMAELEEGDISAHLNDYEELKTLCIRIRKDRDPSVII
                      WIGTCTTEIIKMDLEGMAPKLEYEIGIPILVARANGLDYAFTQGEDTVLAVMAHRCPE
@@ -1710,20 +1726,20 @@ FEATURES             Location/Qualifiers
                      DRTTLVRKNNEFYTSTPR"
      gene            97953..103277
                      /gene="ycf1"
-                     /locus_tag="Se404-851cp_000102"
+                     /locus_tag="EFE08CP_000102"
                      /note="blatX_hit ycf1_NC_028594.1; position 1 - 5271;
                      coverage 101.02%; match 99.56%"
      mRNA            97953..103277
                      /gene="ycf1"
-                     /locus_tag="Se404-851cp_000102"
+                     /locus_tag="EFE08CP_000102"
                      /product="Ycf1"
      CDS             97953..103277
                      /gene="ycf1"
-                     /locus_tag="Se404-851cp_000102"
+                     /locus_tag="EFE08CP_000102"
                      /codon_start=1
                      /transl_table=11
                      /product="Ycf1"
-                     /protein_id="Se404-851cp:cds.mRNA68"
+                     /protein_id="EFE08CP:cds.mRNA68"
                      /translation="MARDEDDRSVTMVRDEDDRSVVMTRDEDDSFVAMVRDEDDRSVA
                      MARDKDVAMAIDENENESSVAMAIDENDSFAAMAIDPKKLKGLPKEEPLSWFKQPWPI
                      MLFDHNRAYRPIRYIGNSPFTRLGPVRTEVSQYFFGTYSSDGKQRISFTFLPSVLVLG
@@ -1757,56 +1773,56 @@ FEATURES             Location/Qualifiers
                      DTTQIIKRFLWPSYRLEDLICMNRYWFNTNDGSRSAMLRIRMYPLTFN"
      gene            103612..103878
                      /gene="rps15"
-                     /locus_tag="Se404-851cp_000103"
+                     /locus_tag="EFE08CP_000103"
                      /note="blatX_hit rps15_NC_032367.1; position 1 - 267;
                      coverage 100.00%; match 100.00%"
      mRNA            103612..103878
                      /gene="rps15"
-                     /locus_tag="Se404-851cp_000103"
+                     /locus_tag="EFE08CP_000103"
                      /product="ribosomal protein S15"
      CDS             103612..103878
                      /gene="rps15"
-                     /locus_tag="Se404-851cp_000103"
+                     /locus_tag="EFE08CP_000103"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S15"
-                     /protein_id="Se404-851cp:cds.mRNA69"
+                     /protein_id="EFE08CP:cds.mRNA69"
                      /translation="MIKNLSISSSLIPNKQRGSVESQVFYLTNRVLRLTQHLQLHGRD
                      YSSQRGLWKILGKRKQLLIYLSKRDKLRYDDLIGQLGIRGLKTR"
      gene            105241..105486
                      /gene="psaC"
-                     /locus_tag="Se404-851cp_000104"
+                     /locus_tag="EFE08CP_000104"
                      /note="blatX_hit psaC_NC_032367.1; position 1 - 246;
                      coverage 100.00%; match 100.00%"
      mRNA            105241..105486
                      /gene="psaC"
-                     /locus_tag="Se404-851cp_000104"
+                     /locus_tag="EFE08CP_000104"
                      /product="photosystem I subunit VII"
      CDS             105241..105486
                      /gene="psaC"
-                     /locus_tag="Se404-851cp_000104"
+                     /locus_tag="EFE08CP_000104"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem I subunit VII"
-                     /protein_id="Se404-851cp:cds.mRNA70"
+                     /protein_id="EFE08CP:cds.mRNA70"
                      /translation="MAHSVKIYDTCIGCTQCVRACPTDVLEMIPWEGCKAKQIASAPR
                      TEDCAGCKRCESACPTDFLSVRVYLWHETTRSMGLAY"
      gene            complement(107425..108387)
                      /gene="ccsA"
-                     /locus_tag="Se404-851cp_000105"
+                     /locus_tag="EFE08CP_000105"
                      /note="blatX_hit ccsA_NC_028594.1; position 1 - 963;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(107425..108387)
                      /gene="ccsA"
-                     /locus_tag="Se404-851cp_000105"
+                     /locus_tag="EFE08CP_000105"
                      /product="cytochrome c biogenesis protein"
      CDS             complement(107425..108387)
                      /gene="ccsA"
-                     /locus_tag="Se404-851cp_000105"
+                     /locus_tag="EFE08CP_000105"
                      /codon_start=1
                      /transl_table=11
                      /product="cytochrome c biogenesis protein"
-                     /protein_id="Se404-851cp:cds.mRNA71"
+                     /protein_id="EFE08CP:cds.mRNA71"
                      /translation="MIFITLEHILAHISFSLILVVTLIYWGTLVYRIEGLSSSGGKGM
                      IVTFLCTTGLLITRWLYSGHLPLSNLYESFMFLSWSSSVLHIVLEVRNRDDRWLGAIT
                      APSAMLTHGFATLGLPEEMQRSGMLVPALQSHWSMMHVSMILFSYATLLCGSLASIAL
@@ -1815,93 +1831,93 @@ FEATURES             Location/Qualifiers
                      RMNKGWQGEEPAIVASLGFSIVWIRYLGVDLLGIGLHSYGWLEP"
      gene            complement(108526..108603)
                      /gene="trnL-UAG"
-                     /locus_tag="Se404-851cp_000106"
+                     /locus_tag="EFE08CP_000106"
                      /note="blatN_hit trnL-UAG_NC_032367.1; position 1 - 78;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(108526..108603)
                      /gene="trnL-UAG"
-                     /locus_tag="Se404-851cp_000106"
+                     /locus_tag="EFE08CP_000106"
                      /product="tRNA-Leu"
      gene            108760..108833
                      /gene="trnP-GGG"
-                     /locus_tag="Se404-851cp_000107"
+                     /locus_tag="EFE08CP_000107"
                      /note="blatN_hit trnP-GGG_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            108760..108833
                      /gene="trnP-GGG"
-                     /locus_tag="Se404-851cp_000107"
+                     /locus_tag="EFE08CP_000107"
                      /product="tRNA-Pro"
      gene            complement(109941..110153)
                      /gene="rpl32"
-                     /locus_tag="Se404-851cp_000108"
+                     /locus_tag="EFE08CP_000108"
                      /note="blatX_hit rpl32_NC_032367.1; position 1 - 213;
                      coverage 100.00%; match 100.00%"
      mRNA            complement(109941..110153)
                      /gene="rpl32"
-                     /locus_tag="Se404-851cp_000108"
+                     /locus_tag="EFE08CP_000108"
                      /product="ribosomal protein L32"
      CDS             complement(109941..110153)
                      /gene="rpl32"
-                     /locus_tag="Se404-851cp_000108"
+                     /locus_tag="EFE08CP_000108"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein L32"
-                     /protein_id="Se404-851cp:cds.mRNA72"
+                     /protein_id="EFE08CP:cds.mRNA72"
                      /translation="MAVPKKRTSRSKKKIRKNVRKGKAYRAAIKAFSLAKSISTGHSK
                      SFYCIANDDSSGSSESKLTSIDLDDP"
      gene            complement(111282..111353)
                      /gene="trnV-GAC"
-                     /locus_tag="Se404-851cp_000109"
+                     /locus_tag="EFE08CP_000109"
                      /note="blatN_hit trnV-GAC_NC_032367.1; position 1 - 72;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(111282..111353)
                      /gene="trnV-GAC"
-                     /locus_tag="Se404-851cp_000109"
+                     /locus_tag="EFE08CP_000109"
                      /product="tRNA-Val"
      gene            113569..114036
                      /gene="rps7"
-                     /locus_tag="Se404-851cp_000110"
+                     /locus_tag="EFE08CP_000110"
                      /note="blatX_hit rps7_NC_028594.1; position 1 - 468;
                      coverage 100.00%; match 100.00%"
      mRNA            113569..114036
                      /gene="rps7"
-                     /locus_tag="Se404-851cp_000110"
+                     /locus_tag="EFE08CP_000110"
                      /product="ribosomal protein S7"
      CDS             113569..114036
                      /gene="rps7"
-                     /locus_tag="Se404-851cp_000110"
+                     /locus_tag="EFE08CP_000110"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S7"
-                     /protein_id="Se404-851cp:cds.mRNA73"
+                     /protein_id="EFE08CP:cds.mRNA73"
                      /translation="MSRRSTAEKKTAKSDPIYHNRLVNMVVNRILKNGKKSLAYRILY
                      RAIKNIQQKTEKNPLSVLRQAIRRVTPNVTVKARRVGGSTYRVPIEIRSTQGKVLAIR
                      WLLGASRKRPGRNMNFKLSHELMDAARGNGNAIRKKEETHRMAEANRAFAHFR"
      gene            115613..115693
                      /gene="trnL-CAA"
-                     /locus_tag="Se404-851cp_000111"
+                     /locus_tag="EFE08CP_000111"
                      /note="blatN_hit trnL-CAA_NC_032367.1; position 1 - 81;
                      coverage 100.00%; match 100.00%"
      tRNA            115613..115693
                      /gene="trnL-CAA"
-                     /locus_tag="Se404-851cp_000111"
+                     /locus_tag="EFE08CP_000111"
                      /product="tRNA-Leu"
      gene            complement(116383..122763)
                      /gene="ycf2"
-                     /locus_tag="Se404-851cp_000112"
+                     /locus_tag="EFE08CP_000112"
                      /note="blatX_hit ycf2_NC_028594.1; position 1 - 6381;
                      coverage 100.00%; match 99.87%"
      mRNA            complement(116383..122763)
                      /gene="ycf2"
-                     /locus_tag="Se404-851cp_000112"
+                     /locus_tag="EFE08CP_000112"
                      /product="Ycf2"
      CDS             complement(116383..122763)
                      /gene="ycf2"
-                     /locus_tag="Se404-851cp_000112"
+                     /locus_tag="EFE08CP_000112"
                      /codon_start=1
                      /transl_table=11
                      /product="Ycf2"
-                     /protein_id="Se404-851cp:cds.mRNA74"
+                     /protein_id="EFE08CP:cds.mRNA74"
                      /translation="MKKRRSWIVKLEEIKSYQFLYNPWTESNLVRFLIQILSHRERLI
                      KLFDLRILSTLLLRDLRKSNPYFLVKGIVVLTLSVLTYHFNYKSSMIDRKNFYLMKLF
                      PIHINVMELGNETSEEYLKPFTQNWLILPHLFLSFQLKRSYNQSIEHSDPINFNSGYD
@@ -1941,23 +1957,23 @@ FEATURES             Location/Qualifiers
                      SYQYLFNLFLSNRMLLDQMTRTLSENQCLFPNEIEHSIHTTGLRFDISRDNL"
      gene            complement(122945..123019)
                      /gene="trnH-GUG"
-                     /locus_tag="Se404-851cp_000113"
+                     /locus_tag="EFE08CP_000113"
                      /note="blatN_hit trnH-GUG_NC_032367.1; position 1 - 75;
                      coverage 100.00%; match 100.00%"
      tRNA            complement(122945..123019)
                      /gene="trnH-GUG"
-                     /locus_tag="Se404-851cp_000113"
+                     /locus_tag="EFE08CP_000113"
                      /product="tRNA-His"
      gene            123319..123392
                      /gene="trnI-CAU"
-                     /locus_tag="Se404-851cp_000114"
+                     /locus_tag="EFE08CP_000114"
                      /note="blatN_hit trnI-CAU_NC_032367.1; position 1 - 74;
                      coverage 100.00%; match 100.00%"
      tRNA            123319..123392
                      /gene="trnI-CAU"
-                     /locus_tag="Se404-851cp_000114"
+                     /locus_tag="EFE08CP_000114"
                      /product="tRNA-Met"
-BASE COUNT    38020 a  23400 c  24464 g  37658 t
+BASE COUNT    38020 a  23399 c  24464 g  37659 t
 ORIGIN      
         1 ttatccacct attgaaatag attcaacagc agctagatcc agaggaaagt tatgagcatt
        61 acgttcgtgc ataacttcca tacctaggtt agcacgatta atgatatcgg cccaagtgtt
@@ -2625,7 +2641,7 @@ ORIGIN
     39781 tgtaaccatc gaagtaaagc aagcaggaac ctaaaggatc aaatggaacg agataaagac
     39841 aagtaaatcc ctaattgaag gtcatttcaa gaagaaatgg attgttcgga agggaagaga
     39901 ctgctcaata attccatatc tatgttgtag aatcgtaaag gaatactcaa tttcacctgg
-    39961 aacttgagca gagagtagcg gtctctcttc agagcgaaaa atagttgtat atacatatat
+    39961 aacttgagca gagagtagcg gtctctcttc agagcgaaaa atagttgtat atatatatat
     40021 atatatatat attttttttt tttttagtta cttgagccgg atgagaggaa actttcatgt
     40081 ccgatcctga gggggggaaa tcttagaaaa acctatccga atctttttat tgctaggccc
     40141 atagctaaca aaccaacttt attgagatca cggggtacat tcaattatga gattcaatcc

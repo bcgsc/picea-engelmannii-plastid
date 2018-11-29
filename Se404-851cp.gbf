@@ -1,4 +1,4 @@
-LOCUS       Se404-851cp           123542 bp    DNA     circular     28-NOV-2018
+LOCUS       Se404-851cp           123542 bp    DNA     circular     29-NOV-2018
 DEFINITION  Picea engelmannii isolate Se404-851 chloroplast, complete genome.
 ACCESSION   
 VERSION
@@ -15,7 +15,7 @@ REFERENCE   1  (bases 1 to 123542)
 REFERENCE   2  (bases 1 to 123542)
   AUTHORS   Lin,D., Coombe,L., Warren,R.L., Jackman,S.D. and Birol,I.
   TITLE     Direct Submission
-  JOURNAL   Submitted (28-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
+  JOURNAL   Submitted (29-NOV-2018) Bioinformatics, BC Cancer Genome Sciences
             Centre, 570 West 7th Avenue, Vancouver, BC V5Z 4S6, Canada
 COMMENT     ##Genome-Assembly-Data-START##
             Assembly Method       :: ABySS v. 2.1.1

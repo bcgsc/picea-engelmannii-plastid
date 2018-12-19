@@ -8,7 +8,7 @@
 	minimap2 -a -xasm10 $^ | samtools view -F 4 -b -o $@
 
 %.reads.bam: %.fa %_R1.fq.gz %_R2.fq.gz
-	bwa index $^; bwa mem $^ | samtools view -F 4 -b -o $@
+	bwa index $<; bwa mem $^ | samtools view -F 4 -b -o $@
 
 %.sorted.bam: %.bam
 	samtools sort $< > $@

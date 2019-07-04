@@ -2,7 +2,7 @@
 🌲 Annotation of the plastid genome of Engelmann spruce (*Picea engelmannii*), genotype Se404-851
 [https://www.ncbi.nlm.nih.gov/nuccore/MK241981](https://www.ncbi.nlm.nih.gov/nuccore/MK241981)
 
-![Se404-851 chloroplast genome] (https://github.com/bcgsc/picea-engelmannii-plastid/blob/master/ogdraw/Se404-851cp-outfile-preview.png)
+![Se404-851 chloroplast genome](https://github.com/bcgsc/picea-engelmannii-plastid/blob/master/ogdraw/Se404-851cp-outfile-preview.png)
 
 ## GeSeq
 The assembled FASTA file was inputed into [GeSeq](https://chlorobox.mpimp-golm.mpg.de/geseq.html).

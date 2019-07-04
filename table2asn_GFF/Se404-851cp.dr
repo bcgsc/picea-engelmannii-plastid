@@ -1,0 +1,46 @@
+Discrepancy Report Results
+
+Summary
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+SOURCE_QUALS: isolate (all present, all unique)
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 74 present
+FEATURE_COUNT: gene: 114 present
+FEATURE_COUNT: mRNA: 74 present
+FEATURE_COUNT: rRNA: 4 present
+FEATURE_COUNT: tRNA: 36 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+	May contain database identifier more appropriate in note; remove from product name
+		2 features contains three or more numbers together that may be identifiers more appropriate in note
+INCONSISTENT_STRUCTURED_COMMENTS: Structured Comment Report (all present, all same)
+ALL_SEQS_CIRCULAR: All (1) sequences are circular
+
+Detailed Report
+
+COUNT_NUCLEOTIDES: 1 nucleotide Bioseq is present
+Se404-851cp.fa:Se404-851cp (length 123542)
+SOURCE_QUALS: isolate (all present, all unique)
+SOURCE_QUALS: taxname (all present, all unique)
+SOURCE_QUALS: location (all present, all unique)
+FEATURE_COUNT: CDS: 74 present
+FEATURE_COUNT: gene: 114 present
+FEATURE_COUNT: mRNA: 74 present
+FEATURE_COUNT: rRNA: 4 present
+FEATURE_COUNT: tRNA: 36 present
+SUSPECT_PRODUCT_NAMES: 2 product_names contain suspect phrases or characters
+SUSPECT_PRODUCT_NAMES: May contain database identifier more appropriate in note; remove from product name
+SUSPECT_PRODUCT_NAMES: 2 features contains three or more numbers together that may be identifiers more appropriate in note
+Se404-851cp.fa:CDS	photosystem I P700 apoprotein A1	lcl|Se404-851cp:75341-77593	EFE08CP_000082
+Se404-851cp.fa:CDS	photosystem I P700 apoprotein A2	lcl|Se404-851cp:77619-79823	EFE08CP_000083
+INCONSISTENT_STRUCTURED_COMMENTS: Structured Comment Report (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Assembly Method (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Assembly Method value 'ABySS v. 2.1.1'
+Se404-851cp.fa:Se404-851cp:StructuredComment
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Genome Coverage (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Genome Coverage value '66x'
+Se404-851cp.fa:Se404-851cp:StructuredComment
+INCONSISTENT_STRUCTURED_COMMENTS: structured comment field Sequencing Technology (all present, all same)
+INCONSISTENT_STRUCTURED_COMMENTS: All Genome-Assembly-Data structured comment has field structured comment field Sequencing Technology value 'Illumina HiSeq'
+Se404-851cp.fa:Se404-851cp:StructuredComment
+ALL_SEQS_CIRCULAR: All (1) sequences are circular

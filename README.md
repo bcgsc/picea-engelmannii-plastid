@@ -15,6 +15,7 @@ The assembled FASTA file was inputed into [GeSeq](https://chlorobox.mpimp-golm.m
 The .gb file is converted to a [.gff file](https://github.com/bcgsc/picea-engelmannii-plastid/blob/master/Se404-851cp.gff) using [EMBOSS Seqret](https://www.ebi.ac.uk/Tools/sfc/emboss_seqret/):
 * [EMBOSS Seqret settings](https://github.com/bcgsc/picea-glauca-plastid/blob/master/EMBOSS-setings.png)
   * The settings used for this conversion are the exact same as those used for *Picea glauca* WS77111 [chloroplast](https://github.com/bcgsc/picea-glauca-plastid)
+* Used [finalize.sh](https://github.com/bcgsc/picea-engelmannii-plastid/blob/master/finalize.sh) to rename the annotation IDs
 
 ## Manual Annotation
 Duplicate annotations made by GeSeq were removed. Most conflicts were due to the use of multiple reference annotations, as the whole taxus was selected. tRNAs with anti-codons annotated were selected over those without them. Further annotation was done using third party tRNA scanners like [ARAGORN](http://mbio-serv2.mbioekol.lu.se/ARAGORN/) and [tRNAscan](http://lowelab.ucsc.edu/tRNAscan-SE/). However, no further results were substantiated through their use.
